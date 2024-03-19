@@ -1,0 +1,183 @@
+/*--
+/*  04.17 - Campus
+/*----------------------------------------*/
+
+// Campus Wrapper 
+.campus-wrapper{
+    background-color: transparent;
+    background-image: linear-gradient(90deg, #EFF5F7 70%, #FFFFFF 70%);
+    padding: 75px 0;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+
+    @media #{$large-mobile}{
+        background: #EFF5F7 !important;
+    }
+    @media #{$small-mobile}{
+        padding: 45px 0;
+    }
+
+    &__shape-01{
+        width: 248px;
+        height: 248px;
+        border-radius: 50%;
+        border: 1px solid rgba($primary, 0.3);        
+        position: absolute;
+        z-index: -1;
+        top: auto !important;
+        left: 50% !important;
+        bottom: 0px;
+
+        @media #{$large-mobile}{
+            width: 160px;
+            height: 160px;
+            top: 42% !important;
+            left: 10px !important;
+            bottom: auto;
+        }
+        @media #{$small-mobile}{
+            top: 20% !important;
+        }
+    }
+    &__shape-02{
+        width: 110px;
+        height: 110px;
+        border-radius: 50%;
+        border: 1px solid rgba($primary, 0.3);        
+        position: absolute;
+        z-index: -1;
+        top: auto !important;
+        left: 50% !important;
+        bottom: 100px;
+
+        @media #{$large-mobile}{
+            top: 36% !important;
+            left: -15px !important;
+            bottom: auto;
+        }
+
+        @media #{$small-mobile}{
+            top: 16% !important;
+        }
+    }
+}
+
+// Campus Widget 
+.campus-widget{
+    padding: 0 60px;
+
+    @media #{$tablet-device}{
+        padding: 0 15px;
+    }
+    @media #{$small-mobile}{
+        padding: 0 30px;
+    }
+}
+
+// Campus Widget Item
+.campus-widget-item{
+    display: flex;
+    max-width: 400px;
+
+    @media #{$small-mobile}{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    & + .campus-widget-item{
+        margin-top: 46px;
+
+        @media #{$large-mobile}{
+            margin-top: 30px;
+        }
+    }
+
+    &__icon{
+        flex-shrink: 0;
+        font-size: 62px;
+        color: #333;
+        line-height: 0;
+        transition: $transition-base;
+
+        & svg{
+            width: 1em;
+            height: 1em;
+
+            & [fill^="#"], 
+            & [fill^="url(#"] {
+                fill: currentColor;
+            }
+        }
+    }
+    &__content{
+        flex-grow: 1;
+        padding-left: 22px;
+        @media #{$small-mobile}{
+            padding-left: 0;
+            padding-top: 20px;
+        }
+
+        & p{
+            margin-top: 5px;
+        }
+    }
+    &__title{
+        font-size: 18px;
+        line-height: 1.6;
+
+        & a{
+            position: relative;
+
+            &::after{
+                content: "\f105";
+                font-size: 30px;
+                font-family: Font Awesome\ 5 Pro;
+                font-weight: 300;
+                line-height: 30px;
+                position: absolute;
+                right: -15px;
+                top: 50%;
+                transform: translateY(-50%) scale(0);
+                color: $primary;
+                transition: $transition-base;
+            }
+        }
+    }
+
+    &:hover{
+        & .campus-widget-item{
+            &__icon{
+                color: $primary;
+            }
+            &__title{        
+                color: $primary;
+
+                & a{        
+                    &::after{
+                        transform: translateY(-50%) scale(1);
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Campus Image
+.campus-image{
+    &__image{
+        @media #{$large-mobile}{
+            padding: 0 15px;
+        }
+
+        & img{
+            width: 100%;
+            border-radius: 5px;
+        }
+    }
+}
+
+
+
+

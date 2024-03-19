@@ -1,0 +1,39 @@
+﻿@model CEOTDC_WebPortal.ViewModels.VM_BreadCrumb
+
+@if (Model != null)
+{
+    <section class="wrapper">
+        <div class="container py-3 py-md-5">
+            <nav class="d-inline-block" aria-label="breadcrumb">
+                <ol class="breadcrumb mb-0">
+                    @if (!string.IsNullOrEmpty(Model.lv1Name))
+                    {
+                        <li class="breadcrumb-item"><a href="@Model.lv1Url">@Model.lv1Name</a></li>
+                    }
+                    @if (!string.IsNullOrEmpty(Model.lv2Name))
+                    {
+                        <li class="breadcrumb-item"><a href="@Model.lv2Url">@Model.lv2Name</a></li>
+                    }
+                    @if (!string.IsNullOrEmpty(Model.lv3Name))
+                    {
+                        <li class="breadcrumb-item"><a href="@Model.lv3Url">@Model.lv3Name</a></li>
+                    }
+                    <li class="breadcrumb-item active text-muted">@Model.currentName</li>
+                </ol>
+            </nav>
+        </div>
+    </section>
+}
+else
+{
+    <section class="wrapper bg-gray">
+        <div class="container py-3 py-md-5">
+            <nav class="d-inline-block" aria-label="breadcrumb">
+                <ol class="breadcrumb mb-0">
+                    <li class="breadcrumb-item active text-muted">Trang chủ</li>
+                </ol>
+            </nav>
+        </div>
+    </section>
+}
+

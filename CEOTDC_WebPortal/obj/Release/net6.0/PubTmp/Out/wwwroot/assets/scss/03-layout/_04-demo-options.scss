@@ -1,0 +1,107 @@
+/*--
+/*  03.04 - Edumall Demo Option
+/*----------------------------------------*/
+
+// Edumall Demo Option 
+.edumall-demo-option{
+    position: fixed;
+    top: 0;
+    left: 100%;
+    background: $white;
+    height: 100%;
+    width: 350px;
+    max-width: calc(100% - 45px);
+    z-index: 9;
+    transition: all .5s;
+    
+    &.open{
+        transform: translateX(-100%) translateX(15px);
+        box-shadow: -3px 0 50px -2px rgba($black, 0.14);
+    }
+
+    &__toolbar{
+        position: absolute;
+        top: 200px;
+        right: 100%;
+        display: block;
+        width: 40px;
+        line-height: 60px;
+        border: 1px solid #eee;
+        border-right: 0;
+        border-radius: 5px 0 0 5px;
+        background:  $white;
+        text-align: center;
+        box-shadow: -3px 0 10px -2px rgba(0,0,0,.1);
+
+        & .toolbar-action{
+            display: block;
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            background: none;
+            border: 0;
+            padding: 0;
+            color: #111;
+        }
+    }
+    &__panel{
+        height: 100%;
+        overflow-y: scroll;
+        padding-bottom: 55px;
+    }
+
+    &__header{
+        padding: 40px 30px;
+        text-align: center;
+    }
+    &__title{
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        line-height: 1.4;
+        color: $headings-color;
+    }
+    &__btn{
+        margin-top: 18px;
+        font-weight: 700;
+        height: 48px;
+        line-height: 48px;
+        padding: 0 28px;
+
+        & i{
+            margin-right: 12px;
+        }
+    }
+
+    &__body{
+        padding: 0 27px 27px;
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 20px;
+    }
+}
+
+
+.edumall-demo-option-item{
+    & a{
+        border-radius: 5px;
+        display: block;
+    }
+    & img {
+        width: 100%;
+        transition: $transition-base;
+        box-shadow: 0 7px 20px rgba($black,.1);
+        border-radius: inherit;
+    }
+
+    &:hover{
+        & img {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba($black,.2);
+        }
+    }
+}
+

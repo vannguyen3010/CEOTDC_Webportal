@@ -1,0 +1,267 @@
+/*--
+/*  04.43 - Login & Register
+/*----------------------------------------*/
+
+// Modal 
+.modal{}
+
+.modal-dialog{
+    &.modal-login{
+        max-width: 470px;
+    }
+    &.modal-register{
+        max-width: 670px;
+
+        @media #{$large-mobile}{
+            max-width: 470px;
+        }
+    }
+}
+.modal-wrapper {
+    position: relative;
+    width: 100%;
+    padding-top: 40px;
+}
+.modal-close{
+    position: absolute;
+    top: 0px;
+    right: 0;
+    padding: 0;
+    line-height: 1;
+    width: 40px;
+    height: 40px;
+    font-size: 28px;
+    border: 0;
+    background: none;
+    color: $white;
+}
+
+.modal-content{
+    padding: 31px 50px 50px;
+    border-radius: 5px;
+    max-height: calc(100vh - 100px);
+    overflow-y: auto;
+
+    @media #{$small-mobile}{
+        padding: 21px 30px 30px;
+    }
+}
+
+.modal-header{
+    flex-direction: column;
+    text-align: center;
+    margin: 0 0 19px;
+    padding: 0;
+    border-bottom: 0;
+}
+
+.modal-title{
+    font-size: 32px;
+    line-height: 1.5;
+    margin: 0 0 8px;
+
+    @media #{$small-mobile}{
+        font-size: 24px;
+    }
+}
+.modal-description{
+    margin-bottom: 0;
+
+    & a,
+    & button{
+        position: relative;
+        color: $headings-color;
+        padding: 0;
+        background: none;
+        border: 0;
+
+        &::after,
+        &::before{
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 1px;
+            background: #e7e7e7;
+            -webkit-transform-origin: right;
+            -ms-transform-origin: right;
+            transform-origin: right;
+            -webkit-transform: scaleX(1) translateZ(0);
+            transform: scaleX(1) translateZ(0);
+            transition: transform .6s cubic-bezier(.165,.84,.44,1) .3s,-webkit-transform .6s cubic-bezier(.165,.84,.44,1) .3s;
+        }
+        &::after{
+            background-color: $primary;
+            -webkit-transform-origin: left;
+            -ms-transform-origin: left;
+            transform-origin: left;
+            -webkit-transform: scaleX(0) translateZ(0);
+            transform: scaleX(0) translateZ(0);
+            -webkit-transition: -webkit-transform .6s cubic-bezier(.165,.84,.44,1);
+            transition: -webkit-transform .6s cubic-bezier(.165,.84,.44,1);
+            transition: transform .6s cubic-bezier(.165,.84,.44,1);
+            transition: transform .6s cubic-bezier(.165,.84,.44,1),-webkit-transform .6s cubic-bezier(.165,.84,.44,1);
+        }
+        &:hover{
+            color: $primary;
+
+            &::before{
+                -webkit-transform: scaleX(0) translateZ(0);
+                transform: scaleX(0) translateZ(0);
+                -webkit-transition: -webkit-transform .6s cubic-bezier(.165,.84,.44,1);
+                transition: -webkit-transform .6s cubic-bezier(.165,.84,.44,1);
+                transition: transform .6s cubic-bezier(.165,.84,.44,1);
+                transition: transform .6s cubic-bezier(.165,.84,.44,1),-webkit-transform .6s cubic-bezier(.165,.84,.44,1);
+            }
+            &::after{
+                -webkit-transform: scaleX(1) translateZ(0);
+                transform: scaleX(1) translateZ(0);
+                transition: transform .6s cubic-bezier(.165,.84,.44,1) .3s,-webkit-transform .6s cubic-bezier(.165,.84,.44,1) .3s;
+            }
+        }
+    }
+}
+
+.modal-body{
+    padding: 0;
+}
+
+.modal-form{
+    
+    & + .modal-form{
+        margin-top: 25px;
+    }
+
+    &__link{
+        position: relative;
+        color: $headings-color;
+        white-space: nowrap;
+
+        &::after,
+        &::before{
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 1px;
+            background: #e7e7e7;
+            -webkit-transform-origin: right;
+            -ms-transform-origin: right;
+            transform-origin: right;
+            -webkit-transform: scaleX(1) translateZ(0);
+            transform: scaleX(1) translateZ(0);
+            transition: transform .6s cubic-bezier(.165,.84,.44,1) .3s,-webkit-transform .6s cubic-bezier(.165,.84,.44,1) .3s;
+        }
+        &::after{
+            background-color: $headings-color;
+            -webkit-transform-origin: left;
+            -ms-transform-origin: left;
+            transform-origin: left;
+            -webkit-transform: scaleX(0) translateZ(0);
+            transform: scaleX(0) translateZ(0);
+            -webkit-transition: -webkit-transform .6s cubic-bezier(.165,.84,.44,1);
+            transition: -webkit-transform .6s cubic-bezier(.165,.84,.44,1);
+            transition: transform .6s cubic-bezier(.165,.84,.44,1);
+            transition: transform .6s cubic-bezier(.165,.84,.44,1),-webkit-transform .6s cubic-bezier(.165,.84,.44,1);
+        }
+        &:hover{
+            color: $headings-color;
+
+            &::before{
+                -webkit-transform: scaleX(0) translateZ(0);
+                transform: scaleX(0) translateZ(0);
+                -webkit-transition: -webkit-transform .6s cubic-bezier(.165,.84,.44,1);
+                transition: -webkit-transform .6s cubic-bezier(.165,.84,.44,1);
+                transition: transform .6s cubic-bezier(.165,.84,.44,1);
+                transition: transform .6s cubic-bezier(.165,.84,.44,1),-webkit-transform .6s cubic-bezier(.165,.84,.44,1);
+            }
+            &::after{
+                -webkit-transform: scaleX(1) translateZ(0);
+                transform: scaleX(1) translateZ(0);
+                transition: transform .6s cubic-bezier(.165,.84,.44,1) .3s,-webkit-transform .6s cubic-bezier(.165,.84,.44,1) .3s;
+            }
+        }
+    }
+
+    & .btn{
+        font-weight: 700;
+    }
+}
+
+.modal-social-option{
+    margin-top: 25px;
+
+    & p{
+        font-size: 14px;
+        font-weight: 500;
+        display: flex;
+        align-items: center;        
+        justify-content: center;
+        flex-shrink: 0;
+        color: $body-color;
+
+        &::before,
+        &::after{
+            content: "";
+            flex-grow: 1;
+            height: 1px;
+            background: #eee;
+        }
+        &::before{
+            margin-right: 15px;
+        }
+        &::after{
+            margin-left: 15px;
+        }
+    }
+}
+
+.modal-social-btn{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -10px;
+    margin-right: -10px;
+
+    &>*{
+        margin: 0 10px;
+    }
+
+    & li{
+        flex: 1;
+
+        & .btn{
+            width: 100%;
+            border: 2px solid #eee;
+            padding: 0 20px;
+            text-align: left;
+            line-height: 48px;
+            font-weight: 700;
+            color: $headings-color;
+
+            & i{
+                margin-right: 5px;
+                font-size: 18px;
+            }
+
+            &:hover{
+                border-color: $headings-color;
+            }
+        }
+
+        & .facebook{
+            & i{
+                color: #2e58b2;
+            }
+        }
+        & .google{
+            & i{
+                color: #ea4335;
+            }
+        }
+    }
+}

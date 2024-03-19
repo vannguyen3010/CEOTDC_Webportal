@@ -1,0 +1,169 @@
+/*--
+/*  04.10 - Edumall Box
+/*----------------------------------------*/
+
+// Edumall Box Item
+.edumall-box-section{
+    &__title{
+        color: $primary;
+        font-size: 16px;
+    }
+}
+
+// Edumall Box Item 
+.edumall-box-item{
+    &__icon{}
+    &__content{
+        margin-top: 8px;
+
+        & p{
+            margin-top: 9px;
+            margin-bottom: 0;
+        }
+    }
+    &__title{
+        font-size: 16px;
+        line-height: 1.75;
+        margin-bottom: 0;
+    }
+}
+
+// Edumall Box Item 
+.edumall-box-item-02{
+    &__link{
+        display: block;
+        padding: 48px 30px 47px 30px;
+        border-radius: 8px;
+        background: $white;
+        transition: $transition-base;
+    }
+    &__icon{}
+    &__content{
+        margin-top: 20px;
+    }
+    &__title{
+        font-size: 18px;
+        line-height: 1.78;
+
+        @media #{$large-mobile}{
+            font-size: 16px;
+        }
+    }
+
+    &:hover{
+        & .edumall-box-item-02{
+            &__link{
+                box-shadow: 0 10px 50px rgba($black,.08);
+            }
+        }
+    }
+}
+
+// Edumall Box Item 
+.edumall-box-item-03{
+    text-align: start;
+    padding: 32px 30px 20px 30px;
+    background-color: $white;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px 0px rgba(51, 51, 51, 0.15);
+    transition: $transition-base;
+    
+    &__icon{
+        min-height: 194px;
+        display: inline-flex;
+        align-items: flex-start;
+        overflow: hidden;
+        margin-bottom: 20px;
+    }
+    &__content{
+        margin-top: 20px;
+    }
+    &__title{
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 1.5;
+
+        @media #{$large-mobile}{
+            font-size: 16px;
+        }
+    }
+    & p{
+        margin-top: 12px;
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+    &__btn{
+        margin: 39px 0px 0px 0px;
+        height: 40px;
+        line-height: 40px;
+        padding: 0 16px;
+        font-size: 14px;
+        color: #666;
+    }
+
+    &:hover{
+        box-shadow: 0px 10px 50px 0px rgba($black, .08);
+    }
+}
+
+// Edumall Box Item 
+.edumall-box-item-04{
+    text-align: center;
+    padding: 40px 30px 30px;
+    background-color: $white;
+    border-radius: 10px;
+    transition: $transition-base;
+    
+    &__icon{
+        min-height: 240px;
+        display: inline-flex;
+        align-items: center;
+        overflow: hidden;
+        margin-bottom: 20px;
+    }
+    &__icon-svg{
+        display: inline-block;
+        font-size: 60px;
+        margin-bottom: 24px;
+        line-height: 0;
+        
+        & svg{
+            width: 1em;
+            height: 1em;
+        }
+    }
+    &__content{}
+    &__title{
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 1.5;
+
+        @media #{$large-mobile}{
+            font-size: 16px;
+        }
+    }
+    & p{
+        margin-top: 12px;
+        margin-bottom: 0;
+    }
+    &__btn{
+        margin: 25px 0px 0px 0px;
+        height: 40px;
+        line-height: 40px;
+        padding: 0 16px;
+        font-size: 14px;
+        color: $primary;
+    }
+
+    &:hover{
+        box-shadow: 0px 10px 50px 0px rgba($black, 0.08);
+
+        & .edumall-box-item-04{
+            &__btn{
+                background-color: $light;
+            }
+        }
+    }
+}
+
+

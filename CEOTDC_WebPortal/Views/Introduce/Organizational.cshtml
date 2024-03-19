@@ -1,0 +1,85 @@
+﻿@model List<M_OrganizationalComposition>
+
+@{
+    string categoryTitle = ViewBag.categoryTitle;
+    var breadCrumb = new CEOTDC_WebPortal.ViewModels.VM_BreadCrumb
+            {
+                lv1Name = "Giới thiệu",
+                lv1Url = "/gioi-thieu",
+                currentName = "Sơ đồ tổ chức",
+            };
+    //var orgComposition = ViewBag.OrganizationalComposition as List<string>;
+}
+@section Styles{
+    <link href="~/css/introduce_v2.css" rel="stylesheet" asp-append-version="true" />
+}
+    @section Scripts{
+    <script src="~/controllers/introduce.js" asp-append-version="true"></script>
+}
+    <partial name="_P_BannerPartial" />
+    <partial name="P_BreadCrumb" model="breadCrumb" />
+    <div class="courses-section section-padding-02 pt-0 organizational_chart_wrapper" data-aos="fade-up" data-aos-duration="1000">
+        <div class="container">
+            <div class="section-title text-center aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">
+                <h2 class="section-title__title">Sơ <mark>đồ  tổ</mark> chức</h2>
+            </div>
+            <!-- Tab -->
+            <div class="courses-tab-menu courses-tab-menu-02 aos-init aos-animate tab_organizational">
+                <ul class="nav justify-content-lg-center">
+                @if (Model != null && Model.Count > 0)
+                {
+                    for (int i = 0; i < Model.Count(); i++)
+                    {
+                        <li class="mb-1"><button class="@(i == 0 ? "active" : "")" data-bs-toggle="tab" data-bs-target="#tab_@i">@Model[i].name</button></li>
+                    }
+                }
+            </ul>
+        </div>
+        <!-- Tab-content -->
+        <div class="tab-content" data-aos="fade-up" data-aos-duration="1000">
+            <div class="row">
+                <div class="scene mt-10" style="position:absolute;z-index:-1">
+                    <img class="about-section__shape-03" data-depth="-0.4" src="assets/images/shape/edumall-shape-grid-dots.png" alt="Shape" style="transform: translate3d(45.5px, -8.8px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: absolute; display: block; left: 0px; top: 0px;">
+
+                    <div class="newsletter-section__shape-02" data-depth="-0.6" style="transform: translate3d(71.5px, 0.9px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: absolute; display: block; left: 0px; top: 0px;"></div>
+                    <div class="newsletter-section__shape-02" data-depth="0.6" style="transform: translate3d(-71.5px, -0.9px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: absolute; display: block; left: 0px; top: 0px;"></div>
+                    <div class="newsletter-section__shape-03" data-depth="-0.6" style="transform: translate3d(71.5px, 0.9px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: absolute; display: block; left: 0px; top: 0px;"></div>
+
+                </div>
+            </div>
+            @if (Model != null && Model.Count() > 0)
+            {
+                for (int i = 0; i < Model.Count(); i++)
+                {
+                    <div class="tab-pane fade @(i == 0 ? "active show" : "")" id="tab_@i">
+                        <div class="row g-6">
+                            @foreach (var person in Model[i].personOrgCompositionObjs)
+                            {
+                                <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <div class="course-item aos-init aos-animate instructor-item__link p-2">
+                                        <div class="course-header">
+                                            <div class="course-header__thumbnail ">
+                                                <a href="javascript:void(0)"><img onclick="ToggleModalDetail(@person.personObj?.id)" class="custom_height_person" src="@(string.IsNullOrEmpty(person.personObj?.imageObj?.mediumUrl) ? "/assets/images/error/avatar.png" : person.personObj?.imageObj?.mediumUrl)" alt="@person.personObj?.imageObj?.name" width="330" height="221"></a>
+                                            </div>
+                                        </div>
+                                        <div class="course-info text-center">
+                                            <h3 class="course-info__title-02"><a onclick="ToggleModalDetail(@person.personObj?.id)" href="javascript:void(0)">@person.personObj?.lastName @person.personObj?.firstName</a></h3>
+                                            <span class="course-info__badge-text badge-all mb-1">@person.personObj?.positionObj?.name</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                }
+            }
+        </div>
+    </div>
+    <div class="overflow-hidden pt-5">
+        <div class="divider text-white mx-n2">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 92.26"><path fill="currentColor" d="M1206,21.2c-60-5-119-36.92-291-5C772,51.11,768,48.42,708,43.13c-60-5.68-108-29.92-168-30.22-60,.3-147,27.93-207,28.23-60-.3-122-25.94-182-36.91S30,5.93,0,16.2V92.26H1440v-87l-30,5.29C1348.94,22.29,1266,26.19,1206,21.2Z"></path></svg>
+        </div>
+    </div>
+</div>
+
+<partial name="P_Modal_Detail_Person" />

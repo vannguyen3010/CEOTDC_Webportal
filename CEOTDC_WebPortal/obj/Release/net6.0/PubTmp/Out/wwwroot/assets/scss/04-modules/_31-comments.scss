@@ -1,0 +1,327 @@
+/*--
+/*  04.31 - Comments
+/*----------------------------------------*/
+
+// Comments Area 
+.comments-area{
+    & p{
+        margin-top: 4px;
+    }
+}
+
+// Comments Wrapper
+.comment-wrap{}
+
+// Comments Title
+.comment-title{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.6;
+}
+
+// Comments Form
+.comment-form{
+    padding-top: 16px;
+
+    &__input{
+        & .btn{
+            min-width: 150px;
+            font-weight: 700;
+        }
+    }
+
+    &__notes{
+        margin-bottom: 22px;
+        
+        & p{
+
+        }
+    }
+    &__title{
+        display: block;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 1.6;
+        margin-bottom: 10px;
+    }
+
+    &__rating{
+        display: flex;
+        align-items: center;
+        margin-bottom: 28px;
+
+        & .label {
+            font-weight: 400;
+            color: #666666;
+            margin-bottom: 0;
+            white-space: nowrap;
+            margin-right: 25px;
+        }
+
+        & ul{
+            display: flex;
+            padding: 0;
+            margin: 0;
+            list-style: none;
+
+            & li{
+                margin: 0 2px;
+                font-size: 18px;
+                cursor: pointer;
+                
+                & i{
+                    transition: $transition-base;
+                    color: #666666;
+
+                    &.fas{
+                        color: #fb0;
+                    }
+                    &.hover{
+                        color: #fb0;
+                        font-weight: 900;
+                    }
+                }
+            }
+        }
+        
+    }
+}
+
+.comment-help{
+    max-width: 340px;
+    margin-left: auto;
+
+    @media #{$tablet-device, $large-mobile}{
+        margin-left: 0;
+    }
+
+    &__title{
+        font-size: 16px;
+        margin: 0 0 12px;
+        line-height: 1.5;
+        color: $headings-color;
+    }
+    &__description{
+        margin-bottom: 8px;
+    }
+    &__link{
+        font-size: 20px;
+        line-height: 32px;
+        color: $primary;
+
+        & a{
+            position: relative;
+
+            &::after{
+                content: "";
+                width: 0;
+                height: 1px;
+                position: absolute;
+                left: auto;
+                right: 0;
+                bottom: 0;
+                -webkit-transition: width .6s cubic-bezier(.25,.8,.25,1) 0s;
+                transition: width .6s cubic-bezier(.25,.8,.25,1) 0s;
+                background: currentColor;                
+            }
+
+            &:hover{
+                &::after{
+                    width: 100%;
+                    left: 0;
+                    right: auto;
+                }
+            }
+        }
+    }
+}
+
+// Comments List
+.comment-list{
+    list-style-type: none;
+    padding: 10px 0 0 ;
+    margin: 0;
+
+    & li{
+        padding: 30px 0;
+        border-bottom: 1px solid #eee;
+
+        &:first-child{
+            padding-top: 0;
+        }
+    }
+}
+
+// Comments Item
+.comment-item{
+    display: flex;
+
+    &__author{
+        flex-shrink: 0;
+
+        & img{
+            width: 70px;
+            border-radius: 50%;
+        }
+    }
+    &__content{
+        flex-grow: 1;
+        padding-left: 20px;
+    }
+    &__meta{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-bottom: 4px;
+
+        &>*{
+            margin-right: 16px;
+
+            &:last-child{
+                margin-right: 0;
+            }
+        }
+    }
+    &__rating{
+        & .rating-star{
+            display: inline-block;
+            position: relative;
+
+            &::before{
+                content: '\f005 \f005 \f005 \f005 \f005';
+                font-family: "Font Awesome 5 Pro";
+                font-weight: 400;
+                font-size: 14px;
+                color: #f7c04d;
+                letter-spacing: 2px;
+            }
+        }
+        & .rating-label{
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            overflow: hidden;
+
+            &::before{
+                content: '\f005 \f005 \f005 \f005 \f005';
+                font-family: "Font Awesome 5 Pro";
+                font-weight: 900;
+                font-size: 14px;
+                color: #f7c04d;
+                letter-spacing: 2px;
+            }
+        }
+    }
+    &__name{
+        font-size: 14px;
+        font-weight: 700;
+        margin-bottom: 0;
+    }
+    &__description{}
+    &__footer{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 8px;
+        color: #666666;
+        font-size: 13px;
+
+        &>*{
+            margin-right: 10px;
+            margin-top: 8px;
+
+            &:last-child{
+                margin-right: 0;
+            }
+        }
+    }
+    &__datetime{}
+    &__reply{
+        color: $headings-color;
+    }
+}
+
+
+// Comments List
+.comment-list-02{
+    list-style-type: none;
+    padding: 10px 0 0 ;
+    margin: 0;
+
+    & li{
+        padding: 20px 0;
+        border-bottom: 1px solid #eee;
+
+        &:first-child{
+            padding-top: 0;
+        }
+    }
+}
+
+// Comments Item 02
+.comment-item-02{
+    &__header{
+        display: flex;
+        align-items: center;
+        margin-bottom: 12px;
+    }
+    &__author{
+        flex-shrink: 0;
+        width: 52px;
+
+        & a{
+            display: block;
+        }
+        & img{
+            border-radius: 50%;
+        }
+    }
+    &__info{
+        flex-grow: 1;
+        padding-left: 20px;
+    }
+    &__name{
+        font-size: 14px;
+        font-weight: 700;
+        margin: 0 0 5px;
+    }
+    &__date{
+        font-size: 13px;
+    }
+    &__body{
+        & .rating-star{
+            display: inline-block;
+            position: relative;
+            margin-bottom: 4px;
+
+            &::before{
+                content: '\f005 \f005 \f005 \f005 \f005';
+                font-family: "Font Awesome 5 Pro";
+                font-weight: 900;
+                font-size: 12px;
+                color: #ccc;
+                letter-spacing: 2px;
+            }
+        }
+        & .rating-label{
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            overflow: hidden;
+
+            &::before{
+                content: '\f005 \f005 \f005 \f005 \f005';
+                font-family: "Font Awesome 5 Pro";
+                font-weight: 900;
+                font-size: 12px;
+                color: #f7c04d;
+                letter-spacing: 2px;
+            }
+        }
+    }
+}
+
+
+
+

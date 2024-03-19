@@ -1,0 +1,161 @@
+/*--
+/*  03.01.02 - Offcanvas Mobile
+/*----------------------------------------*/
+
+// Offcanvas Mobile
+.offcanvas-mobile{
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 360px;
+
+    &::before{
+        position: absolute;
+        content: '';
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: $black;
+        opacity: 0.8;
+        z-index: -1;
+    }
+
+    & .offcanvas-body{
+        position: relative;
+    }
+}
+
+.offcanvas-logo{
+    &__logo{
+        width: 148px;
+    }
+}
+
+.offcanvas-close{
+    font-size: 36px;
+    color: #111;
+    line-height: 1;
+    padding: 0;
+    border: 0;
+    background: none;
+}
+
+.offcanvas-menu{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    & li{
+        position: relative !important;
+
+        & > a{
+            padding: 19px 0;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 1.5;
+            color: $white;
+            display: block;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+        }
+        &:last-child{
+            & a{
+                border-bottom: 0;
+            }
+        }
+
+        & .mobile-menu-expand{
+            position: absolute;
+            top: 8px;
+            right: 0;
+            width: 40px;
+            height: 40px;
+            color: $white;
+            text-align: center;
+            line-height: 40px;
+            border-radius: 50%;
+            
+            &::before{
+                content: "\f107";
+                font-size: 18px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                font-family: "Font Awesome 5 Pro";
+            }
+            
+            &:focus,
+            &:hover{
+                background: rgba(255, 255, 255, 0.1);
+            }
+        }
+        &.active-expand{
+            & > .mobile-menu-expand{
+                &::before{
+                    content: "\f106";
+                }
+            }
+        }
+    }
+
+    & .sub-menu{
+        padding: 14px 0;
+        & li{
+            & a{
+                border-bottom: 0;
+                font-size: 13px;
+                color: rgba($white, 0.7);
+                padding-top: 10px;
+                padding-bottom: 10px;
+
+                &:hover{
+                    color: $white;
+                }
+            }
+            & .sub-menu{
+                padding: 14px 10px;
+            }
+
+            & .mobile-menu-expand{
+                top: 0;
+            }
+        }
+    }
+
+    & ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    & .menu-content-banner,
+    & .menu-content-list{
+        margin-top: 30px;
+    }
+}
+
+
+.offcanvas-user{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    position: relative;
+    padding: 30px;
+
+
+    &__button{
+        & .btn{
+            width: 130px;
+            height: 44px;
+            line-height: 44px;
+            font-size: 14px;
+        }
+    }
+    &__login{
+
+    }
+    &__signup{}
+}
+

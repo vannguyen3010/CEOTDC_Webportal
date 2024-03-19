@@ -1,0 +1,28 @@
+﻿@{ 
+    var partnerList = ViewBag.PartnerList as List<M_PartnerList>;
+}
+<div class="banner-section section-padding-02  pb-5 pt-5 partner_wrapper" data-aos="fade-up" data-aos-duration="1000">
+    <div class="container">
+        <div class="section-title text-center">
+            <h2 class="section-title__title-04">Thành viên của chúng tôi</h2>
+        </div>
+        <div class="partner">
+            @if (partnerList != null)
+            {
+                foreach (var item in partnerList)
+                {
+                    @if (!string.IsNullOrEmpty(@item.imageObj?.smallUrl))
+                    {
+                        <a href="@item.Url" target="_blank">
+                            <img src="@item.imageObj?.smallUrl" alt="@item.name">
+                        </a>
+                    }
+                    else
+                    {
+                        <img class="m-md-1 img_partner_error" src="/assets/images/error/avatar.png" alt="@item.name">
+                    }
+                }
+            }
+        </div>
+    </div>
+</div>

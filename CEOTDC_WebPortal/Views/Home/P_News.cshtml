@@ -1,0 +1,44 @@
+﻿@model List<M_News>
+
+<div class="blog-section section-padding-01 home_news_wrapper">
+    <div class="container">
+        <div class="section-title text-center" data-aos="fade-up" data-aos-duration="1000">
+            <h2 class="section-title__title-03"> Tin tức hay mỗi ngày</h2>
+            <p class="mt-0">Cập nhật tin tức mới - mở mang kiến thức của bạn</p>
+        </div>
+        <div class="row gy-6 home_news_container">
+            @if (Model != null)
+            {
+                foreach (var item in Model)
+                {
+                    var link = "/tin-tuc/" + item.titleSlug + "-" + item.id;
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="blog-item rounded" data-aos="fade-up" data-aos-duration="1000"  style="overflow:hidden;">
+                            <div class="blog-item__image" style="overflow:hidden">
+                                @*<a href="@link"><img src="@item.imageObj?.mediumUrl" alt="Blog" width="330" height="179"></a>*@
+                                @if (!string.IsNullOrEmpty(@item.imageObj?.mediumUrl))
+                                {
+                                    <img src="@item.imageObj?.mediumUrl" alt="@item.title" width="330" height="179" />
+                                }
+                                else{
+                                <img src="/assets/images/error/avatar.png" alt="@item.title" width="330" height="179" />
+                                }
+                                <div class="blog-item__categories">
+                                    <a href="/tin-tuc?c=@item.categoryObj?.id">@item.categoryObj?.name</a>
+                                </div>
+                            </div>
+                            <div class="blog-item__content">
+                                <div class="blog-item__meta">
+                                    <span class="meta-action"><i class="far fa-calendar"></i>@item.publishedAt?.ToString("dd-MM-yyyy")</span>
+                                </div>
+                                <h3 class="blog-item__title title_custom"><a href="/tin-tuc/@item.titleSlug-@item.id">@item.title</a></h3>
+                                <p class="blog-item__title mt-0">@item.description</p>
+                                <a class="blog-item__more btn btn-light btn-hover-white" href="@link">Xem chi tiết</a>
+                            </div>
+                        </div>
+                    </div>
+                }
+            }
+        </div>
+    </div>
+</div>

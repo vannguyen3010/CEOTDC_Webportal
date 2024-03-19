@@ -1,0 +1,673 @@
+﻿/*--------Small - Mobile----------*/
+@media (max-width:320px) {
+    .about-section {
+        padding-top: unset;
+    }
+
+    .introduce_wrapper {
+        margin-top: 50px;
+    }
+
+    .banner_all {
+        padding-top: 90px;
+    }
+
+    .introduce_wrapper_page .blog-details-no-sidebar {
+        box-shadow: unset;
+    }
+
+    .introduce_wrapper_page {
+        background: white;
+    }
+
+    .header-logo__logo {
+        width: 55px;
+    }
+
+    #offcanvasMobileMenu .offcanvas-logo__logo {
+        width: 65px;
+    }
+
+    .footer-widget__logo {
+        width: 50px !important;
+        height: 50px !important;
+    }
+
+    .introduce_wrapper_page .related-post-item__image a {
+        max-width: unset;
+    }
+
+    .list_service_related .related-post-item__image a {
+        max-width: 100%;
+    }
+
+    .service_wrapper_page {
+        background: white;
+    }
+
+        .service_wrapper_page .blog-details-no-sidebar {
+            box-shadow: unset;
+        }
+
+    .news_detail_wrapper {
+        background: white;
+    }
+
+        .news_detail_wrapper .blog-details-no-sidebar {
+            box-shadow: unset;
+        }
+
+    .list_news_related .related-post-item__image a {
+        max-width: unset;
+    }
+
+    .introduce_wrapper_page .blog-details__image {
+        height: auto;
+    }
+
+    .list_service_related .related-post-item__image a {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .address_footer {
+        margin-top: 0px;
+    }
+
+    .news_ver2 {
+        margin-top: 20px;
+    }
+
+    .news_ver2_btn_more .section-btn-02 {
+        margin-bottom: 12px !important;
+    }
+
+    .news_ver2 .text_news {
+        margin-top: 0px;
+    }
+
+    .about-content-02 h2 {
+        font-size: 19px;
+    }
+
+    .page-pagination {
+        padding-top: 10px;
+    }
+
+    #list_member {
+        margin: 0;
+    }
+}
+/*--------Mobile----------*/
+@media (max-width:480px) {
+    .about-section {
+        padding-top: unset;
+    }
+
+    .introduce_wrapper {
+        margin-top: 50px;
+    }
+
+    .fa-shopping-cart {
+        display: none;
+    }
+
+    .header-action__number-02 {
+        display: none;
+    }
+
+    .banner_all {
+        padding-top: 90px;
+        background-image: none !important;
+        background: white;
+    }
+
+    .introduce_wrapper_page .blog-details-no-sidebar {
+        box-shadow: unset;
+    }
+
+    .introduce_wrapper_page {
+        background: white;
+    }
+
+    .header-logo__logo {
+        width: 55px;
+    }
+
+    #offcanvasMobileMenu .offcanvas-logo__logo {
+        width: 65px;
+    }
+
+    .footer-widget__logo {
+        width: 80px !important;
+        height: 80px !important;
+    }
+
+    .introduce_wrapper_page .related-post-item__image a {
+        max-width: unset;
+    }
+
+    .list_service_related .related-post-item__image a {
+        max-width: 100%;
+    }
+
+    .service_wrapper_page {
+        background: white;
+    }
+
+        .service_wrapper_page .blog-details-no-sidebar {
+            box-shadow: unset;
+        }
+
+    .news_detail_wrapper {
+        background: white;
+    }
+
+        .news_detail_wrapper .blog-details-no-sidebar {
+            box-shadow: unset;
+        }
+
+    .service_wrapper .img_service {
+        max-width: 100%;
+        max-height: 165px;
+    }
+
+    .list_news_related .related-post-item__image a {
+        max-width: unset;
+    }
+
+    .introduce_wrapper_page .blog-details__image {
+        height: auto;
+    }
+
+    .list_service_related .related-post-item__image a {
+        max-width: 100% !important;
+        width: 100%;
+        height: auto;
+    }
+
+    .service_wrapper_page .blog-details__image {
+        height: auto;
+        margin-bottom: 15px;
+    }
+
+    .service_wrapper_page .blog-details__footer {
+        padding-bottom: unset;
+    }
+
+    .address_footer {
+        margin-top: 0px;
+    }
+
+    .news_ver2 {
+        margin-top: 20px;
+    }
+
+        .news_ver2 .text_news {
+            margin-top: 0px;
+        }
+
+    .about-content-02 .about-content-02__main-title {
+        font-size: 19px !important;
+    }
+
+    .page-pagination {
+        padding-top: 10px;
+    }
+
+    .introduce_detail {
+        padding: 10px 0px;
+    }
+
+    .home_news_wrapper {
+        padding-bottom: 0px;
+    }
+
+    .home3 .header-top {
+        display: none;
+    }
+
+    .img_banner_mid a {
+        width: 100% !important;
+    }
+
+    .course_list_info_custom {
+        padding: unset !important;
+    }
+
+    #list_member {
+        margin: 0;
+    }
+
+    .descripton_company {
+        line-height: 1.8;
+        margin: 0;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        height: 100px;
+    }
+
+    .custom_about_us .about-wrapper {
+        background: white;
+        margin-top: 30px;
+    }
+    .custom_text_banner_top {
+        font-size: 25px;
+    }
+    .custom_logo_banner_top {
+        font-size: 25px;
+    }
+    .main-menu li a.active{
+        color:yellow !important;
+    }
+    .div_detail_generate_wrapper {
+        overflow-wrap: anywhere;
+    }
+    .div_detail_generate_wrapper img {
+        width: -webkit-fill-available !important;
+    }
+        .div_detail_generate_wrapper table {
+            width: -webkit-fill-available !important;
+            max-width: 480px;
+            overflow-x: auto;
+            display: block;
+            margin-left:unset !important;
+        }
+    .div_detail_generate_wrapper tbody {
+        width: -webkit-fill-available !important;
+    }
+}
+/*--------Tablet - air ----------*/
+@media (min-width:481px) and (max-width:768px) {
+    .about-section {
+        padding-top: unset;
+    }
+
+    .fa-shopping-cart {
+        display: none;
+    }
+
+    .header-action__number-02 {
+        display: none;
+    }
+
+    .service_wrapper .img_service {
+        max-width: 100%;
+        max-height: 165px;
+    }
+
+    .list_news_related .slick-dots {
+        display: none !important;
+    }
+
+    .list_news_related .related-post-item__image a {
+        max-height: 91px;
+    }
+
+    .introduce_wrapper_page .blog-details__image {
+        height: auto;
+    }
+
+    .introduce_wrapper_page {
+        background: white;
+    }
+
+        .introduce_wrapper_page .blog-details-no-sidebar {
+            box-shadow: unset;
+        }
+
+    .service_wrapper_page {
+        background: white;
+    }
+
+        .service_wrapper_page .blog-details-no-sidebar {
+            box-shadow: unset;
+        }
+
+    .list_service_related .related-post-item__image a {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .service_wrapper_page .blog-details__image {
+        height: auto;
+        margin-bottom: 15px;
+    }
+
+    .offcanvas-logo__logo {
+        width: 72px;
+    }
+
+    .offcanvas-logo__logo {
+        width: 72px;
+    }
+
+    .list_introduce_related .related-post-item__image img {
+        height: 150px;
+    }
+
+    .introduce_wrapper_page .blog-details-no-sidebar {
+        padding-bottom: 0px;
+    }
+
+    .home3 .header-top {
+        display: none;
+    }
+
+    .activity_custom_content {
+        height: 156.32px;
+    }
+
+    .custom_description_library {
+        font-size: 16px;
+        line-height: 1.8;
+        margin: 0;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+    }
+
+    #list_member {
+        margin: 0;
+    }
+
+    .custom_height_person {
+        height: 250px;
+        object-fit: cover;
+    }
+
+    .custom_card_vison_and_mission {
+        height: 230px;
+    }
+}
+/*--------Large Tablet - pro----------*/
+@media (min-width:769px) and (max-width:1079px) {
+    .fa-shopping-cart {
+        display: none;
+    }
+
+    .header-action__number-02 {
+        display: none;
+    }
+
+    .service_wrapper .img_service {
+        max-width: 100%;
+        max-height: 165px;
+    }
+
+    .list_news_related .slick-dots {
+        display: none !important;
+    }
+
+    .list_news_related .related-post-item__image a {
+        max-height: 91px;
+    }
+
+    .introduce_wrapper_page .related-post-item__image a {
+        max-width: unset;
+    }
+
+    .introduce_wrapper_page .blog-details__image {
+        height: auto;
+    }
+
+    .list_service_related .related-post-item__image a {
+        max-width: 100%;
+        max-height: auto;
+    }
+
+    .list_service_related .related-post-item__image a {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .offcanvas-logo__logo {
+        width: 72px;
+    }
+
+    .list_introduce_related .related-post-item__image img {
+        height: 150px;
+    }
+
+    .name_company {
+        height: 55px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .descripton_company {
+        line-height: 1.8;
+        margin: 0;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        height: 100px;
+    }
+
+    .custom_description {
+        height: 34px;
+    }
+
+    .library_card .blog-item-02__content {
+        min-height: 161px;
+    }
+
+    .img_custom_respon {
+        aspect-ratio: 16 / 9;
+        object-fit: cover;
+    }
+
+    .activity_custom_content {
+        height: 156.32px;
+    }
+
+    .custom_description_library {
+        font-size: 16px;
+        line-height: 1.8;
+        margin: 0;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+    }
+
+    .custom_height_person {
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .custom_card_vison_and_mission {
+        height: 230px;
+    }
+}
+/*--------Small Laptop - 14inch----------*/
+@media (min-width:1080px) and (max-width:1499px) {
+    .banner_top {
+        padding: 320px 0px 250px 0px;
+    }
+
+    .news_detail_wrapper .blog-details__image {
+        max-height: 658px;
+    }
+
+    .introduce_wrapper_page .related-post-item__image a {
+        max-width: unset;
+    }
+
+    .list_introduce_related .related-post-item__image img {
+        height: 150px;
+    }
+
+    .partner .img_partner_error {
+        width: 156px !important;
+    }
+
+    .title_custom {
+        min-height: 57.6px;
+    }
+
+    .name_company {
+        height: 55px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .descripton_company {
+        line-height: 1.8;
+        margin: 0;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        height: 100px;
+    }
+
+    .list_news_related .related-post-item__image a {
+        height: 138px;
+    }
+
+    .custom_description {
+        height: 34px;
+    }
+
+    .library_card .blog-item-02__content {
+        min-height: 161px;
+    }
+
+    .img_custom_respon {
+        aspect-ratio: 16 / 9;
+        object-fit: cover;
+    }
+
+    .activity_custom_content {
+        height: 156.32px;
+    }
+
+    .custom_description_library {
+        font-size: 16px;
+        line-height: 1.8;
+        margin: 0;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+    }
+
+    .card_member_wrapper .instructor-item__header {
+        height: 374px !important;
+    }
+
+    .custom_height_person {
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .custom_card_vison_and_mission {
+        height: 230px;
+    }
+
+    .custom_title_vision {
+        font-size: 20px !important;
+    }
+}
+/*--------------------Large Desktop - My Laptop 15.6inch --------------------*/
+@media (min-width:1500px) {
+    .banner_top {
+        padding: 280px 0px 280px 0px;
+    }
+
+    .news_detail_wrapper .blog-details__image {
+        max-height: 658px;
+    }
+
+    .list_introduce_related .related-post-item__image img {
+        height: 150px;
+    }
+
+    .partner .img_partner_error {
+        width: 156px !important;
+    }
+
+    .title_custom {
+        min-height: 57.6px;
+    }
+
+    .name_company {
+        height: 55px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .descripton_company {
+        line-height: 1.8;
+        margin: 0;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        height: 100px;
+    }
+
+    .list_news_related .related-post-item__image a {
+        height: 138px;
+    }
+
+    .custom_description {
+        height: 34px;
+    }
+
+    .library_card .blog-item-02__content {
+        min-height: 161px;
+    }
+
+    .img_custom_respon {
+        aspect-ratio: 16 / 9;
+        object-fit: cover;
+    }
+
+    .activity_custom_content {
+        height: 156.32px;
+    }
+
+    .custom_description_library {
+        font-size: 16px;
+        line-height: 1.8;
+        margin: 0;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+    }
+
+    .card_member_wrapper .instructor-item__header {
+        height: 374px !important;
+    }
+
+    .custom_height_person {
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .custom_card_vison_and_mission {
+        height: 230px;
+    }
+
+    .custom_title_vision {
+        font-size: 20px !important;
+    }
+    .footer-widget__social-02 a {
+        padding: 0px 13px !important;
+    }
+}

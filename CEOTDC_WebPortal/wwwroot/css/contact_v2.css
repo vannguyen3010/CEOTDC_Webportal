@@ -1,0 +1,37 @@
+﻿.text_h2_contact {
+    font-size: 26px;
+}
+.contact_wrapper {
+    background: linear-gradient(0deg,#f3fafe,rgba(255,255,255,0) 100%)
+}
+    .contact_wrapper .contact-form__wrapper {
+        background: white;
+        padding: 43px;
+        border-radius: 15px;
+    }
+
+
+        .contact_wrapper .contact-form__wrapper .contact-form__input input {
+            box-shadow: 0 0 1.25rem rgb(30 34 40 / 4%);
+            background-color: #fefefe;
+            border: 1px solid rgba(8,60,130,.07);
+            color: #60697b; 
+            border-radius: 10px;
+        }
+        .contact_wrapper .contact-form__wrapper .contact-form__input textarea {
+            box-shadow: 0 0 1.25rem rgb(30 34 40 / 4%);
+            background-color: #fefefe;
+            border: 1px solid rgba(8,60,130,.07);
+            color: #60697b;
+            border-radius: 10px;
+        }
+    .contact_wrapper  .contact-form__input .btn{
+        border-radius:50px;
+    }
+    .contact_wrapper .contact-info {
+        box-shadow: 0 0 1.25rem rgb(30 34 40 / 4%);
+        padding-top:0px;
+    }
+#map{
+    margin-top:0px !important;
+}

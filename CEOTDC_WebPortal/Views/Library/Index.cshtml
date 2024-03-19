@@ -1,0 +1,103 @@
+﻿@using CEOTDC_WebPortal.Models
+@{
+    string categoryName = ViewBag.CategoryName;
+    int? categoryId = ViewBag.CategoryId;
+    var breadCrumb = new CEOTDC_WebPortal.ViewModels.VM_BreadCrumb
+            {
+                lv1Name = categoryId.HasValue ? "Thư viện" : categoryName,
+                lv1Url = categoryId.HasValue ? "" : "/thu-vien?c=@item.id",
+                currentName = string.IsNullOrEmpty(categoryName) ? "Thư viện" : categoryName,
+            };
+    var libraryCategory = ViewBag.LibraryCategory as List<M_DocumentSubject>;
+}
+@section Styles{
+    <link href="~/css/library.css" rel="stylesheet" asp-append-version="true" />
+}
+    @section Scripts{
+    <script src="~/controllers/library.js" asp-append-version="true"></script>
+}
+    <input type="hidden" id="input_category_id_library" value="@categoryId" />
+    <input type="hidden" id="input_page_library" value="@ViewBag.Page" />
+    <input type="hidden" id="input_record_library" value="@ViewBag.Record" />
+
+    <partial name="_P_BannerPartial" />
+    <partial name="P_BreadCrumb" model="breadCrumb" />
+    @*<div class="container">
+    <div class="about-video-section" style="background-image: url(/assets/images/img_dev/bg_library_3.jpg); padding:30px 0px; object-fit:contain">
+        <div class="container custom-container">
+            <div class="row gy-10 justify-content-between align-items-center">
+                <div class="col-xl-9 col-lg-8">
+
+                    <!-- About Video Start -->
+                    <div class="about-video-content aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">
+                        <p class="about-video-content__main-title" style="font-size:13px;">CEO TDC</p>
+                    </div>
+                    <!-- About Video End -->
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>*@
+
+    <div class="blog-section section-padding-01 pb-0 pt-0 library_wrapper">
+        <div class="container custom-container" data-aos="fade-up" data-aos-duration="1000">
+            <div class="row gy-10">
+                <div class="scene d-none d-md-block" style="position:absolute;z-index:-1">
+                    <img class="about-section__shape-03" data-depth="-0.4" src="assets/images/shape/edumall-shape-grid-dots.png" alt="Shape" style="transform: translate3d(45.5px, -8.8px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: absolute; display: block; left: 0px; top: 0px;">
+                    <div class="slider-section-07__shape-01" data-depth="0.2"></div>
+                    <div class="slider-section-07__shape-02" data-depth="-0.2"></div>
+                    <div class="slider-section-07__shape-03" data-depth="0.2"></div>
+                    <div class="slider-section-07__shape-04" data-depth="-0.2"></div>
+                    <div class="slider-section-07__shape-05" data-depth="0.2">
+                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="50px" height="39px" viewBox="0 0 50 39">
+                            <path class="shape" d="M50,31.4121777 L50,38.8589862 L-5.51381163e-12,38.8589862 L-5.51381163e-12,31.4121777 L50,31.4121777 Z M50,16.2218438 L50,23.6686523 L-1.64490643e-12,23.6686523 L-1.64490643e-12,16.2218438 L50,16.2218438 Z M50,0 L50,7.44680851 L-3.58113539e-12,7.44680851 L-3.58113539e-12,0 L50,0 Z"></path>
+                        </svg>
+                    </div>
+                </div>
+                <div class="col-lg-9">
+                    <div id="div_main_data_library" class="row gy-6" style="position: relative">
+                        <!--item-->
+                        @* <div class="col-12 col-md-4 col-lg-4 grid-item" style="position: absolute; left: 0px; top: 0px;">
+                    <div class="blog-item-02 aos-init aos-animate library_card">
+                    <div class="blog-item-02__image">
+                    <a href="blog-details-right-sidebar.html"><img src="https://images.unsplash.com/photo-1476820865390-c52aeebb9891?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80" alt="Blog" width="370" height="201"></a>
+                    </div>
+                    <div class="blog-item-02__content">
+                    <div class="blog-item-02__meta">
+                    <span class="meta-action"><i class="far fa-calendar"></i>Tiêu đề</span>
+                    </div>
+                    <h3 class="blog-item-02__title"><a href="blog-details-right-sidebar.html"> Chuyên gia tư vấn Quản trị Doanh nghiệp về năng suất, chất lượng, lợi nhuận.</a></h3>
+                    <p class="custom_description">Học Master chuyên ngành tư vấn quản lý quốc tế - International Management Consultant của trường Ludwigshafen University (Đức) năm 2007-2009.</p>
+                    <a class="blog-item-02__more btn btn-light btn-hover-white mt-1" href="blog-details-right-sidebar.html">Xem thêm <i class="fal fa-long-arrow-right"></i></a>
+                    </div>
+                    </div>
+                    </div>*@
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="sidebar-widget-02">
+                        <h4 class="sidebar-widget-02__title">Danh mục</h4>
+                        <ul class="sidebar-widget-02__tags">
+                        @if (libraryCategory != null)
+                        {
+                            foreach (var item in libraryCategory)
+                            {
+                                <li class="mb-1"><a href="/thu-vien?c=@item.id"><span>@item.name</span></a></li>
+                            }
+                        }
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="page-pagination">
+        <ul class="pagination justify-content-center" id="ul_main_pagination_library">
+        </ul>
+    </div>
+    <div class="overflow-hidden">
+        <div class="divider text-white mx-n2">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 100"><path fill="currentColor" d="M1260,1.65c-60-5.07-119.82,2.47-179.83,10.13s-120,11.48-180,9.57-120-7.66-180-6.42c-60,1.63-120,11.21-180,16a1129.52,1129.52,0,0,1-180,0c-60-4.78-120-14.36-180-19.14S60,7,30,7H0v93H1440V30.89C1380.07,23.2,1319.93,6.15,1260,1.65Z"></path></svg>
+        </div>
+    </div>
+</div>

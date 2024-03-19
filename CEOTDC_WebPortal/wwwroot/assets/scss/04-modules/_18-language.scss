@@ -1,0 +1,175 @@
+/*--
+/*  04.18 - Language Courses
+/*----------------------------------------*/
+
+// Language Section 
+.language-section{
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+
+    &__shape-01{
+        width: 676px;
+        height: 676px;
+        border-radius: 50%;
+        border: 1px solid rgba($primary, 0.3);        
+        position: absolute;
+        z-index: -1;
+        top: -200px !important;
+        left: -323px !important;
+        transition: none;
+    }
+    &__shape-02{
+        width: 218px;
+        height: 218px;
+        border-radius: 50%;
+        border: 1px solid rgba($primary, 0.3);        
+        position: absolute;
+        z-index: -1;
+        top: 64px !important;
+        left: 24px !important;
+        transition: none;
+    }
+    &__shape-03{
+        width: 179px;
+        border-radius: 50%;       
+        position: absolute;
+        z-index: -1;
+        top: 70px !important;
+        left: 24px !important;
+        bottom: -50px;
+        right: 50px;
+        transition: none;
+
+        @media #{$large-mobile}{
+            width: 90px;
+        }
+        @media #{$small-mobile}{
+            display: none !important;
+        }
+    }
+    &__shape-04{
+        width: 770px;
+        height: 770px;
+        border-radius: 50%;
+        border: 1px solid rgba($primary, 0.3);        
+        position: absolute;
+        z-index: -1;
+        top: auto !important;
+        left: auto !important;
+        bottom: -300px;
+        right: -150px;
+        transition: none;
+    }
+    &__shape-05{
+        width: 340px;
+        height: 340px;
+        border-radius: 50%;
+        border: 1px solid rgba($primary, 0.3);        
+        position: absolute;
+        z-index: -1;
+        top: auto !important;
+        left: auto !important;
+        bottom: -50px;
+        right: 50px;
+        transition: none;
+    }
+}
+
+// Courses Language
+.course-language-item{
+    &__link{
+        display: block;
+        position: relative;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+    &__thumb{
+        position: relative;
+        overflow: hidden;
+
+        &::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            opacity: .6;
+            background-image: -webkit-linear-gradient(top,transparent 42%,$black 84%);
+            background-image: linear-gradient(180deg,transparent 42%,$black 84%);
+            border-radius: inherit;
+        }
+
+        & img{
+            transition: all 1.5s cubic-bezier(0,0,.2,1);
+            width: 100%;
+        }
+    }
+    &__caption{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 20px 20px 23px;
+
+    }
+    &__name{
+        font-size: 20px;
+        color: $white;
+        line-height: 1.6;
+        font-weight: 400;
+        margin: 0;
+
+        @media #{$desktop-device}{
+            font-size: 18px;
+        }
+    }
+    &__info{
+        display: flex;
+        align-items: center;
+        margin-top: 14px;
+
+        @media #{$desktop-device}{
+            margin-top: 8px;
+        }
+    }
+    &__flag{
+        flex-shrink: 0;
+
+        & img{
+            border-radius: 50%;
+            width: 24px;
+            height: 24px;
+        }
+    }
+    &__count{
+        font-size: 14px;
+        line-height: 1.72;
+        font-weight: 500;
+        color: $white;
+        flex-grow: 1;
+        padding-left: 10px;
+    }
+
+    &:hover{
+        & .course-language-item{
+            &__thumb{
+                & img{
+                    transform: scale(1.1);
+                }
+            }
+        }
+    }
+}
+
+// Courses Language Button
+.language-btn{
+    margin-top: 40px;
+
+    & .btn{
+        width: 262px;
+    }
+}
+
+

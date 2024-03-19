@@ -1,0 +1,265 @@
+/*--
+/*  02.03 - Button CSS
+/*----------------------------------------*/
+
+.btn-margin{
+	margin-top: 40px;
+}
+
+// Button
+.btn {
+	font-family: $font-family-base;
+    font-size: 15px;
+    font-weight: 400;
+	position: relative;
+	overflow: hidden;
+	background-color: transparent;	
+	height: 52px;
+	line-height: 52px;
+	padding: 0 36px;
+	border: 0px;
+	box-shadow: none;
+	transition: all 0.3s ease 0s;
+	cursor: pointer;
+	white-space: nowrap;
+
+	&:focus,
+	&:active:focus{
+		box-shadow: none;
+	}
+	
+	// Responsive
+	@media #{$desktop-device, $tablet-device} {
+		height: 50px;
+		line-height: 50px;
+		padding: 0px 30px;
+	}
+	@media #{$large-mobile} {
+		font-size: 14px;
+		height: 45px;
+		line-height: 45px;
+		padding: 0px 20px;		
+	}
+}
+
+// Button Outline 
+[class*="btn-outline-"]{
+	border: 2px solid;
+	line-height: 48px;
+
+	@media #{$small-mobile}{
+		line-height: 41px;
+	}
+}
+
+// Button Colors
+.btn-primary {
+	background-color: $primary;
+	border-color: $primary;
+	color: $white;
+
+	&:focus,
+	&:active,
+	&:hover{
+		background-color: $primary;
+		border-color: $primary;
+		color: $white;
+	}
+}
+.btn-secondary {
+	background-color: $secondary;
+	border-color: $secondary;
+	color: $third;
+
+	&:focus,
+	&:active,
+	&:hover{
+		background-color: $secondary;
+		border-color: $secondary;
+		color: $third;
+	}
+}
+.btn-third {
+	background-color: $third;
+	border-color: $third;
+	color: $white;
+
+	&:focus,
+	&:active,
+	&:hover{
+		background-color: $third;
+		border-color: $third;
+		color: $white;
+	}
+}
+.btn-success {
+	background-color: $success;
+	border-color: $success;
+	color: $white;
+
+	&:focus,
+	&:active,
+	&:hover{
+		background-color: $success;
+		border-color: $success;
+		color: $white;
+	}
+}
+.btn-danger {
+	background-color: $danger;
+	border-color: $danger;
+	color: $white;
+
+	&:focus,
+	&:active,
+	&:hover{
+		background-color: $danger;
+		border-color: $danger;
+		color: $white;
+	}
+}
+.btn-warning {
+	background-color: $warning;
+	border-color: $warning;
+	color: $third;
+
+	&:focus,
+	&:active,
+	&:hover{
+		background-color: $warning;
+		border-color: $warning;
+		color: $third;	
+	}
+}
+.btn-info {
+	background-color: $info;
+	border-color: $info;
+	color: $white;
+
+	&:focus,
+	&:active,
+	&:hover{
+		background-color: $info;
+		border-color: $info;
+		color: $white;
+	}
+}
+.btn-light {
+	background-color: $light;
+	border-color: $light;
+	color: $primary;
+	
+	&:focus,
+	&:active,
+	&:hover{
+		background-color: $light;
+		border-color: $light;
+		color: $primary;
+	}
+}
+.btn-dark {
+	background-color: $dark;
+	border-color: $dark;
+	color: $white;
+
+	&:focus,
+	&:active,
+	&:hover{
+		background-color: $dark;
+		border-color: $dark;
+		color: $white;
+	}
+}
+.btn-white {
+	background-color: $white;
+	border-color: $white;
+	color: $primary;
+	box-shadow: 0 6px 25px rgba($black,.1);
+
+	&:focus,
+	&:active,
+	&:hover{
+		background-color: $white;
+		border-color: $white;
+		color: $primary;
+		box-shadow: 0 6px 25px rgba($black,.1);
+	}
+}
+
+
+// Button Hover 
+.btn-hover-primary {
+	&:hover {
+		background-color: $primary;
+		border-color: $primary;
+		color: $white;
+	}
+}
+.btn-hover-secondary {
+	&:hover {
+		background-color: $secondary;
+		border-color: $secondary;
+		color: $third;
+	}
+}
+.btn-hover-third {
+	&:hover {
+		background-color: $third;
+		border-color: $third;
+		color: $white;
+	}
+}
+.btn-hover-success {
+	&:hover {
+		background-color: $success;
+		border-color: $success;
+		color: $third;
+	}
+}
+.btn-hover-danger {
+	&:hover {
+		background-color: $danger;
+		border-color: $danger;
+		color: $white;
+
+		&::before{
+			border-color: $white;
+		}
+	}
+}
+.btn-hover-warning {
+	&:hover {
+		background-color: $warning;
+		border-color: $warning;
+		color: $third;
+	}
+}
+.btn-hover-info {
+	&:hover {
+		background-color: $info;
+		border-color: $info;
+		color: $white;
+	}
+}
+.btn-hover-light {
+	&:hover {
+		background-color: $light;
+		border-color: $light;
+		color: $third;
+	}
+}
+.btn-hover-dark {
+	&:hover {
+		background-color: $dark;
+		border-color: $dark;
+		color: $white;
+	}
+}
+.btn-hover-white {
+	&:hover {
+		background-color: $white;
+		border-color: $white;
+		color: $primary;
+		box-shadow: 0 6px 25px rgba($black,.1);
+	}
+}

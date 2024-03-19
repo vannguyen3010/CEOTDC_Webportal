@@ -1,0 +1,59 @@
+﻿@{
+    var supplierInfo = ViewBag.SupplierInfo as CEOTDC_WebPortal.Models.M_Supplier;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="@ViewData["Description"]">
+    <meta name="keywords" content="@ViewData["Keywords"]">
+    <meta name="author" content="@supplierInfo.name">
+    <title>@ViewData["Title"] @ViewData["Slogan"]</title>
+    <link rel="shortcut icon" href="@(supplierInfo.imageFavicon ?? "/favicon.ico")">
+    <meta property="og:image" content="/assets/images/img_dev/TDC.png" />
+
+    <!-- Facebook, Zalo, Telegram Meta Tags -->
+    <meta property="og:image" content="@ViewData["ImagePreview"]" />
+    <meta property="og:image:alt" content="@ViewData["Title"]" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="vi" />
+    @*<meta property="og:url" content="@KS_WebPortal.Lib.GlobalVariables.url_domain" />*@
+    <meta property="og:site_name" content="@supplierInfo.name" />
+    <meta property="og:title" content="@ViewData["Title"]" />
+    <meta property="og:description" content="@ViewData["Description"]" />
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="@ViewData["ImagePreview"]" />
+    <meta name="twitter:title" content="@ViewData["Title"]" />
+    <meta name="twitter:description" content="@ViewData["Description"]" />
+
+    <!-- styles-->
+    <partial name="P_Styles" />
+    <link href="~/css/main_v2.css" rel="stylesheet" asp-append-version="true" />
+    <!-- /styles-->
+    @await RenderSectionAsync(name: "Styles", required: false)
+
+    <link href="~/css/responsive_v2.css" rel="stylesheet" asp-append-version="true" />
+</head>
+<body>
+    <!-- content-wrapper -->
+    <div class="main-wrapper">
+        <!-- Header -->
+        <div class="header-section header-sticky">
+            <partial name="P_Header" />
+        </div>
+        @RenderBody()
+        <partial name="P_Mobile" />
+    </div>
+    <!-- Footer -->
+    <partial name="P_Footer" />
+    <!-- ScrollToTop -->
+    <partial name="P_ScrollToTop" />
+    <!-- scripts -->
+    <partial name="P_Scripts" />
+    @*<partial name="P_ValidationScripts" />*@
+</body>
+@await RenderSectionAsync(name: "Scripts", required: false)
+</html>

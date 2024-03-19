@@ -1,0 +1,43 @@
+﻿@model List<M_News>
+
+@{
+    string categoryName = ViewBag.CategoryName;
+    int? categoryId = ViewBag.CategoryId;
+    var breadCrumb = new CEOTDC_WebPortal.ViewModels.VM_BreadCrumb
+    {
+                lv1Name = categoryId.HasValue ? "Dịch vụ" : categoryName,
+                lv1Url = categoryId.HasValue ? "" : "/dich-vu?c=@item.id",
+                currentName = string.IsNullOrEmpty(categoryName) ? "Dịch vụ" : categoryName,
+    };
+    var related = ViewBag.ListRelated as List<M_News>;
+}
+@section Styles{
+    <link href="~/css/service_v2.css" rel="stylesheet" asp-append-version="true" />
+}
+@section Scripts{
+    <script src="~/controllers/service.js" asp-append-version="true"></script>
+}
+<input type="hidden" id="input_category_id_service" value="@categoryId" />
+<input type="hidden" id="input_page_service" value="@ViewBag.Page" />
+<input type="hidden" id="input_record_service" value="@ViewBag.Record" />
+<partial name="_P_BannerPartial" />
+<partial name="P_BreadCrumb" model="breadCrumb" />
+<div class="blog-section section-padding-01 service_wrapper pt-1 pb-0">
+    <div class="container custom-container">
+        <div class="row gy-10">
+            <div class="col-lg-12">
+                <div class="blog-list-items row" style="position:relative;min-height:150px;" id="div_main_data_service">
+                </div>
+                <div class="page-pagination">
+                    <ul class="pagination justify-content-center" id="ul_main_pagination_service">
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="overflow-hidden pt-5">
+        <div class="divider text-white mx-n2">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 92.26"><path fill="currentColor" d="M1206,21.2c-60-5-119-36.92-291-5C772,51.11,768,48.42,708,43.13c-60-5.68-108-29.92-168-30.22-60,.3-147,27.93-207,28.23-60-.3-122-25.94-182-36.91S30,5.93,0,16.2V92.26H1440v-87l-30,5.29C1348.94,22.29,1266,26.19,1206,21.2Z"></path></svg>
+        </div>
+    </div>
+</div>

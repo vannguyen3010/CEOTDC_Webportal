@@ -1,0 +1,103 @@
+﻿@model M_News
+@{
+    string categoryTitle = ViewBag.categoryTitle;
+    var breadCrumb = new CEOTDC_WebPortal.ViewModels.VM_BreadCrumb
+            {
+                lv1Name = "Giới thiệu",
+                lv1Url = "/gioi-thieu",
+                lv2Name = Model.categoryObj?.name,
+                lv2Url = "/gioi-thieu?c=" + Model.categoryId,
+                currentName = Model.title
+            };
+    var related = ViewBag.ListNewsRelated as List<M_News>;
+    string link = string.Empty;
+}
+@section Styles{
+    <link href="~/css/news_v2.css" rel="stylesheet" asp-append-version="true" />
+}
+    @section Scripts{
+    <script src="~/controllers/introduce.js" asp-append-version="true"></script>
+}
+    <partial name="_P_BannerPartial" />
+    <partial name="P_BreadCrumb" model="breadCrumb" />
+    <div class="blog-section section-padding-01 pt-0 pb-0  news_detail_wrapper">
+        <div class="container custom-container">
+            <div class="blog-details text-center">
+                <div class="blog-details__image">
+                    @*
+                <img src="@Model.imageObj?.mediumUrl" alt="@Model.title " width="1170" height="634">*@
+                @if (!string.IsNullOrEmpty(@Model.imageObj?.mediumUrl))
+                {
+                    <img src="@Model.imageObj?.mediumUrl" alt="@Model.title " width="1170" height="634">
+                }
+                else
+                {
+                    <img src="/assets/images/error/home_bannertop.png" alt="@Model.title " width="1170" height="634">
+                }
+            </div>
+        </div>
+        <!-- Blog Dtails Start -->
+        <div class="blog-details-no-sidebar mw-100">
+
+            <!-- Blog Dtails Start -->
+            <div class="blog-details">
+                <div class="blog-details__content pt-0 pb-0">
+                    <h3 class="blog-details__title-02 fs-4 m-0">@Model.title </h3>
+                </div>
+                <div class="blog-details__content p-0 div_detail_generate_wrapper">
+                    <blockquote class="blockquote mw-100 fs-6" style="color:grey;">
+                        <p>@Model.description</p>
+                    </blockquote>
+                    <p>@Html.Raw(Model.detail)</p>
+                </div>
+            </div>
+            @if (related.Count > 0)
+            {
+                <div class="blog-details__footer">
+                </div>
+            }
+            <div class="related-post mt-8">
+                @if (related.Count > 0)
+                {
+                    <h3 class="related-post__title text-primary">Bài giới thiệu liên quan</h3>
+                }
+                <div class="related-posts">
+                    <div class="list_news_related">
+                        @if (related.Count > 0)
+                        {
+                            @foreach (var item in related)
+                            {
+                                link = "/gioi-thieu/" + item.titleSlug + "-" + item.id;
+                                <div class="related-post-item">
+                                    <div class="related-post-item__image">
+                                        @if (!string.IsNullOrEmpty(@item.imageObj?.mediumUrl))
+                                        {
+                                            <a href="@link"><img src="@item.imageObj?.mediumUrl" alt="@item.title" width="237" height="129" style="object-fit: cover;"></a>
+                                        }
+                                        else
+                                        {
+                                            <a href="@link"><img src="/assets/images/error/home_bannertop.png" alt="@item.title" width="237" height="129" style="object-fit: cover;"></a>
+                                        }
+
+                                    </div>
+                                    <div class="related-post-item__content">
+                                        <h3 class="related-post-item__title text-primary"><a href="@link">@item.title</a></h3>
+                                        <p class="blog-list-item-02__title mb-0" style="font-size:14px;">@item.description</p>
+                                        <div class="d-flex align-self-center"> <i class="far fa-calendar-alt align-self-center"></i>&ensp;<span class="sidebar-widget-02__psot-date mt-0" style="font-size:13px;">@item.publishedAt?.ToString("dd-MM-yyyy")</span></div>
+                                    </div>
+                                </div>
+                            }
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="overflow-hidden mt-6">
+        <div class="divider text-white mx-n2">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 100"><path fill="currentColor" d="M1260,1.65c-60-5.07-119.82,2.47-179.83,10.13s-120,11.48-180,9.57-120-7.66-180-6.42c-60,1.63-120,11.21-180,16a1129.52,1129.52,0,0,1-180,0c-60-4.78-120-14.36-180-19.14S60,7,30,7H0v93H1440V30.89C1380.07,23.2,1319.93,6.15,1260,1.65Z"></path></svg>
+        </div>
+    </div>
+</div>
+
+

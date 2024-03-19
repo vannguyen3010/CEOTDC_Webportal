@@ -1,0 +1,106 @@
+﻿@model List<M_News>
+
+@{
+    string categoryName = ViewBag.CategoryName;
+    int? categoryId = ViewBag.CategoryId;
+    var breadCrumb = new CEOTDC_WebPortal.ViewModels.VM_BreadCrumb
+            {
+                lv1Name = categoryId.HasValue ? "Giới thiệu" : categoryName,
+                lv1Url = categoryId.HasValue ? "/gioi-thieu?c=@item.id" : "",
+                currentName = string.IsNullOrEmpty(categoryName) ? "Giới thiệu" : categoryName,
+            };
+    string link = string.Empty;
+    var newsCategory = ViewBag.NewsCategory as List<M_NewsCategory>;
+    var introduceList = newsCategory.Where(x => x.typeId == (int)EN_NewsCategoryTypeId.Introduce).OrderBy(x => x.reOrder).ToList();
+}
+
+@section Styles{
+    <link href="~/css/news_v2.css" rel="stylesheet" asp-append-version="true" />
+}
+
+    @section Scripts{
+    <script src="~/controllers/introduce.js" asp-append-version="true"></script>
+}
+    <input type="hidden" id="input_category_id_introduce" value="@categoryId" />
+    <input type="hidden" id="input_page_introduce" value="@ViewBag.Page" />
+    <input type="hidden" id="input_record_introduce" value="@ViewBag.Record" />
+
+    <partial name="_P_BannerPartial" />
+    <partial name="P_BreadCrumb" model="breadCrumb" />
+    <div class="blog-section section-padding-01 new_wrapper_parent">
+        <div class="container custom-container">
+            <div class="row gy-10">
+                <div class="scene d-none d-md-block" style="position:absolute;z-index:-1">
+                    <img class="about-section__shape-03" data-depth="-0.4" src="assets/images/shape/edumall-shape-grid-dots.png" alt="Shape" style="transform: translate3d(45.5px, -8.8px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: absolute; display: block; left: 0px; top: 0px;">
+                  
+                @*    <div class="newsletter-section__shape-02" data-depth="0.6" style="transform: translate3d(-71.5px, -0.9px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: absolute; display: block; left: 0px; top: 0px;"></div>*@
+                   @* <div class="newsletter-section__shape-03" data-depth="-0.6" style="transform: translate3d(71.5px, 0.9px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: absolute; display: block; left: 0px; top: 0px;"></div>*@
+                </div>
+                <div class="col-lg-8">
+                    <div class="blog-list-items" style="position:relative;min-height:150px;" id="div_main_data_introduce">
+                    </div>
+                    <div class="page-pagination">
+                        <ul class="pagination justify-content-center" id="ul_main_pagination_introduce">
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="sidebar-widget-weap-02 ps-xl-6">
+                        <div class="sidebar-widget-02">
+                            <h4 class="sidebar-widget-02__title">Bài giới thiệu mới nhất</h4>
+                            <ul class="sidebar-widget-02__psot">
+                            @if (Model != null)
+                            {
+                                foreach (var item in Model)
+                                {
+                                    link = "/gioi-thieu/" + item.titleSlug + "-" + item.id;
+                                    <li>
+                                        <div class="sidebar-widget-02__psot-item">
+                                            <div class="sidebar-widget-02__psot-thumbnail ">
+                                                <a href="@link">
+                                                    @if (!string.IsNullOrEmpty(@item.imageObj?.smallUrl))
+                                                    {
+                                                        <img src="@item.imageObj?.smallUrl" alt="@item.title" width="100" height="80">
+                                                    }
+                                                    else
+                                                    {
+                                                        <img src="/assets/images/error/home_bannertop.png" alt="@item.title" width="100" height="80">
+                                                    }
+                                                    <div class="sidebar-widget-02__categories">
+                                                        <span>@item.categoryObj?.name</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="sidebar-widget-02__psot-info">
+                                                <h5 class="sidebar-widget-02__psot-title"><a title="@(item.title ?? "")" href="@link">@(item.title ?? "")</a></h5>
+                                                <div class="d-flex align-self-center"> <span class="sidebar-widget-02__psot-date mt-0 align-self-center" style="font-size:13px;">@(item.categoryObj?.name ?? "")</span></div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                }
+                            }
+                        </ul>
+                    </div>
+                    <div class="sidebar-widget-02">
+                        <h4 class="sidebar-widget-02__title">Danh mục</h4>
+                        <ul class="sidebar-widget-02__tags">
+                            @if (introduceList != null)
+                            {
+                                foreach (var item in introduceList)
+                                {
+                                    <li class="mb-1"><a href="/gioi-thieu?c=@item.id">@item.name</a></li>
+                                }
+                            }
+                            <li class="mb-1"><a href="/so-do-to-chuc"><span>Sơ đồ tổ chức</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="overflow-hidden">
+        <div class="divider text-white mx-n2">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 100"><path fill="currentColor" d="M1260,1.65c-60-5.07-119.82,2.47-179.83,10.13s-120,11.48-180,9.57-120-7.66-180-6.42c-60,1.63-120,11.21-180,16a1129.52,1129.52,0,0,1-180,0c-60-4.78-120-14.36-180-19.14S60,7,30,7H0v93H1440V30.89C1380.07,23.2,1319.93,6.15,1260,1.65Z"></path></svg>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,51 @@
+﻿ <!-- JS Vendor, Plugins & Activation Script Files -->
+<!-- Vendors JS -->
+<script src="/assets/js/vendor/modernizr-3.11.7.min.js"></script>
+<script src="/assets/js/vendor/jquery-3.6.0.min.js"></script>
+<script src="/assets/js/vendor/jquery-migrate-3.3.2.min.js"></script>
+<script src="/assets/js/vendor/bootstrap.bundle.min.js"></script>
+
+<!-- Plugins JS -->
+<script src="/assets/js/plugins/aos.js"></script>
+<script src="/assets/js/plugins/parallax.js"></script>
+<script src="/assets/js/plugins/swiper-bundle.min.js"></script>
+<script src="/assets/js/plugins/perfect-scrollbar.min.js"></script>
+<script src="/assets/js/plugins/jquery.powertip.min.js"></script>
+<script src="/assets/js/plugins/nice-select.min.js"></script>
+<script src="/assets/js/plugins/glightbox.min.js"></script>
+<script src="/assets/js/plugins/jquery.sticky-kit.min.js"></script>
+<script src="/assets/js/plugins/imagesloaded.pkgd.min.js"></script>
+<script src="/assets/js/plugins/masonry.pkgd.min.js"></script>
+<script src="/assets/js/plugins/flatpickr.js"></script>
+<script src="/assets/js/plugins/range-slider.js"></script>
+<script src="/assets/js/plugins/select2.min.js"></script>
+<script src="/libs/click_slider/slider.js"></script>
+
+<!-- Activation JS -->
+<script src="/assets/js/main.js"></script>
+<script src="/libs/moment/moment.min.js"></script>
+
+<!-----Controller---->
+<script src="/js/utility_lib.js" asp-append-version="true"></script>
+
+<!-----active_home 2---->
+<script>
+    window.addEventListener('load', function () {
+        $(".main-menu >li>a[href='" + location.pathname + "']").addClass("active").each(function () {
+            $(".li_first").removeClass("active")
+            $(".main-menu >li>a[href='" + $(this).attr("href") + "']").addClass("active")
+        });
+    })
+</script>
+<script>
+    $(window).on('scroll', function (event) {
+        var scroll = $(window).scrollTop();
+        if (scroll <= 100) {
+            $(".header-sticky").removeClass("sticky");
+          
+        } else {
+            $(".header-sticky").addClass("sticky");
+
+        }
+    });
+</script>

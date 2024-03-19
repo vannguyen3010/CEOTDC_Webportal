@@ -1,0 +1,25 @@
+/*--
+/*  04.23 - Gallery
+/*----------------------------------------*/
+
+// Gallery Section 
+.gallery-section{}
+
+
+// Gallery Image
+.gallery-image{
+    & img{
+        border-radius: 5px;
+        width: 100%;
+    }
+}
+
+// Gallery Button
+.gallery-btn{
+    &__btn{
+        width: 226px;
+    }
+}
+
+
+

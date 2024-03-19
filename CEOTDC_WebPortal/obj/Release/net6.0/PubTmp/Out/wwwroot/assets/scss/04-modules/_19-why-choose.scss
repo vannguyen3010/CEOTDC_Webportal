@@ -1,0 +1,151 @@
+/*--
+/*  04.19 - Why Choose
+/*----------------------------------------*/
+
+
+// Why Choose Section
+.why-choose-section{}
+
+// Why Choose Section 02
+.why-choose-section-02{
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+
+    &__shape-01{
+        width: 986px;
+        height: 986px;
+        border-radius: 50%;
+        border: 1px solid rgba($primary, 0.3);        
+        position: absolute;
+        z-index: -1;
+        top: -501px !important;
+        left: -499px !important;
+
+        @media #{$large-mobile}{
+            width: 486px;
+            height: 486px;
+            left: -201px !important;
+            top: -160px !important;
+        }
+    }
+    &__shape-02{
+        width: 364px;
+        height: 364px;
+        border-radius: 50%;
+        border: 1px solid rgba($primary, 0.3);        
+        position: absolute;
+        z-index: -1;
+        top: -50px !important;
+        left: -90px !important;
+
+        @media #{$large-mobile}{
+            width: 264px;
+            height: 264px;
+        }
+    }
+    &__shape-03{
+        width: 179;     
+        position: absolute;
+        z-index: -1;
+        top: 80px !important;
+        left: 50px !important;
+        transition: none;
+
+        @media #{$desktop-device, $tablet-device}{
+            top: 30px !important;
+            width: 100px;
+        }
+        @media #{$large-mobile}{
+            display: none !important;
+        }
+    }
+    &__shape-04{
+        width: 770px;
+        height: 770px;
+        border-radius: 50%;
+        border: 1px solid rgba($primary, 0.3);        
+        position: absolute;
+        z-index: -1;
+        top: auto !important;
+        left: -90px !important;
+        bottom: -646px;
+    }
+}
+
+// Why Choose title
+.why-choose-title{
+    margin-bottom: 55px;
+    
+    &__title{
+        font-size: 40px;
+        line-height: 1.2;
+        color: $primary;
+        margin-bottom: 12px;
+
+        @media #{$desktop-device, $large-mobile}{
+            font-size: 28px;
+        }
+        @media #{$small-mobile}{
+            font-size: 22px;
+        }
+    }
+    &__sub-title{
+        font-size: 24px;
+        line-height: 1.5;
+
+        @media #{$desktop-device, $large-mobile}{
+            font-size: 20px;
+        }
+    }
+}
+
+//Why Choose Wrapper
+.why-choose-wrapper{}
+
+// Choose Box Item
+.choose-box-item{
+    padding: 27px 40px 30px;
+    background-color: $white;
+    border-radius: 8px;
+    transition: $transition-base;
+
+    @media #{$desktop-device}{
+        padding: 23px 25px 25px;
+    }
+    @media #{$large-mobile}{
+        padding: 17px 20px 20px;
+    }
+
+    &__icon{
+        margin-bottom: 20px;
+    }
+    &__caption{
+        & p{
+            margin-top: 9px;
+        }
+    }
+    &__title{
+        font-size: 16px;
+        line-height: 1.75;
+        margin-bottom: 0;
+        transition: $transition-base;
+    }
+
+    &:hover{
+        box-shadow: 0 10px 50px rgba($black,.08);
+
+        & .choose-box-item{
+            &__title{
+                color: $primary;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+

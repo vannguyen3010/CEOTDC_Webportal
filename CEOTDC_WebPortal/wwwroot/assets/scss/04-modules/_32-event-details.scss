@@ -1,0 +1,303 @@
+/*--
+/*  04.32 - Event Details
+/*----------------------------------------*/
+
+
+// Event Details
+.event-details{
+    &__header{
+        max-width: 810px;
+        margin-bottom: 35px;
+
+        @media #{$desktop-device}{
+            max-width: 680px;
+        }
+    }
+    &__title{
+        font-size: 40px;
+        line-height: 1.4;
+        margin-bottom: 20px;
+
+        @media #{$desktop-device, $large-mobile}{
+            font-size: 28px;
+        }
+        @media #{$tablet-device}{
+            font-size: 32px;
+        }
+        @media #{$small-mobile}{
+            font-size: 22px;
+        }
+    }
+    &__meta{
+        display: flex;
+        flex-wrap: wrap;
+
+        &>*{
+            margin-right: 24px;
+            margin-top: 6px;
+
+            @media #{$small-mobile}{
+                margin-right: 15px;
+            }
+
+            &::last-child{
+                margin-right: 0;
+            }
+        }
+
+        & .meta-action{
+            color: $body-color;
+            display: flex;
+            align-items: center;
+
+            & i{
+                flex-shrink: 0;
+                margin-right: 6px;
+            }
+            &__avatar{
+                width: 32px;
+                height: 32px;
+                border-radius: 50%;
+                vertical-align: middle;
+                flex-shrink: 0;
+                margin-right: 6px;
+            }
+        }
+        & a.meta-action{
+            &:hover{
+                color: $primary;
+            }
+        }
+    }
+
+    &__thumbnail{
+        & img{
+            border-radius: 5px;
+            height: 350px;
+            width: 100%;
+            object-position: center;
+            object-fit: cover;
+        }
+    }
+    &__summary{
+        & > *{
+            margin-top: 40px;
+            padding-top: 40px;
+            border-top: 1px solid #eee;
+
+            &:first-child{
+                padding-top: 0;
+                border-top: 0;
+            }
+        }
+    }
+
+    &__heading{
+        font-size: 20px;
+        line-height: 1.6;
+        margin-bottom: 26px;
+        margin-top: -6px;
+    }
+    &__content{}
+    &__booking-info{
+        padding: 9px 30px 35px;
+        background: $white;
+        box-shadow: 0 0 20px rgba(51,51,51, 0.1);
+        border-radius: 5px;
+        width: 100%;
+        max-width: 340px;
+        margin-left: auto;
+
+        @media #{$tablet-device, $large-mobile}{
+            margin-left: 0;
+            max-width: 100%;
+        }
+    }
+    &__info-meta{
+        list-style-type: none;
+        padding: 0;
+        margin: 0 0 12px;
+
+        & li{
+            & + li {
+                border-top: 1px solid #eee;
+            }
+        }
+
+        & .meta-info{
+            margin: 0;
+            padding: 14px 0;
+            display: flex;
+            align-items: center;
+            flex-grow: 1;
+        }
+        & .meta-label{
+            flex-grow: 1;
+            color: $headings-color;
+
+            & i{
+                color: $body-color;
+                min-width: 28px;
+                text-align: center;
+            }
+        }
+        & .meta-value{}
+
+        & .meta-price{
+            padding: 8px 0;
+
+            & .meta-value{
+                font-size: 24px;
+                font-weight: 700;
+                color: #d31819;
+            }
+        }
+    }
+
+    &__notice{
+        padding: 1em 2em 1em 1.5em;
+        background-color: #fdb494;
+        color: #333;
+        border-left: 3px solid #c35a2c;
+    }
+    &__share{
+        display: flex;
+        justify-content: center;
+        margin-top: 25px;
+        margin-left: -5px;
+        margin-right: -5px;
+
+        &>*{
+            margin: 0 5px;
+        }
+
+        & a{
+            display: block;
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            border-radius: 50%;
+            border: 1px solid #ededed;
+        }
+    }
+
+    &__map{
+        & iframe{
+            background: #eee;
+            height: 350px;
+            width: 100%;
+        }
+    }
+
+    &__location-info{
+        max-width: 340px;
+        margin-left: auto;
+
+        @media #{$tablet-device, $large-mobile}{
+            margin-left: 0;
+        }
+
+        & .location-info-heading{
+            font-size: 16px;
+            line-height: 1.3;
+            margin: 0 0 12px;
+            color: $headings-color;
+        }
+        & .location-info-address{
+            padding-bottom: 10px;
+
+            & p{
+                margin-bottom: 0;
+            }
+        }
+        & .location-info-link{
+            margin-top: 8px;
+            line-height: 26px;
+            color: $primary;
+        }
+        & .location-info{
+            margin-top: 24px;
+        }
+        & .meta-label{
+            display: block;
+            font-weight: 400;
+            color: #666666;
+            margin: 0 0 4px;
+        }
+        & .meta-value{
+            font-size: 16px;
+            line-height: 28px;
+            font-weight: 400;
+            color: $headings-color;
+        }
+    }
+    &__description{
+        font-size: 15px;
+        line-height: 30px;
+        width: 630px;
+        max-width: 100%;
+        text-align: center;
+        margin: 42px auto 0;
+    }
+}
+
+// Event Details Banner
+.event-details-banner{
+    position: relative;
+    padding: 77px 0 55px;
+    z-index: 1;
+    background: #333;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+
+    &::after{
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        background: rgba($black, 0.4);
+        z-index: -1;
+    }
+
+    &__content{
+        position: relative;
+        z-index: 1;
+        text-align: center;
+        color: $white;
+        max-width: 970px;
+        margin: 0 auto;
+        padding: 15px;
+
+        @media #{$desktop-device}{
+            max-width: 670px;
+        }
+    }
+    &__date{
+        font-size: 15px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin-bottom: 26px;
+    }
+    &__title{
+        font-size: 40px;
+        line-height: 1.4;
+        color: $white;
+
+        @media #{$desktop-device, $large-mobile}{
+            font-size: 28px;
+        }
+        @media #{$tablet-device}{
+            font-size: 32px;
+        }
+        @media #{$small-mobile}{
+            font-size: 22px;
+        }
+    }
+}
+

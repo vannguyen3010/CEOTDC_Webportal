@@ -1,0 +1,321 @@
+/*--
+/*  04.36 - My Account
+/*----------------------------------------*/
+
+
+// Account Profile 
+.account-profile{
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+
+    &__avatar{
+        flex-shrink: 0;
+
+        & img{
+            width: 100px;
+            border-radius: 50%;
+        }
+    }
+    &__info{
+        flex-grow: 1;
+        padding-left: 25px;
+    }
+    &__text{
+        font-weight: 500;
+        color: #666666;
+        margin-bottom: 5px;
+    }
+    &__name{
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 0;
+    }
+}
+
+
+// My Account Menu 
+.my-account-menu{
+    & .nav{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        border-radius: 5px;
+        border: 1px solid #eee;
+
+        & li{
+            margin: -1px -1px 0;
+
+            &:first-child{
+                & a,
+                & button{
+                    border-top-left-radius: 5px;
+                    border-top-right-radius: 5px;
+                }
+            }
+
+            &:last-child{
+                & a,
+                & button{
+                    border-bottom-left-radius: 5px;
+                    border-bottom-right-radius: 5px;
+                }
+            }
+
+            & a,
+            & button{
+                display: block;
+                padding: 13px 30px;
+                font-size: 16px;
+                font-weight: 500;
+                border: 0;
+                border-top: 1px solid #eee;
+                color: $body-color;
+                width: 100%;
+                background: none;
+                transition: $transition-base;
+                text-align: left;
+
+                &.active,
+                &:hover{
+                    background-color: $primary;
+                    border-color: $primary;
+                    color: $white;
+                }
+            }
+        }
+    }
+}
+
+// My Account Item 
+.my-account-item{
+    padding-left: 30px;
+
+    @media #{$tablet-device, $large-mobile}{
+        padding-left: 0;
+    }
+
+    & p{
+        & strong{
+            font-weight: 700;
+        }
+        & a{
+            font-weight: 500;
+            display: inline;
+        }
+    }
+
+    &__table{
+        border: 1px solid #f8f8f8;
+        border-radius: 5px;
+    }
+
+    & .table{
+        margin-bottom: 0;
+
+        & tbody{
+            border-top: 0;
+
+            & tr{
+                & > *{
+                    background: rgba($black, 0.01);
+                }
+    
+                &:nth-of-type(odd){
+                    & > *{
+                        background: transparent;
+                    }
+                }
+            }
+        }
+
+        & tr{
+            & th{
+                border: 0;
+                border-bottom: 1px solid #f8f8f8;
+                border-right: 1px solid #f8f8f8;
+                background-color: #f8f8f8;
+                text-align: center;
+                font-weight: 500;
+                color: $headings-color;
+                padding: 10px;
+                text-align: center;
+                vertical-align: middle;
+                white-space: nowrap;
+
+                &:last-child{
+                    border-right: 0;
+                }
+            }
+            & td{
+                border: 0;
+                border-bottom: 1px solid #f8f8f8;
+                border-right: 1px solid #f8f8f8;
+                padding: 10px;
+                text-align: center;
+                vertical-align: middle;
+                white-space: nowrap;
+
+                &:last-child{
+                    border-right: 0;
+                }
+
+                &.order{
+                    font-weight: 500;
+                }
+                &.date{}
+                &.status{
+                    font-weight: 500;
+                }
+                &.total{}
+                &.actions{}
+
+                & .price{
+                    font-size: 15px;
+                    font-weight: 700;
+                    line-height: 1;
+                    color: $third;
+
+                    & .separator{
+                        font-size: 66.666667%;
+                    }
+                }
+
+                & .btn{
+                    min-width: 130px;
+                    line-height: 38px;
+                    height: 40px;
+                    font-size: 14px;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+    
+    &__btn{
+        padding-top: 8px;
+
+        & .btn{
+            font-weight: 500;
+        }
+    }
+
+    &__addresses{
+
+    }
+    &__addresses-header{
+        border-bottom: 1px solid #eee;
+        padding-bottom: 10px;
+        margin-bottom: 19px;
+        display: flex;
+        align-items: center;
+    }
+    &__addresses-title{
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.6;
+        margin: 0;
+    }
+    &__addresses-edit{
+        display: inline-block;
+        vertical-align: middle;
+        width: 24px;
+        height: 24px;
+        position: relative;
+        font-size: 0;
+        margin: 0 0 0 6px;
+
+        &::before{
+            content: "\f303";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            font-size: 15px;
+            font-family: Font Awesome\ 5 Pro;
+            font-weight: 400;
+        }
+    }
+
+    &__table-payment{
+        border: 1px solid #eee;
+        border-bottom: 0;
+        margin-bottom: 16px;
+
+        & .table{
+
+            & tr{
+                & th{
+                    border-bottom: 1px solid #eee;
+                    border-right: 1px solid #eee;
+                    background-color: transparent;
+    
+                    &:last-child{
+                        border-right: 0;
+                    }
+                }
+                & td{
+                    border-bottom: 1px solid #eee;
+                    border-right: 1px solid #eee;
+    
+                    &:last-child{
+                        border-right: 0;
+                    }
+
+                    & .btn{
+                        height: 52px;
+                        line-height: 52px;
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+
+    &__input{
+
+        & .form-control{
+            font-weight: 500;
+        }
+        & em{
+            margin-top: 3px;
+            font-size: 13px;
+            display: block;
+        }
+        & .btn{
+            min-width: 240px;
+            margin-top: 30px;
+            font-weight: 500;
+        }
+    }
+
+    &__password{
+        border: 1px solid #eee;
+        border-radius: 5px;
+        padding: 30px 20px;
+        margin-top: 30px;
+        position: relative;
+
+        & > *{
+            margin-top: 20px;
+        }
+
+        & .legend{
+            padding: 0 10px;
+            font-weight: 500;
+            color: $headings-color;
+            position: absolute;
+            top: -12px;
+            left: 20px;
+            background-color: $white;
+            margin-top: 0;
+        }
+    }
+    
+}
+
+
+
+

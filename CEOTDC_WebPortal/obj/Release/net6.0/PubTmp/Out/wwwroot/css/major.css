@@ -1,0 +1,7 @@
+﻿.major_wrapper {
+    background: linear-gradient(0deg,#f3fafe,rgba(255,255,255,0) 100%);
+}
+.instructor-item__image img{
+    object-fit:contain;
+    border-radius:3px;
+}

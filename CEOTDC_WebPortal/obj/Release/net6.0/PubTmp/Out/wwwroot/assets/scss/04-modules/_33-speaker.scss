@@ -1,0 +1,33 @@
+/*--
+/*  04.33 - Speakers
+/*----------------------------------------*/
+
+
+.speaker-item{
+    &__thumbnail{
+        & img{
+            width: 170px;
+            border-radius: 50%;
+        }
+    }
+    &__content{
+        margin-top: 25px;
+    }
+    &__name{
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 26px;
+        margin: 0 0 5px;
+    }
+    &__designation{}
+}
+
+
+
+
+
+
+
+
+
+

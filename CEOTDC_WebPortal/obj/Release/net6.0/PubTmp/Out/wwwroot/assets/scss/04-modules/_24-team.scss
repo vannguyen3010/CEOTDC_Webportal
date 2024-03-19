@@ -1,0 +1,78 @@
+/*--
+/*  04.24 - Team
+/*----------------------------------------*/
+
+
+// Team Item 
+.team-item{
+    &__image{
+        position: relative;
+
+        & img{
+            width: 100%;
+        }
+    }
+    &__social{
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+        right: 20px;
+        text-align: center;
+        background: $white;
+        box-shadow: 0 2px 20px rgba($black, 0.06);
+        border-radius: 3px;
+        min-height: 56px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transform: scale(.9);
+        transition: $transition-base;
+        opacity: 0;
+        visibility: hidden;
+
+        & a{
+            display: inline-block;
+            font-size: 16px;
+            color: $body-color;
+            padding: 5px 15px;
+            text-align: center;
+
+            &:hover{
+                color: $primary;
+            }
+        }
+    }
+    &__content{
+        text-align: center;
+        padding: 25px 0 7px;
+    }
+    &__name{
+        font-size: 18px;
+        line-height: 1.6;
+        margin: 0;
+    }
+    &__position{
+        margin-top: 6px;
+
+    }
+
+    &:hover{
+        & .team-item{
+            &__social{
+                transform: scale(1);
+                opacity: 1;
+                visibility: visible;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+

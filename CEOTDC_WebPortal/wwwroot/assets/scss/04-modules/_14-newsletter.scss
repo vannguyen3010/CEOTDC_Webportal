@@ -1,0 +1,153 @@
+/*--
+/*  04.14 - Newsletter
+/*----------------------------------------*/
+
+// Newsletter Section 
+.newsletter-section{
+    background-color: #E6EDF6;
+    overflow: hidden;
+    padding: 37px 15px;
+    border-radius: 8px;
+    position: relative;
+    z-index: 1;
+
+    &__shape-01{
+        top: -220px !important;
+        left: -257px !important;
+        width: 464px;
+        height: 464px;
+        border-radius: 50%;
+        border: 1px solid rgba($primary, 0.3);
+        position: absolute;
+        z-index: -1;
+    }
+    &__shape-02{
+        top: -30px !important;
+        left: -85px !important;
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+        border: 1px solid rgba($primary, 0.3);
+        position: absolute;
+        z-index: -1;
+    }
+    &__shape-03{
+        top: auto !important;
+        left: auto !important;
+        right: -20px;
+        bottom: -315px;
+        width: 464px;
+        height: 464px;
+        border-radius: 50%;
+        border: 1px solid rgba($primary, 0.3);
+        position: absolute;
+        z-index: -1;
+    }
+    &__shape-04{
+        top: -42px !important;
+        left: auto !important;
+        right: 205px;
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+        border: 1px solid rgba($primary, 0.3);
+        position: absolute;
+        z-index: -1;
+    }
+}
+
+// Newsletter Wrapper 
+.newsletter-wrapper{
+    max-width: 990px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @media #{$large-mobile}{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+
+// Newsletter
+.newsletter{
+    &__content{
+        flex-shrink: 0;
+    }
+    &__title{
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 1.6;
+        color: $primary;
+
+        @media #{$tablet-device}{
+            font-size: 24px;
+        }
+        @media #{$large-mobile}{
+            font-size: 24px;
+        }
+
+        & span{
+            font-weight: 400;
+        }
+    }
+    &__form{
+        max-width: 465px;
+        position: relative;
+        flex-grow: 1;
+        width: 100%;
+
+        @media #{$large-mobile}{
+            margin-top: 30px;
+        }
+
+        & input{
+            width: 100%;
+            outline: none;
+            border: 1px solid #FFFFFF;
+            border-radius: 5px;
+            padding: 3px 20px;
+            height: 60px;
+            padding-right: 150px;
+            font-size: 14px;
+            color: #666666;
+            background-color: #FFFFFF;
+
+            @media #{$small-mobile}{
+                padding: 3px 20px;
+            }
+
+            &:focus{
+                color: $headings-color;
+            }
+            @include placeholder{
+                opacity: 1;
+            }
+        }
+        & .btn{
+            height: 48px;
+            line-height: 48px;
+            border-radius: 5px;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            right: 6px;
+            padding: 0 29px;
+            box-shadow: none;
+            font-weight: 700;
+
+            @media #{$small-mobile}{
+                position: relative;
+                top: 0;
+                transform: translateY(0);
+                right: 0;
+                width: 100%;
+                margin-top: 10px;
+            }
+        }
+    }
+}
+
+

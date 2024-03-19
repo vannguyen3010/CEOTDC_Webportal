@@ -1,0 +1,177 @@
+/*----------------------------------------*/
+/*  02.01 - Template default CSS
+/*----------------------------------------*/
+@mixin placeholder {
+	&::-webkit-input-placeholder {
+		@content;
+	}
+
+	&:-moz-placeholder {
+		@content;
+	}
+
+	&::-moz-placeholder {
+		@content;
+	}
+
+	&:-ms-input-placeholder {
+		@content;
+	}
+}
+
+
+@font-face {
+	font-family: 'Gordita';
+	src: url('../fonts/gordita/Gordita-Regular.ttf') format('truetype');
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Gordita';
+	src: url('../fonts/gordita/Gordita-Medium.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 500;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Gordita';
+	src: url('../fonts/gordita/Gordita-Bold.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+}
+
+
+// :root {
+//     --edumall-color-primary: #0071dc;
+//     --edumall-color-primary-rgb: 0, 113, 220;
+//     --edumall-color-secondary: #ffc221;
+//     --edumall-color-third: #031f42;
+//     --edumall-color-text: #696969;
+//     --edumall-color-text-bit-lighten: #7e7e7e;
+//     --edumall-color-text-lighten: #666666;
+//     --edumall-color-heading: #252525;
+//     --edumall-color-link: #696969;
+//     --edumall-color-link-hover: #0071dc;
+//     --edumall-color-box-white-background: #fff;
+//     --edumall-color-box-white-border: #ededed;
+//     --edumall-color-box-grey-background: #f8f8f8;
+//     --edumall-color-box-light-grey-background: #f9f9fb;
+//     --edumall-color-box-fill-separator: #eee;
+//     --edumall-color-box-border: #eee;
+//     --edumall-color-box-border-lighten: #ededed;
+//     --edumall-color-form-text: #252525;
+//     --edumall-color-form-border: #f8f8f8;
+//     --edumall-color-form-background: #f8f8f8;
+//     --edumall-color-form-focus-text: #252525;
+//     --edumall-color-form-focus-border: #0071dc;
+//     --edumall-color-form-focus-background: #fff;
+//     --edumall-color-sub-menu-border: #ededed;
+//     --edumall-color-sub-menu-background: #fff;
+// }
+
+
+/* Common Style */
+*, *::after, *::before {
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	font-family: $font-family-base, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	font-style: 400;
+	line-height: $line-height-base;
+
+	position: relative;
+
+	visibility: visible;
+	overflow-x: hidden;
+
+	color: $body-color;
+	background-color: $white;
+
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: $headings-font-family;
+	font-weight: $headings-font-weight;
+	line-height: $headings-line-height;
+	margin: 0;
+	color: $headings-color;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6 {
+	line-height: inherit;
+	margin: 0;
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+
+a, button {
+	line-height: inherit;
+	display: inline-block;
+	cursor: pointer;
+	text-decoration: none;
+	color: inherit;
+}
+
+a, button, img, input {
+	transition: $transition-base;
+}
+
+*:focus {
+	outline: none;
+}
+
+a:focus {
+	text-decoration: none;
+	color: inherit;
+	outline: none;
+}
+
+a:hover {
+	text-decoration: none;
+	color: $primary;
+}
+
+button, input[type="submit"] {
+	cursor: pointer;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+input, textarea {
+	@include placeholder {
+		opacity: 1;
+	}
+}
+
+ul {
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+
+hr {
+	border-top-width: 2px;
+}
+
+br{
+	@media #{$large-mobile}{
+		display: none;
+	}
+}

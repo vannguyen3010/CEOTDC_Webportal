@@ -1,0 +1,35 @@
+﻿@model List<M_News>
+
+<section id="introduce" class="scene bg-white pt-md-19 pb-md-8 introduce_wrapper overflow-hidden">
+    <div class="container introduce">
+        @if (Model != null)
+        {
+            foreach (var item in Model)
+            {
+                <div class="row d-flex">
+                    <div class="col-12 col-md-6" data-aos="fade-up" data-aos-duration="1000">
+                        <a class="introduce_detail_wrapper_img">
+                  @*          <img src="@item.imageObj?.mediumUrl" alt="@item.title" onerror="this.onerror=null;this.src='/assets/images/error/logo.png';" />*@
+                            @if (!string.IsNullOrEmpty(@item.imageObj?.mediumUrl))
+                            {
+                                <img src="@item.imageObj?.mediumUrl" alt="@item.title"/>
+                            }
+                            else
+                            {
+                            <img src="/assets/images/error/product_1x1_medium.png" alt="@item.title"/>
+                            }
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-6" data-aos="fade-up" data-aos-duration="1000">
+                        <h3 class="text-primary pb-2">@item.title</h3>
+                        <p class="introduce_detail">
+                            @item.description
+                        </p>
+                        <a href="/gioi-thieu/@item.titleSlug-@item.id" class="btn btn-primary">Xem thêm</a>
+                    </div>
+                </div>
+            }
+        }
+    </div>
+    <img class="about-section__shape-03 d-none d-md-block" data-depth="-0.4" src="assets/images/shape/edumall-shape-grid-dots.png" alt="Shape" style="transform: translate3d(45.5px, -8.8px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: absolute; display: block; left: 0px; top: 0px;">
+</section>

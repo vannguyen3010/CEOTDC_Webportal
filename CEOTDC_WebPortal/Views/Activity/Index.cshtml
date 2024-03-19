@@ -1,0 +1,125 @@
+﻿@model M_News
+@{
+    string categoryName = ViewBag.CategoryName;
+    int? categoryId = ViewBag.CategoryId;
+    var breadCrumb = new CEOTDC_WebPortal.ViewModels.VM_BreadCrumb
+            {
+                currentName = string.IsNullOrEmpty(categoryName) ? "Hoạt động" : categoryName,
+            };
+    var related = ViewBag.ListRelated as List<M_News>;
+    string link = string.Empty;
+}
+@section Styles{
+    <link href="~/css/introduce_v2.css" rel="stylesheet" asp-append-version="true" />
+}
+    @section Scripts{
+    <script>
+        $('.list_activity_related').slick({
+            dots: true,
+            infinite: false,
+            speed: 300,
+            slidesToShow: 4,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            prevArrow: false,
+            nextArrow: false,
+            dots: false,
+            slidesToScroll: 4,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 3,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
+        });
+    </script>
+}
+    <partial name="_P_BannerPartial" />
+    <partial name="P_BreadCrumb" model="breadCrumb" />
+
+    <div class="blog-section section-padding-01 pt-0 introduce_wrapper_page pb-0">
+        <div class="container custom-container">
+            <div class="scene d-none d-md-block" style="position:absolute;z-index:-1">
+                <img class="about-section__shape-03" data-depth="-0.4" src="assets/images/shape/edumall-shape-grid-dots.png" alt="Shape" style="transform: translate3d(45.5px, -8.8px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: absolute; display: block; left: 0px; top: 0px;">
+            </div>
+            <!-- Blog Dtails Start -->
+            <div class="blog-details text-center">
+                <div class="blog-details__image">
+                    <img src="@(!string.IsNullOrEmpty(Model.imageObj?.relativeUrl) ? Model.imageObj?.relativeUrl : "/assets/images/error/home_bannertop.png")" alt="@Model.imageObj?.name">
+                </div>
+            </div>
+
+            <div class="blog-details-no-sidebar">
+                <div class="blog-details">
+                    <div class="blog-details__content pt-0 pb-0">
+                        <h3 class="blog-details__title-02">@Model.title</h3>
+                    </div>
+                <div class="blog-details__content pb-0 div_detail_generate_wrapper">
+                        <blockquote class="blockquote mw-100">
+                            <p style="font-size:14px; color:dimgrey">@Model.description</p>
+                        </blockquote>
+                        <p class="blog-details__title-02">@Html.Raw(Model.detail)</p>
+                    </div>
+                </div>
+                <div class="related-post mt-8">
+                @if (related != null && related.Any())
+                {
+                    <div class="blog-details__footer pt-0 pb-0 mb-0">
+                    </div>
+                    <h3 class="related-post__title text-primary pt-2">Những hoạt động nổi bật khác</h3>
+                }
+                <div class="related-posts">
+                    <div class="list_activity_related">
+                        @if (related != null && related.Any())
+                        {
+                            @foreach (var item in related)
+                            {
+                                link = "/hoat-dong/" + item.titleSlug + "-" + item.id;
+                                <div class="related-post-item  mt-3">
+                                    <div class="related-post-item__image">
+                                        @if (item.imageObj?.relativeUrl != null)
+                                        {
+                                            <a href="@link"><img src="@item.imageObj?.relativeUrl" alt="@item.title" width="237" height="129" style="object-fit: cover;"></a>
+
+                                        }
+                                        else{
+                                            <a href="@link"><img src="/assets/images/error/avatar.png" alt="@item.title" width="237" height="129" style="object-fit: cover;"></a>
+                                        }
+                                    </div>
+                                    <div class="related-post-item__content">
+                                        <h3 class="related-post-item__title text-primary"><a title="@(item.title ?? "")" href="@link">@(item.title ?? "")</a></h3>
+                                        <p class="blog-list-item-02__title">@(item.description ?? "")</p>
+                                    </div>
+                                </div>
+                            }
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="overflow-hidden pt-5">
+        <div class="divider text-white mx-n2">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 92.26"><path fill="currentColor" d="M1206,21.2c-60-5-119-36.92-291-5C772,51.11,768,48.42,708,43.13c-60-5.68-108-29.92-168-30.22-60,.3-147,27.93-207,28.23-60-.3-122-25.94-182-36.91S30,5.93,0,16.2V92.26H1440v-87l-30,5.29C1348.94,22.29,1266,26.19,1206,21.2Z"></path></svg>
+        </div>
+    </div>
+</div>

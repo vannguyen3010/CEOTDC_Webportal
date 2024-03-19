@@ -1,0 +1,58 @@
+﻿@{
+    var breadCrumb = new CEOTDC_WebPortal.ViewModels.VM_BreadCrumb
+            {
+                currentName = "Hội viên",
+            };
+}
+
+@section Styles{
+    <link href="~/css/major.css" rel="stylesheet" asp-append-version="true" />
+}
+
+    @section Scripts{
+    <script src="~/controllers/member.js" asp-append-version="true"></script>
+}
+
+    <input type="hidden" id="input_record_order" value="@ViewBag.record" />
+    <input type="hidden" id="input_page_order" value="@ViewBag.page" />
+    <input type="hidden" id="input_member_id" value="@ViewBag.CategoryId" />
+    <div class="instructors-section section-padding-01 pb-0 pt-0 major_wrapper">
+        <partial name="_P_BannerPartial" />
+        <partial name="P_BreadCrumb" model="breadCrumb" />
+        <div class="container custom-container">
+            <div class="archive-filter-bar" data-aos="fade-up" data-aos-duration="1000">
+                <p id="count_member"></p>
+        </div>
+        <div class="row g-6" data-aos="fade-up" data-aos-duration="1000">
+                <div class="row g-6  mt-1" id="list_member">
+            </div>
+            <div class="scene d-none d-md-block" style="position:absolute;z-index:-1">
+                    <img class="about-section__shape-03" data-depth="-0.4" src="assets/images/shape/edumall-shape-grid-dots.png" alt="Shape" style="transform: translate3d(45.5px, -8.8px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: absolute; display: block; left: 0px; top: 0px;">
+                    <div class="newsletter-section__shape-02" data-depth="-0.6" style="transform: translate3d(71.5px, 0.9px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: absolute; display: block; left: 0px; top: 0px;"></div>
+                    <div class="newsletter-section__shape-02" data-depth="0.6" style="transform: translate3d(-71.5px, -0.9px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: absolute; display: block; left: 0px; top: 0px;"></div>
+                    <div class="newsletter-section__shape-03" data-depth="-0.6" style="transform: translate3d(71.5px, 0.9px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: absolute; display: block; left: 0px; top: 0px;"></div>
+
+                    <div class="slider-section-07__shape-01" data-depth="0.2"></div>
+                    <div class="slider-section-07__shape-02" data-depth="-0.2"></div>
+                    <div class="slider-section-07__shape-03" data-depth="0.2"></div>
+                    <div class="slider-section-07__shape-04" data-depth="-0.2"></div>
+                    <div class="slider-section-07__shape-05" data-depth="0.2">
+                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="50px" height="39px" viewBox="0 0 50 39">
+                            <path class="shape" d="M50,31.4121777 L50,38.8589862 L-5.51381163e-12,38.8589862 L-5.51381163e-12,31.4121777 L50,31.4121777 Z M50,16.2218438 L50,23.6686523 L-1.64490643e-12,23.6686523 L-1.64490643e-12,16.2218438 L50,16.2218438 Z M50,0 L50,7.44680851 L-3.58113539e-12,7.44680851 L-3.58113539e-12,0 L50,0 Z"></path>
+                        </svg>
+                    </div>
+            </div>
+        </div>
+        <div class="page-pagination">
+            <ul class="pagination justify-content-center" id="ul_main_pagination_member">
+            </ul>
+        </div>
+    </div>
+    <div class="overflow-hidden pt-5">
+        <div class="divider text-white mx-n2">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 92.26"><path fill="currentColor" d="M1206,21.2c-60-5-119-36.92-291-5C772,51.11,768,48.42,708,43.13c-60-5.68-108-29.92-168-30.22-60,.3-147,27.93-207,28.23-60-.3-122-25.94-182-36.91S30,5.93,0,16.2V92.26H1440v-87l-30,5.29C1348.94,22.29,1266,26.19,1206,21.2Z"></path></svg>
+        </div>
+    </div>
+</div>
+
+<partial name="P_Modal_Detail" />

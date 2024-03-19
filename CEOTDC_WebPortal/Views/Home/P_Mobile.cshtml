@@ -1,0 +1,106 @@
+﻿@{
+    var SupplierInfo = ViewBag.SupplierInfo as CEOTDC_WebPortal.Models.M_Supplier;
+    var newsCategory = ViewBag.NewsCategory as List<M_NewsCategory>;
+    var memberCategory = ViewBag.MemberCategory as List<M_Major>;
+    var newsList = newsCategory.Where(x => x.typeId == (int)EN_NewsCategoryTypeId.News).OrderBy(x => x.reOrder).ToList();
+    var introduceList = newsCategory.Where(x => x.typeId == (int)EN_NewsCategoryTypeId.Introduce).OrderBy(x => x.reOrder).ToList();
+    var serviceList = newsCategory.Where(x => x.typeId == (int)EN_NewsCategoryTypeId.Service).OrderBy(x => x.reOrder).ToList();
+    var libraryCategory = ViewBag.LibraryCategory as List<M_DocumentSubject>;
+}
+<div class="offcanvas offcanvas-end offcanvas-mobile" id="offcanvasMobileMenu" style="background-image: url('https://images.pexels.com/photos/1036372/pexels-photo-1036372.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); ">
+    <div class="offcanvas-header bg-white">
+        <div class="offcanvas-logo">
+            <a class="offcanvas-logo__logo" href="/"><img src="@SupplierInfo.imageObj?.smallUrl" alt="Logo"></a>
+        </div>
+        <button type="button" class="offcanvas-close" data-bs-dismiss="offcanvas"><i class="fal fa-times"></i></button>
+    </div>
+
+    <div class="offcanvas-body">
+        <nav class="canvas-menu">
+            <ul class="offcanvas-menu">
+                <li>
+                    <a class="active" href="/"><span>Trang chủ</span></a>
+                </li>
+                <li>
+                    <a href="/gioi-thieu"><span>Giới thiệu</span></a>
+                    <ul class="sub-menu">
+                        @if (introduceList != null)
+                        {
+                            foreach (var item in introduceList)
+                            {
+                                <li><a href="/gioi-thieu?c=@item.id"><span>@item.name</span></a></li>
+                            }
+                        }
+                        <li><a href="/so-do-to-chuc"><span>Sơ đồ tổ chức</span></a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/hoat-dong"><span>Hoạt động</span></a>
+                </li>
+                <li>
+                    <a href="/hoi-vien?c=-2"><span>Hội viên</span></a>
+                    <ul class="sub-menu">
+                        @if (memberCategory != null)
+                        {
+                            foreach (var item in memberCategory)
+                            {
+                                <li><a href="/hoi-vien?c=@item.id"><span>@item.name</span></a></li>
+                            }
+                        }
+                    </ul>
+                </li>
+                <li>
+                    <a href="/thu-vien"><span>Thư viện</span></a>
+                    <ul class="sub-menu">
+                        @if (libraryCategory != null)
+                        {
+                            foreach (var item in libraryCategory)
+                            {
+                                <li><a href="/thu-vien?c=@item.id"><span>@item.name</span></a></li>
+                            }
+                        }
+                    </ul>
+                </li>
+              @*  <li>
+                    <a href="/dich-vu"><span>Hoạt động</span></a>
+                    <ul class="sub-menu">
+                        @if (serviceList != null)
+                        {
+                            foreach (var item in serviceList)
+                            {
+                                <li><a href="/dich-vu?c=@item.id"><span>@item.name</span></a></li>
+                            }
+                        }
+                    </ul>
+                </li>*@
+               @* <li>
+                    <a href="/tin-tuc"><span>Tin tức</span></a>
+                    <ul class="sub-menu">
+                        @if (newsList != null)
+                        {
+                            foreach (var item in newsList)
+                            {
+                                <li><a href="/tin-tuc?c=@item.id"><span>@item.name</span></a></li>
+                            }
+                        }
+                    </ul>
+                </li>*@
+                <li>
+                    <a href="/lien-he"><span>Liên hệ</span></a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Header User Button Start -->
+    <div class="offcanvas-user d-none d-lg-none">
+        <div class="offcanvas-user__button">
+            <button class="offcanvas-user__login btn btn-secondary btn-hover-secondarys" data-bs-toggle="modal" data-bs-target="#loginModal">Đăng nhập</button>
+        </div>
+        <div class="offcanvas-user__button">
+            <button class="offcanvas-user__signup btn btn-primary btn-hover-primary" data-bs-toggle="modal" data-bs-target="#registerModal">Đăng xuất</button>
+        </div>
+    </div>
+    <!-- Header User Button End -->
+
+</div>

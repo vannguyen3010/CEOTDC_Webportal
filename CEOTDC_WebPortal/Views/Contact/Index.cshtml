@@ -1,0 +1,193 @@
+﻿@model CEOTDC_WebPortal.Models.EM_Contact
+@{
+    var supplierInfo = ViewBag.SupplierInfo as CEOTDC_WebPortal.Models.M_Supplier;
+    var breadCrumb = new CEOTDC_WebPortal.ViewModels.VM_BreadCrumb
+    {
+        currentName = "Liên hệ"
+    };
+}
+@section Styles{
+    <link href="~/libs/ladda/ladda-themeless.min.css" rel="stylesheet" />
+    <link href="~/css/contact_v2.css" rel="stylesheet" asp-append-version="true" />
+    <style>
+        #map {
+            height: 500px;
+            width: 100%;
+            display: block;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+
+        #alert_submit {
+            position: fixed;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 9999;
+            visibility: hidden;
+        }
+
+            #alert_submit.show {
+                visibility: visible;
+            }
+    </style>
+}
+@section Scripts{
+    <script src="~/libs/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/libs/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+    <script src="~/libs/ladda/spin.min.js"></script>
+    <script src="~/libs/ladda/ladda.jquery.min.js"></script>
+    <script src="~/libs/ladda/ladda.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=@ViewData["KeyGoogleMap"]&callback=InitMap" defer></script>
+    <script src="~/js/gmaps.min.js"></script>
+    <script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+        (function () {
+            'use strict';
+            window.addEventListener('load', function () {
+                // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                var forms = document.getElementsByClassName('needs-validation');
+                // Loop over them and prevent submission
+                var validation = Array.prototype.filter.call(forms, function (form) {
+                    form.addEventListener('submit', function (event) {
+                        if (form.checkValidity() === false) {
+                            event.preventDefault();
+                            event.stopPropagation();
+                        }
+                        form.classList.add('was-validated');
+                    }, false);
+                });
+            }, false);
+        })();
+    </script>
+    <script src="~/controllers/contact.js" asp-append-version="true"></script>
+}
+<input type="hidden" id="input_latitude" value="@supplierInfo.addressObj?.latitude" />
+<input type="hidden" id="input_longitude" value="@supplierInfo.addressObj?.longitude" />
+
+<partial name="_P_BannerPartial" />
+<partial name="P_BreadCrumb" model="breadCrumb" />
+<div class="contact-section contact_wrapper">
+    <div class="container custom-container">
+        <div class="contact-title text-center section-padding-02 pt-3" data-aos="fade-up" data-aos-duration="1000">
+            <h2 class="contact-title__title text_h2_contact">Chúng tôi luôn mong muốn được nghe ý kiến ​​từ bạn!</h2>
+            <p>Hãy liên hệ với chúng tôi bất cứ lúc nào qua các kênh sau</p>
+        </div>
+        <div class="contact-info section-padding-02 mt-10">
+            <div class="row gy-4 flex-wrap">
+                <div class="col-12 col-md-7 mt-0">
+                    <div class="contact-map section-padding-02" id="map" data-aos="fade-up" data-aos-duration="1000">
+
+                    </div>
+                </div>
+                <div class="col-12 col-md-5 p-md-9 p-lg-19 bg-white">
+                    <div class="col-lg-12 col-md-12 mb-5">
+                        <div class="contact-info__item" data-aos="fade-up" data-aos-duration="1000">
+                            <div class="contact-info__icon">
+                                <i class="fal fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-info__content">
+                                <h3 class="contact-info__title mb-0">Địa chỉ</h3>
+                                <p>
+                                    @if (!string.IsNullOrEmpty(supplierInfo.addressObj?.addressText))
+                                    {
+                                        <span class="text-dark">@supplierInfo.addressObj?.addressText,</span>
+                                    }
+                                    @if (!string.IsNullOrEmpty(supplierInfo.addressObj?.wardObj?.name))
+                                    {
+                                        <span class="text-dark">@supplierInfo.addressObj?.wardObj?.name,</span>
+                                    }
+                                    @if (!string.IsNullOrEmpty(supplierInfo.addressObj?.districtObj?.name))
+                                    {
+                                        <span class="text-dark">@supplierInfo.addressObj?.districtObj?.name,</span>
+                                    }
+                                    @if (!string.IsNullOrEmpty(supplierInfo.addressObj?.provinceObj?.name))
+                                    {
+                                        <span class="text-dark">@supplierInfo.addressObj?.provinceObj?.name</span>
+                                    }
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-md-12 mb-5">
+                        <div class="contact-info__item" data-aos="fade-up" data-aos-duration="1000">
+                            <div class="contact-info__icon">
+                                <i class="fal fa-phone"></i>
+                            </div>
+                            <div class="contact-info__content">
+                                <h3 class="contact-info__title mb-0">Số điện thoại</h3>
+                                <p>Di động: <strong> @(supplierInfo.telephoneNumber ?? "")</strong></p>
+                                <p>Hotline: <strong>@(supplierInfo.hotlineNumber ?? "")</strong></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12 col-md-12  pb-10 pb-md-0">
+                        <div class="contact-info__item" data-aos="fade-up" data-aos-duration="1000">
+                            <div class="contact-info__icon">
+                                <i class="fal fa-mailbox"></i>
+                            </div>
+                            <div class="contact-info__content">
+                                <h3 class="contact-info__title  mb-0">Email</h3>
+                                <p>Mail: @(supplierInfo.email ?? "")</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-form section-padding-01">
+            <div class="section-title text-center" data-aos="fade-up" data-aos-duration="1000">
+                <h2 class="section-title__title">Gửi phản hồi và đóng góp ý kiến của bạn cho chúng tôi, chúng tôi sẽ liên hệ bạn ngay khi có thể</h2>
+            </div>
+            <div class="contact-form__wrapper" data-aos="fade-up" data-aos-duration="1000">
+                <form class="needs-validation" method="post" novalidate asp-antiforgery="true" id="form_data">
+                    <div class="row gy-4">
+                        <div class="col-md-12">
+                            <div class="contact-form__input">
+                                <input asp-for="title" class="form-control" placeholder="Tiêu đề" required>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="contact-form__input">
+                                <input asp-for="name" class="form-control" placeholder="Họ và tên" required>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="contact-form__input">
+                                <input asp-for="phoneNumber" class="form-control" placeholder="Điện thoại" required>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="contact-form__input">
+                                <input asp-for="email" class="form-control" type="email" placeholder="Email" required>
+                            </div>
+                        </div>
+                       
+                      
+                        <div class="col-md-12">
+                            <div class="contact-form__input">
+                                <textarea asp-for="detail" class="form-control" placeholder="Nội dung"></textarea>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="contact-form__input text-center">
+                                <button type="submit" class="btn btn-primary btn-hover-secondary" dir="ltr" data-style="zoom-in" id="btn_submit_form">Gửi</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="alert alert-success alert-icon alert-dismissible shadow-sm border fade" id="alert_submit" role="alert">
+                <i class="uil uil-check-circle"></i> Cảm ơn bạn đã đóng góp ý kiến cho <a href="@(supplierInfo.smallUrl ?? "/")" class="alert-link hover">TDC - Hiệu quả tức thì</a>
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+        </div>
+    </div>
+    <div class="overflow-hidden">
+        <div class="divider text-white mx-n2">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 92.26"><path fill="currentColor" d="M1206,21.2c-60-5-119-36.92-291-5C772,51.11,768,48.42,708,43.13c-60-5.68-108-29.92-168-30.22-60,.3-147,27.93-207,28.23-60-.3-122-25.94-182-36.91S30,5.93,0,16.2V92.26H1440v-87l-30,5.29C1348.94,22.29,1266,26.19,1206,21.2Z"></path></svg>
+        </div>
+    </div>
+</div>

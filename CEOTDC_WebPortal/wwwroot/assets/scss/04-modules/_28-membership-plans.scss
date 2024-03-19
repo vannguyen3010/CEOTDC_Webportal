@@ -1,0 +1,319 @@
+/*--
+/*  04.28 - Membership Plans
+/*----------------------------------------*/
+
+
+// Membership plans Tabs
+.membership-plans-tabs{
+    & .nav{
+        & li{
+            & button{
+                border: 2px solid #eee;
+                border-radius: 5px;
+                font-size: 15px;
+                font-weight: 400;
+                color: $headings-color;
+                background: #fff;
+                line-height: 26px;
+                margin: 0 -5px;
+                padding: 13px 30px;
+                min-width: 160px;
+                transition: all .2s linear;
+                position: relative;
+
+                @media #{$small-mobile}{
+                    font-size: 14px;
+                    padding: 8px 24px;
+                    min-width: 140px;
+                }
+
+                & i{
+                    font-size: 18px;
+                    margin: 0 5px;
+                    vertical-align: text-bottom;
+                }
+
+                &.active{
+                    color: $white;
+                    background: $primary;
+                    border-color: $primary;
+                    z-index: 1;
+                }
+            }
+        }
+    }
+
+    & .tab-content{
+        padding-top: 66px;
+    }
+}
+
+
+// Pricing plans 
+.pricing-plan{
+    position: relative;
+    height: 100%;
+    margin: 0 auto;
+    background-color: $white;
+    padding: 52px 25px 36px;
+    border: 2px solid #eee;
+    border-radius: 5px;
+    overflow: hidden;
+
+    &__ribbon{
+        position: absolute;
+        top: -2px;
+        right: -2px;
+        width: 88px;
+        height: 88px;
+        line-height: 88px;
+        text-align: center;
+
+        &::before {
+            position: absolute;
+            top: 0;
+            right: 0;
+            content: "";
+            width: 0;
+            height: 0;
+            border-top: 88px solid #2dd4de;
+            border-bottom: 88px solid transparent;
+            border-left: 88px solid transparent;
+        }
+
+        & span{
+            position: relative;
+            z-index: 2;
+            width: 100%;
+            height: 50%;
+            font-size: 10px;
+            font-weight: 700;
+            line-height: 14px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            display: block;
+            color: $white;
+            transform: rotate(45deg) translate(20%,15%);
+            -webkit-transform-origin: center;
+            -ms-transform-origin: center;
+            transform-origin: center;
+        }
+    }
+    &__header{
+        margin-bottom: 35px;
+    }
+    &__title{
+        font-size: 24px;
+        line-height: 1.5;
+    }
+    &__wrap{
+        display: inline-flex;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    &__currency{
+        align-self: flex-start;
+        margin-right: 3px;
+        line-height: 1;
+        font-size: 14px;
+        font-weight: 500;
+        color: #666666;
+    }
+    &__price{
+        font-size: 56px;
+        line-height: .8;
+        color: $primary;
+    }
+    &__period{
+        align-self: flex-end;
+        line-height: 1;
+        font-size: 14px;
+        font-weight: 500;
+        color: #666666;
+    }
+    &__body{}
+    &__features{
+        list-style-type: none;
+        margin: 16px auto 0;
+        padding: 0;
+        
+        & li{
+            font-size: 13px;
+            position: relative;
+            padding: 6px 0;
+        }
+    }
+    &__footer{
+        padding-top: 42px;
+    }
+    &__btn{}
+}
+
+.plan-active{
+    background-color: $primary;
+    border: 0;
+
+    & .pricing-plan{
+
+        &__header{}
+        &__title{
+            color: $white;
+        }
+        &__currency{
+            color: $white;
+        }
+        &__price{
+            color: $white;
+        }
+        &__period{
+            color: $white;
+        }
+        &__body{}
+        &__features{        
+            & li{
+                color: $white;
+            }
+        }
+        &__footer{}
+        &__btn{}
+    }
+}
+
+// Pricing plans 
+.pricing-plan-02{
+    position: relative;
+    height: 100%;
+    margin: 0 auto;
+    background-color: $white;
+    padding: 22px 25px 36px;
+    border-radius: 5px;
+    overflow: hidden;
+
+    &__ribbon{
+        position: absolute;
+        top: -2px;
+        right: -2px;
+        width: 88px;
+        height: 88px;
+        line-height: 88px;
+        text-align: center;
+
+        &::before {
+            position: absolute;
+            top: 0;
+            right: 0;
+            content: "";
+            width: 0;
+            height: 0;
+            border-top: 88px solid #2dd4de;
+            border-bottom: 88px solid transparent;
+            border-left: 88px solid transparent;
+        }
+
+        & span{
+            position: relative;
+            z-index: 2;
+            width: 100%;
+            height: 50%;
+            font-size: 10px;
+            font-weight: 700;
+            line-height: 14px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            display: block;
+            color: $white;
+            transform: rotate(45deg) translate(20%,15%);
+            -webkit-transform-origin: center;
+            -ms-transform-origin: center;
+            transform-origin: center;
+        }
+    }
+    &__header{
+        margin-bottom: 10px;
+    }
+    &__title{
+        font-size: 24px;
+        line-height: 1.5;
+        margin-bottom: 20px;
+    }
+    &__svg-icon{
+        font-size: 96px;
+        width: 162px;
+        height: 162px;
+        line-height: 142px;
+        background-color: transparent;
+        background-image: linear-gradient(135deg, #F8F8F8 30%, #FFFFFF 100%);
+        border-radius: 50%;
+        margin: 0 auto;
+
+        & svg{
+            width: 1em;
+            height: 1em;
+        }
+    }
+    &__wrap{
+        display: inline-flex;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    &__currency{
+        align-self: flex-start;
+        margin-right: 3px;
+        line-height: 1;
+        font-size: 14px;
+        font-weight: 500;
+        color: #666666;
+    }
+    &__price{
+        font-size: 48px;
+        line-height: .8;
+        color: $headings-color;
+    }
+    &__period{
+        align-self: flex-end;
+        line-height: 1;
+        font-size: 14px;
+        font-weight: 500;
+        color: #666666;
+    }
+    &__body{}
+    &__features{
+        list-style-type: none;
+        margin: 16px auto 0;
+        padding: 0;
+        
+        & li{
+            font-size: 13px;
+            position: relative;
+            padding: 6px 0;
+        }
+    }
+    &__footer{
+        padding-top: 35px;
+    }
+    &__btn{
+        min-width: 180px;
+    }
+}
+
+.plan-active-02{
+    margin: 0 -10px 0 -10px;
+
+    @media #{$tablet-device, $large-mobile}{
+        margin: 0;
+    }    
+
+    // Pricing plans 
+    & .pricing-plan-02{
+        padding: 62px 25px 76px 25px;
+        box-shadow: 0px 29px 53px 0px rgba($black, 0.08);
+        position: relative;
+        z-index: 1;
+    }
+}
+
+
+
+
+
+

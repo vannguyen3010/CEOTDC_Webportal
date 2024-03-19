@@ -1,0 +1,395 @@
+/*--
+/*  04.05 - Call To Action
+/*----------------------------------------*/
+
+// Call To Action
+.call-to-action{
+    &__wrapper{
+        max-width: 630px;
+        margin: 32px auto 0;
+        position: relative;
+
+        @media #{$large-mobile}{
+            max-width: 510px;
+        }
+    }
+    &__icon{
+        width: 64px;
+        height: 64px;
+        line-height: 64px;
+        text-align: center;
+        font-size: 24px;
+        color: $white;
+        background-color: $primary;
+        border-radius: 50%;
+        position: absolute;
+        top: -32px;
+        left: -32px;
+        z-index: 1;
+
+        @media #{$large-mobile}{
+            width: 56px;
+            height: 56px;
+            line-height: 56px;
+            left: -28px;
+            top: -28px;
+            font-size: 20px;
+        }
+        @media #{$small-mobile}{
+            left: 20px;
+        }
+    }
+    &__content{
+        background-color: #F4F9FF;
+        padding: 30px 35px;
+        border-radius: 5px;
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        @media #{$small-mobile}{
+            flex-direction: column;
+            text-align: center;
+        }
+    }
+    &__shape-01{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        border: 1px solid rgba($primary, 0.18);
+        position: absolute;
+        top: auto !important;
+        left: -50px !important;
+        bottom: -60px;
+    }
+    &__shape-02{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        border: 1px solid rgba($primary, 0.18);
+        position: absolute;
+        top: -75px !important;
+        left: auto !important;
+        right: 20px;
+    }
+    &__shape-03{
+        width: 268px;
+        height: 268px;
+        border-radius: 50%;
+        border: 1px solid rgba($primary, 0.18);
+        position: absolute;
+        top: auto !important;
+        left: auto !important;
+        right: -65px;
+        bottom: -230px;
+    }
+    &__shape-04{
+        width: 404px;
+        height: 404px;
+        border-radius: 50%;
+        border: 1px solid rgba($white, 0.3);
+        position: absolute;
+        top: -220px !important;
+        left: -195px !important;
+        z-index: -1;
+    }
+    &__shape-05{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        border: 1px solid rgba($white, 0.3);
+        position: absolute;
+        top: auto !important;
+        left: 10% !important;
+        bottom: -70px;
+        z-index: -1;
+    }
+    &__shape-06{
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+        border: 1px solid rgba($white, 0.3);
+        position: absolute;
+        top: -70px !important;
+        left: auto !important;
+        right: 10%;
+        z-index: -1;
+    }
+    &__shape-07{
+        width: 464px;
+        height: 464px;
+        border-radius: 50%;
+        border: 1px solid rgba($white, 0.3);
+        position: absolute;
+        top: auto !important;
+        left: auto !important;
+        right: -2%;
+        bottom: -230px;
+        z-index: -1;
+    }
+    &__shape-08{
+        width: 360px;
+        height: 360px;
+        border-radius: 50%;
+        background-color: #F9E0DB;
+        position: absolute;
+        top: -40px !important;
+        left: -13% !important;
+        z-index: -1;
+
+        @media #{$large-mobile}{
+            width: 120px;
+            height: 120px;
+            left: 20px;
+            top: 30%;
+        }
+    }
+    &__shape-09{
+        width: 98px;
+        height: 98px;
+        border-radius: 50%;
+        background-color: #FFC221;
+        position: absolute;
+        top: 15px !important;
+        left: 18% !important;
+        z-index: -1;
+
+        @media #{$large-mobile}{
+            width: 60px;
+            height: 60px;
+            left: 40%; 
+        }
+    }
+    &__shape-10{
+        width: 360px;
+        height: 360px;
+        border-radius: 50%;
+        background-color: #F9E0DB;
+        position: absolute;
+        top: auto !important;
+        left: auto !important;
+        right: 30px;
+        bottom: 45px;
+        z-index: -1;
+
+        @media #{$large-mobile}{
+            width: 120px;
+            height: 120px;
+        }
+    }
+    &__shape-11{
+        width: 286px;
+        height: 286px;
+        border-radius: 50%;
+        background-color: #FFC221;
+        position: absolute;
+        top: 45px !important;
+        left: auto !important;
+        right: -50px;
+        z-index: -2;
+
+        @media #{$large-mobile}{
+            width: 60px;
+            height: 60px;
+            top: 70%;
+            right: 70%;
+        }
+    }
+    &__shape-12{
+        width: 490px;
+        height: 490px;
+        border-radius: 50%;
+        background-color: rgba($primary, 0.23);
+        position: absolute;
+        top: auto !important;
+        left: auto !important;
+        right: -95px;
+        bottom: 85px;
+        z-index: -1;
+
+        @media #{$large-mobile}{
+            width: 120px;
+            height: 120px;
+        }
+    }
+    &__shape-13{
+        position: absolute;
+        top: 50% !important;
+        left: auto !important;
+        right: 5%;
+        width: 260px;
+        z-index: -1;
+        
+        @media #{$large-mobile}{
+            width: 160px;
+            top: 70%;
+            right: 30%;
+        }
+        
+        & svg{
+            width: 100%;
+            height: auto;
+            transform: rotate(136deg) scale(1, -1);
+
+            & .shape {
+                fill: #F9E0DB;
+            }
+        }
+    }
+
+    &__caption{
+        padding-right: 15px;
+    }
+    &__sub-title{
+        font-size: 14px;
+        line-height: 1.8;
+        color: $primary;
+    }
+    &__main-title{
+        font-size: 18px;
+        line-height: 1.8;
+        margin-top: 6px;
+    }
+
+    &__wrapper-02{
+        background-color: $primary;
+        padding: 45px 210px;
+        border-radius: 8px;
+        position: relative;
+        overflow: hidden;
+
+        @media #{$desktop-device}{
+            padding: 45px 80px;
+        }
+        @media #{$tablet-device, $large-mobile}{
+            padding: 45px 30px;
+        }
+    }
+    &__sub-title-02{
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 1.6;
+        color: $white;
+        margin-bottom: 10px;
+
+        @media #{$tablet-device}{
+            font-size: 18px;
+        }
+        @media #{$small-mobile}{
+            font-size: 16px;
+        }
+    }
+    &__main-title-02{
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 1.58;
+        color: $white;
+
+        @media #{$tablet-device}{
+            font-size: 22px;
+        }
+        @media #{$small-mobile}{
+            font-size: 20px;
+        }
+    }
+    &__btn{
+        @media #{$small-mobile}{
+            margin-top: 30px;
+        }
+    }
+    &__image{
+        margin-bottom: -50px;
+
+        & img{}
+    }
+
+
+    &__wrapper-03{
+        background-color: #F2F2F2;
+        padding: 16px;
+        border-radius: 8px;
+        position: relative;
+        z-index: 1;
+        overflow: hidden;
+
+        @media #{$large-mobile}{
+            padding: 50px 16px;
+        }
+    }
+    &__icon-02{}
+    &__content-02{}
+    &__btn-02{}
+
+    &__sub-title-03{
+        font-size: 16px;
+        line-height: 1.8;
+        margin-bottom: 10px;
+    }
+    &__main-title-03{
+        font-size: 23px;
+        font-weight: 700;
+        line-height: 1.5;
+
+        @media #{$tablet-device}{
+            font-size: 18px;
+        }
+        @media #{$small-mobile}{
+            font-size: 18px;
+        }
+    }
+
+
+    &__wrapper-04{
+        background-color: #E1EFFB;
+        border-radius: 8px;
+        position: relative;
+        z-index: 1;
+        overflow: hidden;
+
+        @media #{$large-mobile}{
+            padding: 50px 16px;
+        }
+    }
+    &__icon-03{
+        padding-top: 16px;
+    }
+    &__content-03{
+        padding: 16px;
+    }
+    &__btn-03{
+        padding: 16px;
+
+        @media #{$large-mobile}{
+            padding: 0;
+        }
+    }
+
+    &__sub-title-04{
+        font-size: 16px;
+        line-height: 1.8;
+        margin-bottom: 10px;
+        color: $primary;
+    }
+    &__main-title-04{
+        font-size: 23px;
+        font-weight: 700;
+        line-height: 1.5;
+
+        @media #{$tablet-device}{
+            font-size: 18px;
+        }
+        @media #{$small-mobile}{
+            font-size: 18px;
+        }
+    }
+}
+
+
+
+
+
+
+
+

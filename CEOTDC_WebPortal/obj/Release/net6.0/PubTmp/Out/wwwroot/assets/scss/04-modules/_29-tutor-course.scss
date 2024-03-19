@@ -1,0 +1,1196 @@
+/*--
+/*  04.29 - Tutor Course
+/*----------------------------------------*/
+
+// Tutor Course Top Info
+.tutor-course-top-info{
+    &__content{
+        max-width: 600px;
+    }
+    &__badges{
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 15px;
+
+        &>*{
+            margin-right: 20px;
+            &:last-child{
+                margin-right: 0;
+            }
+        }
+
+        & span{
+            display: inline-block;
+            padding: 0 7px;
+            color: $white;
+            text-align: center;
+            font-size: 11px;
+            font-weight: 700;
+            line-height: 22px;
+            height: 22px;
+            text-transform: uppercase;
+            letter-spacing: .5px;
+            border-radius: 2px;
+            min-width: 48px;
+        }
+
+        & .free {
+            background: #6cbd7e;
+        }
+        & .hot {
+            background: #d31819;
+        }
+        & .onsale {
+            background: $primary;
+        }
+
+        & .badges-category{
+            color: $primary;
+
+            &:hover{
+                color: $secondary;
+            }
+        }
+    }
+    &__title{
+        font-size: 32px;
+        font-weight: 500;
+        line-height: 1.5;
+        margin-bottom: 10px;
+
+        @media #{$desktop-device}{
+            font-size: 30px;
+        }
+        @media #{$tablet-device, $large-mobile}{
+            font-size: 28px;
+        }
+        @media #{$small-mobile}{
+            font-size: 22px;
+        }
+    }
+    &__meta{
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+
+        @media #{$small-mobile}{
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        
+        & > * {
+            position: relative;
+            padding: 0 15px;
+
+            @media #{$small-mobile}{
+                padding: 0;
+            }
+
+            &::before{
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                left: 0;
+                content: "";
+                width: 1px;
+                height: 22px;
+                background: #d9dee3;
+
+                @media #{$small-mobile}{
+                    display: none;
+                }
+            }
+
+            &:first-child{
+                padding-left: 0;
+
+                &::before{
+                    display: none;
+                }
+            }
+            &:last-child{
+                padding-right: 0;
+            }
+        }
+    }
+    &__meta-instructor{
+        position: relative;
+        display: inline-flex;
+        align-items: center;
+
+        & .instructor-avatar{
+            & img{
+                display: block;
+                width: 36px;
+                border-radius: 50%;
+                border: 2px solid $white;
+            }
+        }
+        & .instructor-name{
+            line-height: 36px;
+            font-size: 14px;
+            font-weight: 700;
+            color: $headings-color;
+            padding-left: 10px;
+        }
+    }
+    &__meta-update{
+        line-height: 36px;
+    }
+    &__meta-rating{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+
+        & .rating-average{
+            margin-right: 13px;
+            font-size: 16px;
+            font-weight: 500;
+            color: $headings-color;
+
+            & strong{
+                font-weight: 700;
+            }
+        }
+        & .rating-star{
+            display: inline-block;
+            position: relative;
+
+            &::before{
+                content: '\f005 \f005 \f005 \f005 \f005';
+                font-family: "Font Awesome 5 Pro";
+                font-weight: 900;
+                font-size: 14px;
+                color: #ccc;
+                letter-spacing: 2px;
+            }
+        }
+        & .rating-label{
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            overflow: hidden;
+
+            &::before{
+                content: '\f005 \f005 \f005 \f005 \f005';
+                font-family: "Font Awesome 5 Pro";
+                font-weight: 900;
+                font-size: 14px;
+                color: #f7c04d;
+                letter-spacing: 2px;
+            }
+        }
+        & .rating-count{
+            font-size: 13px;
+            color: #666666;
+            margin-left: 5px;
+        }
+    }
+    &__meta-action{
+        line-height: 36px;
+        font-size: 13px;
+        font-weight: 500;
+        color: #7e7e7e;
+
+        & i{
+            margin-right: 14px;
+            font-size: 14px;
+        }
+    }
+    &__btn{
+        padding-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 24px;
+
+        &>*{
+            margin-right: 24px;
+
+            @media #{$small-mobile}{
+                margin-right: 16px;
+            }
+
+            &:last-child{
+                margin-right: 0;
+            }
+        }
+
+        & .btn{
+            font-weight: 700;
+            min-width: 200px;
+
+            & i{
+                margin-right: 8px;
+            }
+        }
+        & .btn-wishlist{
+            font-size: 15px;
+            font-weight: 700;
+            height: 52px;
+            line-height: 52px;
+            color: $primary;
+            display: inline-flex;
+            align-items: center;
+
+            & i{
+                font-size: 24px;
+                margin-right: 10px;
+                flex-shrink: 0;
+            }
+            & span{
+                flex-grow: 1;
+            }
+
+            &:hover{
+                color: $secondary;
+            }
+        }
+    }
+    &__video{
+        overflow: hidden;
+        border: 7px solid $white;
+        border-radius: 15px;
+        box-shadow: 1px 0 30px rgba($black,.38);
+    }
+    &__video-02{
+        overflow: hidden;
+        border-radius: 5px;
+    }
+}
+
+
+// Tutor Course Main content
+.tutor-course-main-content{}
+
+// Tutor Course Main Segment
+.tutor-course-main-segment{}
+
+// Tutor Course Segment
+.tutor-course-segment{
+
+    & + .tutor-course-segment{
+        margin-top: 45px;
+    }
+
+    &__title{
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.6;
+        margin-bottom: 12px;
+
+        @media #{$small-mobile}{
+            font-size: 18px;
+        }
+
+        & .count{
+            font-size: 14px;
+            font-weight: 500;
+            color: #666666;
+        }
+    }
+    &__prerequisites-warning{
+        padding: 13px 20px 13px 58px;
+        border: 1px solid #f7e5b9;
+        border-radius: 4px;
+        font-weight: 500;
+        background: #fffff5;
+        color: #b39f70;
+        position: relative;
+
+        & i{
+            position: absolute;
+            left: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 16px;
+        }
+    }
+    &__prerequisites-list{
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+
+        & li{
+            margin-top: 20px;
+        }
+    }
+
+    &__content-wrap{}
+    
+    &__tags{
+        display: flex;
+        margin-top: 16px;
+
+        &>*{
+            margin-right: 11px;
+
+            &:last-child{
+                margin-right: 0;
+            }
+        }
+    }
+    &__tags-title{
+        flex-shrink: 0;
+
+        & i{
+            display: inline-block;
+            vertical-align: middle;
+            font-size: 18px;
+            color: $headings-color;
+        }
+    }
+    &__tags-list{
+        flex-grow: 1;
+        display: flex;
+        flex-wrap: wrap;
+        vertical-align: middle;
+        color: #666666;
+        font-weight: 500;
+
+        &>*{
+            margin-right: 5px;
+            margin-top: 2px;
+        }
+
+        & a{}
+    }
+
+    
+    &__benefits-items{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -20px;
+        padding-top: 5px;
+    }
+
+    &__benefit-item{
+        margin: 0 0 12px;
+        width: 50%;
+        padding: 0 20px;
+
+        @media #{$large-mobile}{
+            width: 100%;
+        }
+    }
+    &__benefit-content{
+        position: relative;
+        padding-left: 31px;
+
+        & i{
+            position: absolute;
+            top: 2px;
+            left: 0;
+            display: inline-flex;            
+            align-items: center;            
+            justify-content: center;
+            font-size: 11px;
+            width: 21px;
+            height: 21px;
+            color: #6cbd7e;
+            border: 1px solid #eee;
+            border-radius: 50%;
+        }
+        & .benefit-text{
+            font-weight: 500;
+        }
+    }
+
+    &__requirements-content{}
+    &__audience-content{}
+
+    &__list-style-01{
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    
+        & li{
+            padding-left: 25px;
+            position: relative;
+            line-height: 26px;
+    
+            & + li{
+                margin-top: 10px;
+            }
+    
+            &::before{
+                content: "\f00c";
+                position: absolute;
+                left: 0;
+                color: $primary;
+                font-family: "Font Awesome 5 Pro";
+                font-weight: 700;
+            }
+        }
+    }
+    &__list-style-02{
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        padding-left: 20px;
+    
+        & li{
+            padding-left: 25px;
+            position: relative;
+            line-height: 26px;
+    
+            & + li{
+                margin-top: 10px;
+            }
+    
+            &::before{
+                content: "\f30b";
+                position: absolute;
+                left: 0;
+                color: $body-color;
+                font-family: "Font Awesome 5 Pro";
+                font-weight: 400;
+            }
+        }
+    }
+    
+    &__header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 12px;
+    }
+    &__lessons-duration{
+        display: flex;
+        margin-bottom: 12px;
+
+        &>*{
+            margin-right: 45px;
+
+            &:last-child{
+                margin-right: 0;
+            }
+
+            @media #{$small-mobile}{
+                margin-right: 20px;
+            }
+        }
+
+        & span{
+            white-space: nowrap;
+        }
+    }
+    &__lessons{
+        font-weight: 500;
+    }
+    &__duration{}
+
+    &__instructor{
+        padding-top: 8px;
+    }
+
+    &__feedback{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        padding-top: 10px;
+    }
+    &__reviews-average{
+        width: 200px;
+        height: 190px;
+        padding: 20px;
+        flex-shrink: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        background: $white;
+        box-shadow: 0 0 20px rgba(51,51,51,.1);
+        margin-right: 40px;
+
+        @media #{$small-mobile}{
+            margin-right: 20px;
+        }
+
+        @media #{$small-mobile}{
+            width: 140px;
+            height: 150px;
+            padding: 15px;
+        }
+
+        & .count{
+            font-size: 40px;
+            font-weight: 500;
+            color: $primary;
+            line-height: 1.2;
+            margin: 0 0 8px;
+
+            @media #{$small-mobile}{
+                font-size: 36px;
+            }
+        }
+
+        & .rating-star{
+            display: inline-block;
+            position: relative;
+            margin-bottom: 4px;
+
+            &::before{
+                content: '\f005 \f005 \f005 \f005 \f005';
+                font-family: "Font Awesome 5 Pro";
+                font-weight: 900;
+                font-size: 16px;
+                color: #ccc;
+                letter-spacing: 2px;
+
+                @media #{$small-mobile}{
+                    font-size: 12px;
+                }
+            }
+        }
+        & .rating-label{
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            overflow: hidden;
+
+            &::before{
+                content: '\f005 \f005 \f005 \f005 \f005';
+                font-family: "Font Awesome 5 Pro";
+                font-weight: 900;
+                font-size: 16px;
+                color: #f7c04d;
+                letter-spacing: 2px;
+
+                @media #{$small-mobile}{
+                    font-size: 12px;
+                }
+            }
+        }
+        & .rating-total{}
+    }
+    &__reviews-metar{
+        flex-grow: 1;
+        margin: 10px 0;
+
+        & .course-rating-metar{
+            display: flex;
+            align-items: center;
+            margin: 4px 0;
+
+            @media #{$small-mobile}{
+                margin: 2px 0;
+            }
+        }
+
+        & .rating-metar-star{}
+        & .rating-metar-col{
+            margin: 0 13px 0 20px;
+            flex: 1;
+        }
+        & .rating-metar-text{
+            font-size: 13px;
+            font-weight: 500;
+            color: #666666;
+            min-width: 38px;
+        }
+
+        & .rating-star{
+            display: inline-block;
+            position: relative;
+            margin-bottom: 4px;
+
+            &::before{
+                content: '\f005 \f005 \f005 \f005 \f005';
+                font-family: "Font Awesome 5 Pro";
+                font-weight: 900;
+                font-size: 12px;
+                color: #ccc;
+                letter-spacing: 2px;
+            }
+        }
+        & .rating-label{
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            overflow: hidden;
+
+            &::before{
+                content: '\f005 \f005 \f005 \f005 \f005';
+                font-family: "Font Awesome 5 Pro";
+                font-weight: 900;
+                font-size: 12px;
+                color: #f7c04d;
+                letter-spacing: 2px;
+            }
+        }
+        & .rating-metar-bar{
+            height: 6px;
+            background: #eee;
+            border-radius: 3px;
+            min-width: 100px;
+            width: 100%;
+            overflow: hidden;
+        }
+        & .rating-metar-line{
+            height: 100%;
+            border-radius: inherit;
+            background: $primary;
+        }
+    }
+
+    &__review-commnet{
+        padding-top: 4px;
+    }
+
+    &__reviews{
+        padding-top: 8px;
+    }
+}
+
+// Tutor Course Wrapper 
+.tutor-course-wrap{
+    background: $white;
+    border: 0 !important;
+    border-radius: 5px;
+    padding: 23px 30px 30px;
+
+    & + .tutor-course-wrap{
+        margin-top: 10px;
+    }
+}
+
+// Prerequisites Item
+.prerequisites-item{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    color: $headings-color;
+    font-weight: 400;
+    border: 1px solid #ededed;
+    border-radius: 5px;
+    padding: 13px 15px;
+
+    @media #{$small-mobile}{
+        padding: 8px 10px;
+        font-size: 13px;
+    }
+
+    &__thumbnail{
+        & img{
+            width: 70px;
+            border-radius: 5px;
+            height: auto;
+            margin: 0 !important;
+            box-shadow: 0 0 1px rgba($black, 0.08);
+        }
+    }
+    &__title{
+        flex-grow: 1;
+        padding-left: 15px;
+        transition: $transition-base;
+    }
+}
+
+// Benefits Wrapper
+.benefits-wrap{
+    border: 1px solid #eee;
+    border-radius: 5px;
+    padding: 11px 30px 12px;
+    
+    @media #{$small-mobile}{
+        padding: 11px 20px 12px;
+    }
+}
+
+// Audience Wrapper
+.audience-wrap{
+    border-bottom: 1px solid #eee;
+    padding-bottom: 32px;
+}
+
+// Course Curriculum
+.course-curriculum{
+
+    & .accordion-item{
+        border: 1px solid #eee;
+        border-radius: 5px;
+        overflow: hidden;
+        margin-bottom: 0;
+
+        & + .accordion-item{
+            margin-top: 15px;
+        }
+    }
+    & .accordion-button{
+        padding: 17px 30px;
+        font-size: 15px;
+        line-height: 26px;
+        color: $primary;
+        font-weight: 500;
+        box-shadow: none;
+
+        @media #{$small-mobile}{
+            padding: 12px 20px;
+        }
+
+        &::after{
+            display: none;
+        }
+
+        & .tutor-icon{
+            position: relative;
+            font-size: 16px;
+            margin-right: 10px;
+
+            &::before{
+                content: "\f067";
+                position: relative;
+                font-family: Font Awesome\ 5 Pro;
+                font-weight: 400;
+                font-style: normal;
+                transition: $transition-base;
+            }
+        }
+
+        &:not(.collapsed){
+            background-color: transparent;
+
+            & .tutor-icon{
+                &::before{
+                    content: "\f068";
+                }
+            }
+        }
+    }
+    & .accordion-collapse{}
+
+    &__lessons{}
+    &__lesson{
+        display: flex;
+        color: $body-color;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 28px;
+        padding: 10px 30px;
+
+        @media #{$small-mobile}{
+            padding: 8px 20px;
+        }
+
+        &:nth-child(odd) {
+            background: #f8f8f8;
+        }
+    }
+    &__title{
+        flex: 1 0 0;
+        padding-left: 18px;
+        position: relative;
+
+        & i{
+            color: #666666;
+            position: absolute;
+            top: 7px;
+            left: 0;
+        }
+    }
+    &__icon{
+        & i{
+            margin-left: 15px;
+            line-height: inherit;
+            color: #666666;
+        }
+    }
+}
+
+// tutor instructor
+.tutor-instructor{
+    display: flex;
+    
+    &__avatar{
+        flex-shrink: 0;
+        width: 200px;
+
+        @media #{$small-mobile}{
+            width: 100px;
+        }
+
+        & img{
+            border-radius: 5px;
+        }
+    }
+    &__instructor-info{
+        flex-grow: 1;
+        padding-left: 30px;
+
+        @media #{$small-mobile}{
+            padding-left: 15px;
+        }
+    }
+    &__name{
+        font-size: 18px;
+        font-weight: 700;
+        margin-bottom: 6px;
+
+        @media #{$small-mobile}{
+            font-size: 16px;
+        }
+    }
+    &__ratings{
+        display: flex;
+        align-items: center;
+        margin-top: 6px;
+        
+        & .rating-star{
+            display: inline-block;
+            position: relative;
+            margin-right: 5px;
+
+            &::before{
+                content: '\f005 \f005 \f005 \f005 \f005';
+                font-family: "Font Awesome 5 Pro";
+                font-weight: 400;
+                font-size: 14px;
+                color: #f7c04d;
+                letter-spacing: 2px;
+            }
+        }
+        & .rating-label{
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            overflow: hidden;
+
+            &::before{
+                content: '\f005 \f005 \f005 \f005 \f005';
+                font-family: "Font Awesome 5 Pro";
+                font-weight: 900;
+                font-size: 14px;
+                color: #f7c04d;
+                letter-spacing: 2px;
+            }
+        }
+
+        & .rating-average{
+            display: flex;
+            color: $body-color;
+            align-items: flex-end;
+
+            &__average{
+                color: $headings-color;
+                margin-right: 5px;
+            }
+        } 
+    }
+    &__meta{
+        color: #7e7e7e;
+        display: flex;
+        flex-wrap: wrap;
+
+        &>*{
+            margin-right: 20px;
+            margin-top: 10px;
+
+            &:last-child{
+                margin-right: 0;
+            }
+        }
+
+        & span{
+            white-space: nowrap;
+            display: block;
+            line-height: 1.3;
+            position: relative;
+            font-size: 13px;
+
+            & i{
+                margin-right: 3px;
+                font-size: 14px;
+            }
+        }
+    }
+    &__link{
+        color: $primary;
+        margin-top: 16px;
+
+        & i{
+
+        }
+
+        &:hover{
+            color: $secondary;
+        }
+    }
+}
+
+// Tutor Course Sidebar
+.tutor-course-sidebar{
+    max-width: 340px;
+    width: 100%;
+    margin-left: auto;
+    transform: translateY(-368px);
+
+    @media #{$tablet-device, $large-mobile}{
+        transform: translateY(0);
+        max-width: 100%;
+    }
+
+    & > * {
+        margin-top: 20px;
+        
+        &:first-child{
+            margin-top: 0;
+        }
+    }
+}
+
+.is_stuck{
+    & .tutor-course-sidebar{
+        transform: translateY(0px);
+    }
+}
+.sidebar-label{
+    transform: translateY(0px);
+
+    & > * {
+        margin-top: 10px;
+        
+        &:first-child{
+            margin-top: 0;
+        }
+    }
+}
+
+// Tutor Course Price Preview
+.tutor-course-price-preview{
+    border-radius: 5px;
+    border: 1px solid #eee;
+    background: $white;
+    box-shadow: 0 0 30px rgba($black, 0.05);
+    padding: 30px;
+    overflow: visible;
+
+    @media #{$small-mobile}{
+        padding: 20px;
+    }
+
+    &__thumbnail{
+        margin: -31px -31px 28px;
+        border-radius: 5px 5px 0 0;
+        overflow: hidden;
+
+        @media #{$small-mobile}{
+            margin: -21px -21px 20px;
+        }
+    }
+    &__price{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        margin-bottom: 16px;
+
+        &>*{
+            margin-right: 10px;
+
+            &:last-child{
+                margin-right: 0;
+            }
+        }
+    }
+    &__meta{
+        margin-bottom: 14px;
+    }
+    &__btn{
+        padding-top: 10px;
+
+        & .btn{
+            margin-top: 15px;
+            font-weight: 700;
+            
+            @media #{$extraBig-device}{
+                height: 60px;
+                line-height: 60px;
+            }
+
+            & i{
+                margin-right: 8px;
+            }
+        }
+    }
+    &__social{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+
+        & a{
+            padding: 0 13px;
+            font-size: 20px;
+            color: #9aa5b3;
+
+            &:hover{
+                color: $primary;
+            }
+        }
+    }
+}
+
+// Tutor Course Price 
+.tutor-course-price{
+    display: flex;
+    align-items: flex-end;
+
+    &>*{
+        margin-right: 18px;
+
+        @media #{$small-mobile}{
+            margin-right: 15px;
+        }
+
+        &:last-child{
+            margin-right: 0;
+        }
+    }
+
+    & .sale-price{
+        font-size: 34px;
+        line-height: 34px;
+        font-weight: 700;
+        color: #d31819;
+
+        @media #{$small-mobile}{
+            font-size: 24px;
+        }
+
+        & .separator{
+            font-size: 70%;
+        }
+    }
+    & .regular-price{
+        font-size: 15px;
+        font-weight: 500;
+        color: #666666;
+        text-decoration: line-through;
+
+        @media #{$small-mobile}{
+            font-size: 13px;
+        }
+
+        & .separator{
+            font-size: 70%;
+        }
+    }
+}
+
+// Tutor Course Price Badge
+.tutor-course-price-badge{
+    display: inline-block;
+    border: 2px solid #eee;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    padding: 0 10px;
+    text-align: center;
+    min-width: 84px;
+    color: $primary;
+}
+
+// Tutor Course Meta List
+.tutor-course-meta-list{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+
+    & li{
+        display: flex;
+        align-items: center;
+        padding: 11px 0;
+
+        & + li{
+            border-top: 1px solid #eee;
+        }
+
+        & .label{
+            color: $headings-color;
+            font-weight: 400;
+            flex-grow: 1;
+
+            & i{
+                min-width: 20px;
+                font-size: 15px;
+                line-height: 1;
+                margin-right: 4px;
+                color: $body-color;
+            }
+        }
+        & .value{
+            font-weight: 1;
+            text-align: right;
+            flex-grow: 1;
+        }
+    }
+}
+
+// Tutor Course Tabs  
+.tutor-course-tabs{
+    & .nav{
+        & li{
+            & button{
+                border: 0;
+                background: none;
+                padding: 0;
+                display: block;
+                font-size: 13px;
+                font-weight: 400;
+                padding: 12px 13px;
+                color: #9d9d9d;
+                border-bottom: 2px solid transparent;
+                transition: $transition-base;
+
+                &.active{
+                    border-color: $primary;
+                    color: $primary;
+                }
+            }
+        }
+    }
+}
+// Tutor Course Tabs 02
+.tutor-course-tabs-02{
+    border-radius: 5px;
+    
+    & .nav{
+        padding: 8px 0;
+
+        & li{
+            padding: 0 2px;
+            
+            & button{
+                border: 0;
+                border-bottom: 0;
+                padding: 6px 17px;
+                border-radius: 3px;
+
+                &.active{
+                    color: $primary;
+                    background: $white;
+                    box-shadow: 0 0 5px rgba(0,0,0,.1);
+                }
+
+                &:hover{
+                    color: $primary;
+                    background: $white;
+                    box-shadow: 0 0 5px rgba(0,0,0,.1);
+                }
+            }
+        }
+    }
+}
+
+.course-main-sticky{
+    position: sticky;
+    top: 130px;
+
+}
+

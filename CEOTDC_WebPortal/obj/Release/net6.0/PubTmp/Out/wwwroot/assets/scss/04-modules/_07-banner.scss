@@ -1,0 +1,227 @@
+/*--
+/*  04.07 - Banner
+/*----------------------------------------*/
+
+
+// Banner Section 
+.banner-section{}
+
+// Banner Box 
+.banner-box{
+    padding: 30px;
+    padding-bottom: 0;
+    border-radius: 8px;
+    overflow: hidden;
+}
+// Banner Big Box 
+.banner-big-box{
+    padding: 0px 0px 0px 85px;
+    overflow: hidden;
+    border-radius: 8px;
+    position: relative;
+    z-index: 1;
+
+    @media #{$desktop-device, $tablet-device, $large-mobile}{
+        padding: 0px 0px 0px 15px;
+    }
+
+    &__arrow{
+        position: absolute;
+        left: 36px;
+        bottom: 54px;
+
+        @media #{$desktop-device, $tablet-device, $large-mobile}{
+            display: none;
+        }
+    }
+
+    &__image{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 60%;
+        height: 100%;
+        background-position: bottom right;
+        background-repeat: no-repeat;
+        z-index: -1;
+        
+        @media #{$laptop-device}{
+            background-size: cover;
+        }
+        @media #{$desktop-device, $tablet-device}{
+            width: 55%;
+            background-position: center center;
+            background-size: cover;
+        }
+        @media #{$large-mobile}{
+            width: 30%;
+            background-position: 35% center;
+            background-size: cover;
+        }
+        @media #{$small-mobile}{
+            display: none;
+        }
+    }
+}
+
+.banner-bg-1{
+    background-color: #F6F3ED;
+}
+.banner-bg-2{
+    background-color: #EEF0F4;
+}
+.banner-bg-3{
+    background-color: #EDEDED;
+}
+.banner-bg-4{
+    background-color: #F2F2F2;
+}
+
+// Banner Caption 
+.banner-caption{
+    padding: 15px 15px 45px;
+
+    @media #{$small-mobile}{
+        padding: 0;
+    }
+
+    &__title{
+        font-size: 20px;
+        line-height: 1.8;
+        margin-top: -8px;
+    }
+    & p{
+        margin-top: 5px;
+        margin-bottom: 0;
+    }
+    &__btn{
+        margin-top: 26px;
+        height: 42px;
+        line-height: 42px;
+        padding: 0 16px;
+        font-size: 14px;
+    }
+}
+
+// Banner Image
+.banner-image{
+    position: relative;
+    text-align: right;
+    overflow: hidden;
+
+    @media #{$large-mobile}{
+        text-align: center;
+    }
+
+    &.banner-position{
+        margin-right: -30px;
+    }
+    &.banner-position-02{
+        margin-right: -16px;
+
+        @media #{$large-mobile}{
+            margin-right: 0;
+        }
+    }
+}
+
+// Banner Caption 02
+.banner-caption-02{
+    padding: 15px 15px 45px;
+
+    @media #{$small-mobile}{
+        padding: 0;
+    }
+
+    &__sub-title{
+        font-size: 14px;
+        line-height: 1.2;
+        color: $primary;
+        margin-bottom: 2px;
+    }
+    &__title{
+        font-size: 24px;
+        line-height: 1.5;
+
+        @media #{$desktop-device}{
+            font-size: 20px;
+        }
+        @media #{$small-mobile}{
+            font-size: 20px;
+        }
+    }
+    &__btn{
+        margin-top: 26px;
+        height: 42px;
+        line-height: 42px;
+        padding: 0 16px;
+        font-size: 14px;
+    }
+}
+
+// Banner Video
+.banner-video{
+    & a{
+        display: block;
+        position: relative;
+        border: 7px solid $white;
+        border-radius: 10px;
+        box-shadow: 0px 3px 30px 0px rgba($black, 0.3);
+        max-width: 254px;
+        margin: 0 auto 30px;
+    }
+
+    &__image{
+        & img{
+            border-radius: 5px;
+        }
+    }
+    &__btn{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+// Banner Caption 03
+.banner-caption-03{
+    max-width: 470px;
+    padding: 42px 15px;
+
+    @media #{$tablet-device}{
+        max-width: 320px;
+    }
+
+    &__title{
+        font-size: 24px;
+        line-height: 1.5;
+
+        @media #{$small-mobile}{
+            font-size: 20px;
+        }
+    }
+    & p{
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+    &__btn{
+        margin-top: 22px;
+        height: 42px;
+        line-height: 42px;
+        padding: 0 22px;
+        font-size: 14px;
+    }
+}
+
+// Banner Item
+.banner-item{
+    & a{
+        display: block;
+
+        & img{
+            width: 100%;
+            border-radius: 5px;
+        }
+    }
+}

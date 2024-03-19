@@ -1,0 +1,83 @@
+/*--
+/*  04.08 - Partners
+/*----------------------------------------*/
+
+// Partner Logo Wrapper
+.partner-logo-wrapper{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+
+    @media #{$large-mobile}{
+        grid-template-columns: repeat(4, 1fr);
+    }
+    @media #{$small-mobile}{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+// Partner Logo Wrapper
+.partner-logo-wrapper-02{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+
+    @media #{$small-mobile}{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+// Partner Logo 
+.partner-logo{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+    &__logo{}
+}
+
+// Client Logo 
+.client-title{
+    &__title{
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 1.6;
+        color: $headings-color;
+
+        & span{
+            color: $primary;
+        }
+    }
+}
+
+// Client Logo
+.client-logo-section{
+    padding-bottom: 54px;
+}
+.client-logo{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+
+    @media #{$tablet-device, $large-mobile}{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    @media #{$small-mobile}{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+// Client Logo Item
+.client-logo-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    &__logo{
+        opacity: 0.23;
+        transition: $transition-base; 
+    }
+}

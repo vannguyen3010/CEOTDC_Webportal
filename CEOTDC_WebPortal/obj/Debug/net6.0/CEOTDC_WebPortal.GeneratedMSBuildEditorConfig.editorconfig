@@ -1,0 +1,217 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = CEOTDC_WebPortal
+build_property.RootNamespace = CEOTDC_WebPortal
+build_property.ProjectDir = F:\dotnet.core\Working\CEOTDC_WebPortal\CEOTDC_WebPortal\CEOTDC_WebPortal\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = F:\dotnet.core\Working\CEOTDC_WebPortal\CEOTDC_WebPortal\CEOTDC_WebPortal
+build_property._RazorSourceGeneratorDebug = 
+
+[F:/dotnet.core/Working/CEOTDC_WebPortal/CEOTDC_WebPortal/CEOTDC_WebPortal/Views/Activity/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0aXZpdHlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/dotnet.core/Working/CEOTDC_WebPortal/CEOTDC_WebPortal/CEOTDC_WebPortal/Views/Contact/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/dotnet.core/Working/CEOTDC_WebPortal/CEOTDC_WebPortal/CEOTDC_WebPortal/Views/Error/400.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JcNDAwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/dotnet.core/Working/CEOTDC_WebPortal/CEOTDC_WebPortal/CEOTDC_WebPortal/Views/Error/404.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JcNDA0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/dotnet.core/Working/CEOTDC_WebPortal/CEOTDC_WebPortal/CEOTDC_WebPortal/Views/Error/408.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JcNDA4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/dotnet.core/Working/CEOTDC_WebPortal/CEOTDC_WebPortal/CEOTDC_WebPortal/Views/Error/500.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JcNTAwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/dotnet.core/Working/CEOTDC_WebPortal/CEOTDC_WebPortal/CEOTDC_WebPortal/Views/Error/503.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JcNTAzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/dotnet.core/Working/CEOTDC_WebPortal/CEOTDC_WebPortal/CEOTDC_WebPortal/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/dotnet.core/Working/CEOTDC_WebPortal/CEOTDC_WebPortal/CEOTDC_WebPortal/Views/Home/P_AboutUs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQX0Fib3V0VXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/dotnet.core/Working/CEOTDC_WebPortal/CEOTDC_WebPortal/CEOTDC_WebPortal/Views/Home/P_Activity.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQX0FjdGl2aXR5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/dotnet.core/Working/CEOTDC_WebPortal/CEOTDC_WebPortal/CEOTDC_WebPortal/Views/Home/P_BannerMid.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQX0Jhbm5lck1pZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/dotnet.core/Working/CEOTDC_WebPortal/CEOTDC_WebPortal/CEOTDC_WebPortal/Views/Home/P_BannerPartner.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQX0Jhbm5lclBhcnRuZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/dotnet.core/Working/CEOTDC_WebPortal/CEOTDC_WebPortal/CEOTDC_WebPortal/Views/Home/P_BannerTop.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQX0Jhbm5lclRvcC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/dotnet.core/Working/CEOTDC_WebPortal/CEOTDC_WebPortal/CEOTDC_WebPortal/Views/Home/P_Benefit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQX0JlbmVmaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/dotnet.core/Working/CEOTDC_WebPortal/CEOTDC_WebPortal/CEOTDC_WebPortal/Views/Home/P_BreadCrumb.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQX0JyZWFkQ3J1bWIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/dotnet.core/Working/CEOTDC_WebPortal/CEOTDC_WebPortal/CEOTDC_WebPortal/Views/Home/P_Field.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQX0ZpZWxkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/dotnet.core/Working/CEOTDC_WebPortal/CEOTDC_WebPortal/CEOTDC_WebPortal/Views/Home/P_Footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQX0Zvb3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/dotnet.core/Working/CEOTDC_WebPortal/CEOTDC_WebPortal/CEOTDC_WebPortal/Views/Home/P_Header.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQX0hlYWRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/dotnet.core/Working/CEOTDC_WebPortal/CEOTDC_WebPortal/CEOTDC_WebPortal/Views/Home/P_Introduce.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQX0ludHJvZHVjZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/dotnet.core/Working/CEOTDC_WebPortal/CEOTDC_WebPortal/CEOTDC_WebPortal/Views/Home/P_Mobile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQX01vYmlsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/dotnet.core/Working/CEOTDC_WebPortal/CEOTDC_WebPortal/CEOTDC_WebPortal/Views/Home/P_News.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQX05ld3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/dotnet.core/Working/CEOTDC_WebPortal/CEOTDC_WebPortal/CEOTDC_WebPortal/Views/Home/P_Partner.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQX1BhcnRuZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/dotnet.core/Working/CEOTDC_WebPortal/CEOTDC_WebPortal/CEOTDC_WebPortal/Views/Home/P_Scripts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQX1NjcmlwdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/dotnet.core/Working/CEOTDC_WebPortal/CEOTDC_WebPortal/CEOTDC_WebPortal/Views/Home/P_ScrollToTop.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQX1Njcm9sbFRvVG9wLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/dotnet.core/Working/CEOTDC_WebPortal/CEOTDC_WebPortal/CEOTDC_WebPortal/Views/Home/P_Styles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQX1N0eWxlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/dotnet.core/Working/CEOTDC_WebPortal/CEOTDC_WebPortal/CEOTDC_WebPortal/Views/Home/P_VisionAndMission.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQX1Zpc2lvbkFuZE1pc3Npb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/dotnet.core/Working/CEOTDC_WebPortal/CEOTDC_WebPortal/CEOTDC_WebPortal/Views/Introduce/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW50cm9kdWNlXERldGFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/dotnet.core/Working/CEOTDC_WebPortal/CEOTDC_WebPortal/CEOTDC_WebPortal/Views/Introduce/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW50cm9kdWNlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/dotnet.core/Working/CEOTDC_WebPortal/CEOTDC_WebPortal/CEOTDC_WebPortal/Views/Introduce/Organizational.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW50cm9kdWNlXE9yZ2FuaXphdGlvbmFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/dotnet.core/Working/CEOTDC_WebPortal/CEOTDC_WebPortal/CEOTDC_WebPortal/Views/Introduce/P_Modal_Detail_Person.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW50cm9kdWNlXFBfTW9kYWxfRGV0YWlsX1BlcnNvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/dotnet.core/Working/CEOTDC_WebPortal/CEOTDC_WebPortal/CEOTDC_WebPortal/Views/Library/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicmFyeVxEZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/dotnet.core/Working/CEOTDC_WebPortal/CEOTDC_WebPortal/CEOTDC_WebPortal/Views/Library/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicmFyeVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/dotnet.core/Working/CEOTDC_WebPortal/CEOTDC_WebPortal/CEOTDC_WebPortal/Views/Member/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/dotnet.core/Working/CEOTDC_WebPortal/CEOTDC_WebPortal/CEOTDC_WebPortal/Views/Member/P_Modal_Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyXFBfTW9kYWxfRGV0YWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/dotnet.core/Working/CEOTDC_WebPortal/CEOTDC_WebPortal/CEOTDC_WebPortal/Views/News/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c1xEZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/dotnet.core/Working/CEOTDC_WebPortal/CEOTDC_WebPortal/CEOTDC_WebPortal/Views/News/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/dotnet.core/Working/CEOTDC_WebPortal/CEOTDC_WebPortal/CEOTDC_WebPortal/Views/NoData/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm9EYXRhXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/dotnet.core/Working/CEOTDC_WebPortal/CEOTDC_WebPortal/CEOTDC_WebPortal/Views/Service/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZVxEZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/dotnet.core/Working/CEOTDC_WebPortal/CEOTDC_WebPortal/CEOTDC_WebPortal/Views/Service/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/dotnet.core/Working/CEOTDC_WebPortal/CEOTDC_WebPortal/CEOTDC_WebPortal/Views/Shared/P_BreadCrumb.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBfQnJlYWRDcnVtYi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/dotnet.core/Working/CEOTDC_WebPortal/CEOTDC_WebPortal/CEOTDC_WebPortal/Views/Shared/P_Footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBfRm9vdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/dotnet.core/Working/CEOTDC_WebPortal/CEOTDC_WebPortal/CEOTDC_WebPortal/Views/Shared/P_Header.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBfSGVhZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/dotnet.core/Working/CEOTDC_WebPortal/CEOTDC_WebPortal/CEOTDC_WebPortal/Views/Shared/P_Mobile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBfTW9iaWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/dotnet.core/Working/CEOTDC_WebPortal/CEOTDC_WebPortal/CEOTDC_WebPortal/Views/Shared/P_Scripts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBfU2NyaXB0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/dotnet.core/Working/CEOTDC_WebPortal/CEOTDC_WebPortal/CEOTDC_WebPortal/Views/Shared/P_ScrollToTop.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBfU2Nyb2xsVG9Ub3AuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/dotnet.core/Working/CEOTDC_WebPortal/CEOTDC_WebPortal/CEOTDC_WebPortal/Views/Shared/P_Styles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBfU3R5bGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/dotnet.core/Working/CEOTDC_WebPortal/CEOTDC_WebPortal/CEOTDC_WebPortal/Views/Shared/_LayoutMaster.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRNYXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/dotnet.core/Working/CEOTDC_WebPortal/CEOTDC_WebPortal/CEOTDC_WebPortal/Views/Shared/_P_BannerPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QX0Jhbm5lclBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/dotnet.core/Working/CEOTDC_WebPortal/CEOTDC_WebPortal/CEOTDC_WebPortal/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/dotnet.core/Working/CEOTDC_WebPortal/CEOTDC_WebPortal/CEOTDC_WebPortal/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

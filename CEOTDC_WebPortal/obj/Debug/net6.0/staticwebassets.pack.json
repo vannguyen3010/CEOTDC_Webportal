@@ -1,0 +1,3065 @@
+{
+  "Files": [
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\css\\plugins\\aos.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\aos.css"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\css\\plugins\\flatpickr.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\flatpickr.min.css"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\css\\plugins\\glightbox.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\glightbox.min.css"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\css\\plugins\\ion.rangeSlider.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\ion.rangeSlider.min.css"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\css\\plugins\\jquery.powertip.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\jquery.powertip.min.css"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\css\\plugins\\perfect-scrollbar.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\perfect-scrollbar.css"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\css\\plugins\\select2.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\select2.min.css"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\css\\plugins\\swiper-bundle.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\swiper-bundle.min.css"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\assets\\css\\style.css"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\css\\style.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\style.min.css"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\css\\vendor\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\vendor\\bootstrap.min.css"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\css\\vendor\\edumall-icon.css",
+      "PackagePath": "staticwebassets\\assets\\css\\vendor\\edumall-icon.css"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\css\\vendor\\fontawesome-all.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\vendor\\fontawesome-all.min.css"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\fonts\\edumi\\Edumall.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\edumi\\Edumall.eot"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\fonts\\edumi\\Edumall.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\edumi\\Edumall.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\fonts\\edumi\\Edumall.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\edumi\\Edumall.ttf"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\fonts\\edumi\\Edumall.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\edumi\\Edumall.woff"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\fonts\\edumi\\selection.json",
+      "PackagePath": "staticwebassets\\assets\\fonts\\edumi\\selection.json"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\fonts\\fontawesome\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome\\fa-brands-400.eot"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\fonts\\fontawesome\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome\\fa-brands-400.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\fonts\\fontawesome\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\fonts\\fontawesome\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome\\fa-brands-400.woff"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\fonts\\fontawesome\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\fonts\\fontawesome\\fa-duotone-900.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome\\fa-duotone-900.eot"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\fonts\\fontawesome\\fa-duotone-900.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome\\fa-duotone-900.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\fonts\\fontawesome\\fa-duotone-900.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome\\fa-duotone-900.ttf"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\fonts\\fontawesome\\fa-duotone-900.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome\\fa-duotone-900.woff"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\fonts\\fontawesome\\fa-duotone-900.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome\\fa-duotone-900.woff2"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\fonts\\fontawesome\\fa-light-300.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome\\fa-light-300.eot"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\fonts\\fontawesome\\fa-light-300.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome\\fa-light-300.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\fonts\\fontawesome\\fa-light-300.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome\\fa-light-300.ttf"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\fonts\\fontawesome\\fa-light-300.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome\\fa-light-300.woff"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\fonts\\fontawesome\\fa-light-300.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome\\fa-light-300.woff2"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\fonts\\fontawesome\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome\\fa-regular-400.eot"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\fonts\\fontawesome\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome\\fa-regular-400.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\fonts\\fontawesome\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\fonts\\fontawesome\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome\\fa-regular-400.woff"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\fonts\\fontawesome\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\fonts\\fontawesome\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome\\fa-solid-900.eot"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\fonts\\fontawesome\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome\\fa-solid-900.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\fonts\\fontawesome\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\fonts\\fontawesome\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome\\fa-solid-900.woff"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\fonts\\fontawesome\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\fonts\\gordita\\Gordita-Bold.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\gordita\\Gordita-Bold.ttf"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\fonts\\gordita\\Gordita-Medium.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\gordita\\Gordita-Medium.ttf"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\fonts\\gordita\\Gordita-Regular.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\gordita\\Gordita-Regular.ttf"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\btn-app-store.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\btn-app-store.jpg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\btn-google-play.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\btn-google-play.jpg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\canvas-menu-image.png",
+      "PackagePath": "staticwebassets\\assets\\images\\canvas-menu-image.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\cover-photo.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\cover-photo.jpg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\curve-arrow.png",
+      "PackagePath": "staticwebassets\\assets\\images\\curve-arrow.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\dark-logo.png",
+      "PackagePath": "staticwebassets\\assets\\images\\dark-logo.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\download-image-02.png",
+      "PackagePath": "staticwebassets\\assets\\images\\download-image-02.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\download-image.png",
+      "PackagePath": "staticwebassets\\assets\\images\\download-image.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\empty-meeting.png",
+      "PackagePath": "staticwebassets\\assets\\images\\empty-meeting.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\error\\avatar.png",
+      "PackagePath": "staticwebassets\\assets\\images\\error\\avatar.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\error\\home_bannerbottm.png",
+      "PackagePath": "staticwebassets\\assets\\images\\error\\home_bannerbottm.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\error\\home_bannermiddle.png",
+      "PackagePath": "staticwebassets\\assets\\images\\error\\home_bannermiddle.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\error\\home_bannertop.png",
+      "PackagePath": "staticwebassets\\assets\\images\\error\\home_bannertop.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\error\\home_newslatest.png",
+      "PackagePath": "staticwebassets\\assets\\images\\error\\home_newslatest.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\error\\logo.png",
+      "PackagePath": "staticwebassets\\assets\\images\\error\\logo.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\error\\news.png",
+      "PackagePath": "staticwebassets\\assets\\images\\error\\news.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\error\\product_1x1_large.png",
+      "PackagePath": "staticwebassets\\assets\\images\\error\\product_1x1_large.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\error\\product_1x1_medium.png",
+      "PackagePath": "staticwebassets\\assets\\images\\error\\product_1x1_medium.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\error\\product_1x1_small.png",
+      "PackagePath": "staticwebassets\\assets\\images\\error\\product_1x1_small.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\error\\product_1x2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\error\\product_1x2.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\error\\product_qcleft.png",
+      "PackagePath": "staticwebassets\\assets\\images\\error\\product_qcleft.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\faqs-image.png",
+      "PackagePath": "staticwebassets\\assets\\images\\faqs-image.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\assets\\images\\favicon.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\feature-image.png",
+      "PackagePath": "staticwebassets\\assets\\images\\feature-image.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\flag\\flag-01.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\flag\\flag-01.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\flag\\flag-02.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\flag\\flag-02.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\flag\\flag-03.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\flag\\flag-03.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\flag\\flag-04.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\flag\\flag-04.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\flag\\flag-05.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\flag\\flag-05.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\flag\\flag-06.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\flag\\flag-06.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\flag\\flag-07.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\flag\\flag-07.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\flag\\flag-08.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\flag\\flag-08.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\headline-curve-02.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\headline-curve-02.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\headline-curve.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\headline-curve.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\hero-shape.png",
+      "PackagePath": "staticwebassets\\assets\\images\\hero-shape.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\icon-paypal.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icon-paypal.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\icon\\callout-image.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\callout-image.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\icon\\counter-media-01.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\counter-media-01.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\icon\\counter-media-02.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\counter-media-02.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\icon\\counter-media-03.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\counter-media-03.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\icon\\counter-media-04.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\counter-media-04.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\icon\\get-book-image.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\get-book-image.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\icon\\image-box-01.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\image-box-01.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\icon\\image-box-02.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\image-box-02.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\icon\\image-box-03.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\image-box-03.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\icon\\image-box-04.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\image-box-04.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\icon\\image-box-05.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\image-box-05.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\icon\\image-box-06.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\image-box-06.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\icon\\image-box-07.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\image-box-07.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\icon\\image-box-08.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\image-box-08.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\icon\\image-box-09.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\image-box-09.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\icon\\image-box-10.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\image-box-10.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\icon\\image-box-11.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\image-box-11.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\icon\\image-box-12.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\image-box-12.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\icon\\image-box-13.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\image-box-13.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\icon\\image-box-14.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\image-box-14.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\icon\\intructor-box-01.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\intructor-box-01.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\icon\\intructor-box-02.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\intructor-box-02.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\icon\\intructor-box-03.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\intructor-box-03.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\icon\\intructor-box-04.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\intructor-box-04.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\icon_zalo.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icon_zalo.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\img_dev\\BannerMid_1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\img_dev\\BannerMid_1.jpg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\img_dev\\BannerMid_3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\img_dev\\BannerMid_3.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\img_dev\\BannerTop.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\img_dev\\BannerTop.jpg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\img_dev\\TDC.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\img_dev\\TDC.jpg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\img_dev\\TDC.png",
+      "PackagePath": "staticwebassets\\assets\\images\\img_dev\\TDC.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\img_dev\\acb.png",
+      "PackagePath": "staticwebassets\\assets\\images\\img_dev\\acb.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\img_dev\\anresco.png",
+      "PackagePath": "staticwebassets\\assets\\images\\img_dev\\anresco.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\img_dev\\banner_top_demo.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\img_dev\\banner_top_demo.jpeg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\img_dev\\banner_ver2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\img_dev\\banner_ver2.jpg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\img_dev\\banner_ver3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\img_dev\\banner_ver3.jpg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\img_dev\\banner_ver3_1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\img_dev\\banner_ver3_1.jpg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\img_dev\\banner_ver3_2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\img_dev\\banner_ver3_2.jpg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\img_dev\\banner_ver3_3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\img_dev\\banner_ver3_3.jpg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\img_dev\\becamex.png",
+      "PackagePath": "staticwebassets\\assets\\images\\img_dev\\becamex.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\img_dev\\bg_library.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\img_dev\\bg_library.jpeg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\img_dev\\bg_library_3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\img_dev\\bg_library_3.jpg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\img_dev\\dan.png",
+      "PackagePath": "staticwebassets\\assets\\images\\img_dev\\dan.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\img_dev\\footer.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\img_dev\\footer.jpg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\img_dev\\logo.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\img_dev\\logo.jpg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\img_dev\\logo.png",
+      "PackagePath": "staticwebassets\\assets\\images\\img_dev\\logo.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\img_dev\\partner.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\img_dev\\partner.jpg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\img_dev\\pnj.png",
+      "PackagePath": "staticwebassets\\assets\\images\\img_dev\\pnj.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\img_dev\\ticco.png",
+      "PackagePath": "staticwebassets\\assets\\images\\img_dev\\ticco.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\img_dev\\tn.png",
+      "PackagePath": "staticwebassets\\assets\\images\\img_dev\\tn.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\img_dev\\trandinhcuu.png",
+      "PackagePath": "staticwebassets\\assets\\images\\img_dev\\trandinhcuu.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\img_dev\\viglacera.png",
+      "PackagePath": "staticwebassets\\assets\\images\\img_dev\\viglacera.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\img_dev\\vt.png",
+      "PackagePath": "staticwebassets\\assets\\images\\img_dev\\vt.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\info-icon.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\info-icon.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\instructor-signature.png",
+      "PackagePath": "staticwebassets\\assets\\images\\instructor-signature.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\introduce-image.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\introduce-image.jpg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\language\\language-01.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\language\\language-01.jpg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\language\\language-02.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\language\\language-02.jpg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\language\\language-03.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\language\\language-03.jpg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\language\\language-04.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\language\\language-04.jpg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\language\\language-05.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\language\\language-05.jpg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\language\\language-06.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\language\\language-06.jpg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\language\\language-07.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\language\\language-07.jpg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\language\\language-08.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\language\\language-08.jpg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\left-image.png",
+      "PackagePath": "staticwebassets\\assets\\images\\left-image.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\light-logo.png",
+      "PackagePath": "staticwebassets\\assets\\images\\light-logo.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\mask-group.png",
+      "PackagePath": "staticwebassets\\assets\\images\\mask-group.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\mobile-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\mobile-bg.jpg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\page-404-image.png",
+      "PackagePath": "staticwebassets\\assets\\images\\page-404-image.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\partners-logo\\client-logo-01.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\partners-logo\\client-logo-01.jpg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\partners-logo\\client-logo-02.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\partners-logo\\client-logo-02.jpg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\partners-logo\\client-logo-03.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\partners-logo\\client-logo-03.jpg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\partners-logo\\client-logo-04.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\partners-logo\\client-logo-04.jpg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\partners-logo\\client-logo-05.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\partners-logo\\client-logo-05.jpg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\partners-logo\\client-logo-06.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\partners-logo\\client-logo-06.jpg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\partners-logo\\client-logo-07.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\partners-logo\\client-logo-07.jpg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\partners-logo\\client-logo-08.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\partners-logo\\client-logo-08.jpg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\partners-logo\\client-logo-09.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\partners-logo\\client-logo-09.jpg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\partners-logo\\client-logo-10.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\partners-logo\\client-logo-10.jpg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\partners-logo\\client-logo-11.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\partners-logo\\client-logo-11.jpg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\partners-logo\\client-logo-12.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\partners-logo\\client-logo-12.jpg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\product\\product-1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\product-1.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\product\\product-10.png",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\product-10.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\product\\product-11.png",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\product-11.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\product\\product-12.png",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\product-12.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\product\\product-13.png",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\product-13.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\product\\product-14.png",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\product-14.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\product\\product-15.png",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\product-15.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\product\\product-16.png",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\product-16.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\product\\product-17.png",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\product-17.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\product\\product-18.png",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\product-18.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\product\\product-2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\product-2.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\product\\product-3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\product-3.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\product\\product-4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\product-4.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\product\\product-5.png",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\product-5.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\product\\product-6.png",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\product-6.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\product\\product-7.png",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\product-7.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\product\\product-8.png",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\product-8.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\product\\product-9.png",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\product-9.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\resourse-image.png",
+      "PackagePath": "staticwebassets\\assets\\images\\resourse-image.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\secondary-arrow.png",
+      "PackagePath": "staticwebassets\\assets\\images\\secondary-arrow.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\shape\\edumall-shape-01.png",
+      "PackagePath": "staticwebassets\\assets\\images\\shape\\edumall-shape-01.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\shape\\edumall-shape-grid-dots-02.png",
+      "PackagePath": "staticwebassets\\assets\\images\\shape\\edumall-shape-grid-dots-02.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\shape\\edumall-shape-grid-dots.png",
+      "PackagePath": "staticwebassets\\assets\\images\\shape\\edumall-shape-grid-dots.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\shape\\home-dev-about-arrow.png",
+      "PackagePath": "staticwebassets\\assets\\images\\shape\\home-dev-about-arrow.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\shape\\home-online-art-color-strip.png",
+      "PackagePath": "staticwebassets\\assets\\images\\shape\\home-online-art-color-strip.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\shape\\home-online-art-shape.png",
+      "PackagePath": "staticwebassets\\assets\\images\\shape\\home-online-art-shape.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\testimonial-image-03.png",
+      "PackagePath": "staticwebassets\\assets\\images\\testimonial-image-03.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\testiomonial-icon.png",
+      "PackagePath": "staticwebassets\\assets\\images\\testiomonial-icon.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\testiomonial-image-01.png",
+      "PackagePath": "staticwebassets\\assets\\images\\testiomonial-image-01.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\testiomonial-image-02.png",
+      "PackagePath": "staticwebassets\\assets\\images\\testiomonial-image-02.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\images\\youtube-play-button.png",
+      "PackagePath": "staticwebassets\\assets\\images\\youtube-play-button.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\assets\\js\\main.js"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\js\\plugins\\aos.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\aos.js"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\js\\plugins\\flatpickr.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\flatpickr.js"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\js\\plugins\\glightbox.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\glightbox.min.js"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\js\\plugins\\imagesloaded.pkgd.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\imagesloaded.pkgd.min.js"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\js\\plugins\\jquery.powertip.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\jquery.powertip.min.js"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\js\\plugins\\jquery.sticky-kit.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\jquery.sticky-kit.min.js"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\js\\plugins\\masonry.pkgd.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\masonry.pkgd.min.js"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\js\\plugins\\nice-select.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\nice-select.min.js"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\js\\plugins\\parallax.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\parallax.js"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\js\\plugins\\perfect-scrollbar.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\perfect-scrollbar.min.js"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\js\\plugins\\range-slider.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\range-slider.js"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\js\\plugins\\select2.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\select2.min.js"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\js\\plugins\\swiper-bundle.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\swiper-bundle.min.js"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\js\\vendor\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\vendor\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\js\\vendor\\jquery-3.6.0.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\vendor\\jquery-3.6.0.min.js"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\js\\vendor\\jquery-migrate-3.3.2.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\vendor\\jquery-migrate-3.3.2.min.js"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\js\\vendor\\modernizr-3.11.7.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\vendor\\modernizr-3.11.7.min.js"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\01-helpers\\_index.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\01-helpers\\_index.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\01-helpers\\_variabls.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\01-helpers\\_variabls.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\02-basic\\_01-typography.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\02-basic\\_01-typography.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\02-basic\\_02-classes.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\02-basic\\_02-classes.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\02-basic\\_03-button.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\02-basic\\_03-button.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\02-basic\\_04-form.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\02-basic\\_04-form.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\02-basic\\_index.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\02-basic\\_index.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\03-layout\\_01-header.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\03-layout\\_01-header.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\03-layout\\_02-footer.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\03-layout\\_02-footer.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\03-layout\\_03-widget.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\03-layout\\_03-widget.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\03-layout\\_04-demo-options.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\03-layout\\_04-demo-options.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\03-layout\\_index.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\03-layout\\_index.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\03-layout\\footer\\_01-footer-widget.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\03-layout\\footer\\_01-footer-widget.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\03-layout\\header\\_01-header.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\03-layout\\header\\_01-header.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\03-layout\\header\\_02-offcanvas.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\03-layout\\header\\_02-offcanvas.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\03-layout\\header\\_03-dashboard-header.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\03-layout\\header\\_03-dashboard-header.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\03-layout\\header\\_04-dashboard-nav.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\03-layout\\header\\_04-dashboard-nav.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\03-layout\\header\\_05-dashboard-menu.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\03-layout\\header\\_05-dashboard-menu.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\04-modules\\_01-slider.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\04-modules\\_01-slider.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\04-modules\\_02-features.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\04-modules\\_02-features.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\04-modules\\_03-categories.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\04-modules\\_03-categories.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\04-modules\\_04-courses.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\04-modules\\_04-courses.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\04-modules\\_05-call-to-action.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\04-modules\\_05-call-to-action.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\04-modules\\_06-testimonial.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\04-modules\\_06-testimonial.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\04-modules\\_07-banner.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\04-modules\\_07-banner.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\04-modules\\_08-partners.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\04-modules\\_08-partners.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\04-modules\\_09-category.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\04-modules\\_09-category.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\04-modules\\_10-edumall-box.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\04-modules\\_10-edumall-box.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\04-modules\\_11-counter.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\04-modules\\_11-counter.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\04-modules\\_12-event.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\04-modules\\_12-event.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\04-modules\\_13-blog.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\04-modules\\_13-blog.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\04-modules\\_14-newsletter.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\04-modules\\_14-newsletter.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\04-modules\\_15-about.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\04-modules\\_15-about.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\04-modules\\_16-academics.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\04-modules\\_16-academics.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\04-modules\\_17-campus.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\04-modules\\_17-campus.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\04-modules\\_18-language.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\04-modules\\_18-language.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\04-modules\\_19-why-choose.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\04-modules\\_19-why-choose.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\04-modules\\_20-countdown-signup.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\04-modules\\_20-countdown-signup.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\04-modules\\_21-download.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\04-modules\\_21-download.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\04-modules\\_22-faq-accordion.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\04-modules\\_22-faq-accordion.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\04-modules\\_23-gallery.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\04-modules\\_23-gallery.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\04-modules\\_24-team.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\04-modules\\_24-team.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\04-modules\\_25-page-banner.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\04-modules\\_25-page-banner.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\04-modules\\_26-instructor.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\04-modules\\_26-instructor.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\04-modules\\_27-become-an-instructor.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\04-modules\\_27-become-an-instructor.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\04-modules\\_28-membership-plans.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\04-modules\\_28-membership-plans.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\04-modules\\_29-tutor-course.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\04-modules\\_29-tutor-course.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\04-modules\\_30-blog-details.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\04-modules\\_30-blog-details.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\04-modules\\_31-comments.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\04-modules\\_31-comments.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\04-modules\\_32-event-details.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\04-modules\\_32-event-details.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\04-modules\\_33-speaker.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\04-modules\\_33-speaker.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\04-modules\\_34-product.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\04-modules\\_34-product.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\04-modules\\_35-shop-single.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\04-modules\\_35-shop-single.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\04-modules\\_36-my-account.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\04-modules\\_36-my-account.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\04-modules\\_37-cart.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\04-modules\\_37-cart.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\04-modules\\_38-checkout.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\04-modules\\_38-checkout.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\04-modules\\_39-zoom-meetings.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\04-modules\\_39-zoom-meetings.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\04-modules\\_40-contact.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\04-modules\\_40-contact.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\04-modules\\_41-faqs.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\04-modules\\_41-faqs.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\04-modules\\_42-404-page.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\04-modules\\_42-404-page.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\04-modules\\_43-login-register.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\04-modules\\_43-login-register.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\04-modules\\_44-dashboard.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\04-modules\\_44-dashboard.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\04-modules\\_index.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\04-modules\\_index.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\_accordion.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\_accordion.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\_alert.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\_alert.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\_badge.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\_badge.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\_breadcrumb.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\_button-group.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\_button-group.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\_buttons.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\_buttons.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\_card.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\_card.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\_carousel.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\_carousel.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\_close.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\_close.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\_containers.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\_containers.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\_dropdown.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\_forms.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\_forms.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\_functions.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\_functions.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\_grid.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\_grid.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\_helpers.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\_helpers.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\_images.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\_images.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\_list-group.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\_list-group.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\_mixins.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\_mixins.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\_modal.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\_modal.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\_nav.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\_nav.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\_navbar.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\_navbar.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\_offcanvas.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\_offcanvas.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\_pagination.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\_pagination.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\_placeholders.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\_placeholders.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\_popover.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\_popover.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\_progress.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\_progress.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\_reboot.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\_reboot.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\_root.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\_root.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\_spinners.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\_spinners.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\_tables.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\_tables.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\_toasts.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\_toasts.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\_tooltip.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\_transitions.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\_transitions.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\_type.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\_type.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\_utilities.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\_utilities.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\_variables.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\_variables.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\bootstrap-utilities.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\bootstrap-utilities.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\bootstrap.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\forms\\_floating-labels.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\forms\\_floating-labels.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\forms\\_form-check.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\forms\\_form-check.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\forms\\_form-control.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\forms\\_form-control.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\forms\\_form-range.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\forms\\_form-range.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\forms\\_form-text.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\forms\\_form-text.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\forms\\_labels.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\forms\\_validation.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\forms\\_validation.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\helpers\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\helpers\\_clearfix.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\helpers\\_colored-links.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\helpers\\_colored-links.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\helpers\\_position.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\helpers\\_position.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\helpers\\_ratio.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\helpers\\_ratio.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\helpers\\_stacks.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\helpers\\_stacks.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\helpers\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\helpers\\_stretched-link.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\helpers\\_text-truncation.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\helpers\\_text-truncation.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\helpers\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\helpers\\_visually-hidden.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\helpers\\_vr.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\helpers\\_vr.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\mixins\\_backdrop.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\mixins\\_backdrop.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\mixins\\_color-scheme.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\mixins\\_color-scheme.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\mixins\\_container.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\mixins\\_container.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\mixins\\_image.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\mixins\\_table-variants.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\mixins\\_table-variants.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\mixins\\_utilities.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\mixins\\_utilities.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\mixins\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\mixins\\_visually-hidden.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\utilities\\_api.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\utilities\\_api.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\bootstrap\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\assets\\scss\\style.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\style.scss"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\controllers\\contact.js",
+      "PackagePath": "staticwebassets\\controllers\\contact.js"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\controllers\\introduce.js",
+      "PackagePath": "staticwebassets\\controllers\\introduce.js"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\controllers\\library.js",
+      "PackagePath": "staticwebassets\\controllers\\library.js"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\controllers\\member.js",
+      "PackagePath": "staticwebassets\\controllers\\member.js"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\controllers\\news.js",
+      "PackagePath": "staticwebassets\\controllers\\news.js"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\controllers\\service.js",
+      "PackagePath": "staticwebassets\\controllers\\service.js"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\contact_v2.css",
+      "PackagePath": "staticwebassets\\css\\contact_v2.css"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\introduce_v2.css",
+      "PackagePath": "staticwebassets\\css\\introduce_v2.css"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\library.css",
+      "PackagePath": "staticwebassets\\css\\library.css"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\loading_animation_1.css",
+      "PackagePath": "staticwebassets\\css\\loading_animation_1.css"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\main_v2.css",
+      "PackagePath": "staticwebassets\\css\\main_v2.css"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\major.css",
+      "PackagePath": "staticwebassets\\css\\major.css"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\news_v2.css",
+      "PackagePath": "staticwebassets\\css\\news_v2.css"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\responsive_v2.css",
+      "PackagePath": "staticwebassets\\css\\responsive_v2.css"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\service_v2.css",
+      "PackagePath": "staticwebassets\\css\\service_v2.css"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font.zip",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font.zip"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\Italic.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\Italic.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\agenda.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\agenda.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\alarm-clock.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\alarm-clock.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\alert.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\alert.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\align-center.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\align-center.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\align-justify.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\align-justify.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\align-left.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\align-left.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\align-right.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\align-right.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\anchor.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\anchor.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\android.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\android.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\angle-double-down.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\angle-double-down.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\angle-double-left.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\angle-double-left.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\angle-double-right.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\angle-double-right.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\angle-double-up.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\angle-double-up.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\angle-down.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\angle-down.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\angle-left.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\angle-left.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\angle-right.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\angle-right.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\angle-up.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\angle-up.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\announcement.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\announcement.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\apple.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\apple.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\archive.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\archive.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\arrow-circle-down.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\arrow-circle-down.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\arrow-circle-left.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\arrow-circle-left.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\arrow-circle-right.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\arrow-circle-right.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\arrow-circle-up.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\arrow-circle-up.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\arrow-down.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\arrow-down.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\arrow-left.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\arrow-left.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\arrow-right.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\arrow-right.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\arrow-top-left.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\arrow-top-left.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\arrow-top-right.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\arrow-top-right.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\arrow-up.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\arrow-up.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\arrow.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\arrow.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\arrows-corner.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\arrows-corner.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\arrows-horizontal.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\arrows-horizontal.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\arrows-vertical.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\arrows-vertical.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\back-left.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\back-left.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\back-right.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\back-right.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\bag.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\bag.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\bar-chart-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\bar-chart-alt.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\bar-chart.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\bar-chart.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\basketball.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\basketball.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\bell.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\bell.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\blackboard.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\blackboard.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\bolt-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\bolt-alt.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\bolt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\bolt.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\book.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\book.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\bookmark-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\bookmark-alt.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\bookmark.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\bookmark.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\briefcase.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\briefcase.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\brush-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\brush-alt.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\brush.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\brush.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\calendar.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\calendar.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\camera.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\camera.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\car.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\car.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\check-box.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\check-box.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\check.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\check.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\clip.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\clip.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\clipboard.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\clipboard.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\close.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\close.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\cloud-down.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\cloud-down.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\cloud-up.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\cloud-up.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\cloud.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\cloud.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\comment-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\comment-alt.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\comment.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\comment.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\comments-smiley.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\comments-smiley.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\comments.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\comments.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\control-backward.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\control-backward.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\control-eject.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\control-eject.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\control-forward.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\control-forward.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\control-pause.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\control-pause.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\control-play.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\control-play.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\control-record.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\control-record.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\control-shuffle.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\control-shuffle.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\control-skip-backward.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\control-skip-backward.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\control-skip-forward.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\control-skip-forward.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\control-stop.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\control-stop.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\credit-card.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\credit-card.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\crown.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\crown.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\css3.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\css3.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\cup.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\cup.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\cut.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\cut.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\dashboard.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\dashboard.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\desktop.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\desktop.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\direction-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\direction-alt.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\direction.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\direction.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\download.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\download.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\dribbble.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\dribbble.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\dropbox-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\dropbox-alt.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\dropbox.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\dropbox.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\drupal.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\drupal.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\email.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\email.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\envelope.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\envelope.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\eraser.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\eraser.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\exchange-vertical.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\exchange-vertical.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\export.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\export.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\eye.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\eye.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\face-sad.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\face-sad.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\face-smile.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\face-smile.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\facebook.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\facebook.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\file.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\file.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\files.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\files.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\filter.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\filter.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\flag-alt-2.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\flag-alt-2.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\flag-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\flag-alt.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\flag.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\flag.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\flickr-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\flickr-alt.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\flickr.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\flickr.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\folder.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\folder.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\fullscreen.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\fullscreen.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\gallery.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\gallery.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\game.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\game.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\gift.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\gift.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\github.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\github.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\google.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\google.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\hand-drag.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\hand-drag.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\hand-open.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\hand-open.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\hand-point-down.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\hand-point-down.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\hand-point-left.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\hand-point-left.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\hand-point-right.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\hand-point-right.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\hand-point-up.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\hand-point-up.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\hand-stop.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\hand-stop.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\harddrive.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\harddrive.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\harddrives.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\harddrives.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\headphone-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\headphone-alt.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\headphone.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\headphone.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\heart-broken.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\heart-broken.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\heart.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\heart.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\help-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\help-alt.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\help.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\help.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\home.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\home.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\html5.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\html5.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\hummer.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\hummer.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\id-badge.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\id-badge.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\image.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\image.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\import.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\import.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\infinite.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\infinite.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\info-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\info-alt.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\info.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\info.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\ink-pen.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\ink-pen.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\instagram.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\instagram.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\joomla.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\joomla.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\jsfiddle.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\jsfiddle.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\key.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\key.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\layers-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\layers-alt.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\layers.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\layers.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\layout-accordion-list.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\layout-accordion-list.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\layout-accordion-merged.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\layout-accordion-merged.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\layout-accordion-separated.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\layout-accordion-separated.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\layout-column2-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\layout-column2-alt.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\layout-column2.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\layout-column2.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\layout-column3-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\layout-column3-alt.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\layout-column3.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\layout-column3.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\layout-column4-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\layout-column4-alt.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\layout-column4.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\layout-column4.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\layout-cta-btn-left.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\layout-cta-btn-left.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\layout-cta-btn-right.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\layout-cta-btn-right.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\layout-cta-center.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\layout-cta-center.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\layout-cta-left.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\layout-cta-left.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\layout-cta-right.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\layout-cta-right.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\layout-grid2-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\layout-grid2-alt.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\layout-grid2-thumb.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\layout-grid2-thumb.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\layout-grid2.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\layout-grid2.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\layout-grid3-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\layout-grid3-alt.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\layout-grid3.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\layout-grid3.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\layout-grid4-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\layout-grid4-alt.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\layout-grid4.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\layout-grid4.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\layout-line-solid.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\layout-line-solid.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\layout-list-large-image.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\layout-list-large-image.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\layout-list-post.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\layout-list-post.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\layout-list-thumb-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\layout-list-thumb-alt.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\layout-list-thumb.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\layout-list-thumb.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\layout-media-center-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\layout-media-center-alt.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\layout-media-center.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\layout-media-center.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\layout-media-left-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\layout-media-left-alt.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\layout-media-left.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\layout-media-left.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\layout-media-overlay-alt-2.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\layout-media-overlay-alt-2.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\layout-media-overlay-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\layout-media-overlay-alt.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\layout-media-overlay.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\layout-media-overlay.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\layout-media-right-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\layout-media-right-alt.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\layout-media-right.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\layout-media-right.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\layout-menu-full.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\layout-menu-full.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\layout-menu-separated.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\layout-menu-separated.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\layout-menu-v.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\layout-menu-v.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\layout-menu.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\layout-menu.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\layout-placeholder.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\layout-placeholder.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\layout-sidebar-2.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\layout-sidebar-2.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\layout-sidebar-left.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\layout-sidebar-left.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\layout-sidebar-none.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\layout-sidebar-none.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\layout-sidebar-right.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\layout-sidebar-right.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\layout-slider-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\layout-slider-alt.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\layout-slider.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\layout-slider.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\layout-tab-min.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\layout-tab-min.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\layout-tab-v.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\layout-tab-v.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\layout-tab-window.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\layout-tab-window.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\layout-tab.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\layout-tab.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\layout-width-default-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\layout-width-default-alt.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\layout-width-default.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\layout-width-default.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\layout-width-full.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\layout-width-full.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\layout.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\layout.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\light-bulb.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\light-bulb.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\line-dashed.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\line-dashed.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\line-dotted.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\line-dotted.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\line-double.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\line-double.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\link.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\link.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\linkedin.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\linkedin.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\linux.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\linux.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\list-ol.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\list-ol.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\list.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\list.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\location-arrow.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\location-arrow.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\location-pin.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\location-pin.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\lock.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\lock.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\loop.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\loop.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\magnet.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\magnet.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\map-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\map-alt.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\map.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\map.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\marker-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\marker-alt.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\marker.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\marker.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\medall-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\medall-alt.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\medall.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\medall.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\menu-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\menu-alt.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\menu.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\menu.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\microphone-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\microphone-alt.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\microphone.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\microphone.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\microsoft-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\microsoft-alt.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\microsoft.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\microsoft.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\minus.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\minus.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\mobile.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\mobile.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\money.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\money.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\more-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\more-alt.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\more.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\more.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\mouse-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\mouse-alt.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\mouse.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\mouse.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\music-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\music-alt.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\music.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\music.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\na.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\na.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\new-window.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\new-window.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\notepad.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\notepad.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\package.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\package.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\paint-bucket.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\paint-bucket.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\paint-roller.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\paint-roller.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\palette.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\palette.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\panel.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\panel.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\paragraph.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\paragraph.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\pencil-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\pencil-alt.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\pencil-alt2.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\pencil-alt2.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\pencil.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\pencil.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\pie-chart.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\pie-chart.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\pin-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\pin-alt.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\pin.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\pin.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\pin2.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\pin2.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\pinterest-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\pinterest-alt.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\pinterest.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\pinterest.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\plug.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\plug.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\plus.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\plus.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\power-off.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\power-off.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\printer.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\printer.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\pulse.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\pulse.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\quote-left.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\quote-left.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\quote-right.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\quote-right.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\receipt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\receipt.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\reddit.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\reddit.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\reload.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\reload.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\rocket.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\rocket.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\rss-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\rss-alt.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\rss.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\rss.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\ruler-alt-2.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\ruler-alt-2.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\ruler-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\ruler-alt.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\ruler-pencil.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\ruler-pencil.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\ruler.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\ruler.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\save-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\save-alt.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\save.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\save.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\search.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\search.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\server.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\server.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\settings.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\settings.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\share-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\share-alt.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\share.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\share.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\sharethis-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\sharethis-alt.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\sharethis.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\sharethis.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\shield.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\shield.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\shift-left-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\shift-left-alt.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\shift-left.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\shift-left.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\shift-right-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\shift-right-alt.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\shift-right.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\shift-right.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\shine.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\shine.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\shopping-cart-full.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\shopping-cart-full.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\shopping-cart.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\shopping-cart.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\shortcode.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\shortcode.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\signal.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\signal.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\skype.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\skype.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\slice.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\slice.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\smallcap.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\smallcap.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\soundcloud.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\soundcloud.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\split-h.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\split-h.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\split-v-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\split-v-alt.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\split-v.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\split-v.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\spray.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\spray.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\stack-overflow.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\stack-overflow.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\stamp.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\stamp.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\star.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\star.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\stats-down.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\stats-down.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\stats-up.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\stats-up.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\support.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\support.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\tablet.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\tablet.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\tag.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\tag.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\target.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\target.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\text.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\text.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\themify-favicon-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\themify-favicon-alt.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\themify-favicon.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\themify-favicon.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\themify-logo.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\themify-logo.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\thought.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\thought.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\thumb-down.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\thumb-down.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\thumb-up.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\thumb-up.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\ticket.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\ticket.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\time.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\time.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\timer.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\timer.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\trash.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\trash.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\trello.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\trello.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\truck.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\truck.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\tumblr-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\tumblr-alt.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\tumblr.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\tumblr.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\twitter-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\twitter-alt.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\twitter.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\twitter.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\underline.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\underline.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\unlink.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\unlink.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\unlock.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\unlock.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\upload.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\upload.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\uppercase.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\uppercase.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\user.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\user.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\vector.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\vector.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\video-camera.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\video-camera.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\video-clapper.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\video-clapper.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\view-grid.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\view-grid.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\view-list-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\view-list-alt.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\view-list.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\view-list.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\vimeo-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\vimeo-alt.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\vimeo.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\vimeo.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\volume.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\volume.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\wallet.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\wallet.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\wand.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\wand.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\wheelchair.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\wheelchair.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\widget-alt.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\widget-alt.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\widget.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\widget.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\widgetized.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\widgetized.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\window.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\window.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\wordpress.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\wordpress.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\world.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\world.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\write.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\write.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\yahoo.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\yahoo.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\youtube.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\youtube.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\zip.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\zip.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\zoom-in.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\zoom-in.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\SVG\\zoom-out.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\SVG\\zoom-out.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\Themify IconFonts 5-23-2014.json",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\Themify IconFonts 5-23-2014.json"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\demo-files\\demo.css",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\demo-files\\demo.css"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\fonts\\themify.eot",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\fonts\\themify.eot"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\fonts\\themify.svg",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\fonts\\themify.svg"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\fonts\\themify.ttf",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\fonts\\themify.ttf"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\fonts\\themify.woff",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\fonts\\themify.woff"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\ie7\\ie7.css",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\ie7\\ie7.css"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\ie7\\ie7.js",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\ie7\\ie7.js"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\index.html",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\index.html"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\readme.txt",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\readme.txt"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\css\\themify-icons-font\\themify-icons\\themify-icons.css",
+      "PackagePath": "staticwebassets\\css\\themify-icons-font\\themify-icons\\themify-icons.css"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\img_dev\\flaticon\\carton.png",
+      "PackagePath": "staticwebassets\\img_dev\\flaticon\\carton.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\img_dev\\flaticon\\carton_2.png",
+      "PackagePath": "staticwebassets\\img_dev\\flaticon\\carton_2.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\img_dev\\flaticon\\pager.png",
+      "PackagePath": "staticwebassets\\img_dev\\flaticon\\pager.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\img_dev\\flaticon\\paper_1.png",
+      "PackagePath": "staticwebassets\\img_dev\\flaticon\\paper_1.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\img_dev\\flaticon\\tiktok.png",
+      "PackagePath": "staticwebassets\\img_dev\\flaticon\\tiktok.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\img_dev\\flaticon\\zalo.png",
+      "PackagePath": "staticwebassets\\img_dev\\flaticon\\zalo.png"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\js\\gmaps.min.js",
+      "PackagePath": "staticwebassets\\js\\gmaps.min.js"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\js\\utility_lib.js",
+      "PackagePath": "staticwebassets\\js\\utility_lib.js"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\libs\\click_slider\\slider.css",
+      "PackagePath": "staticwebassets\\libs\\click_slider\\slider.css"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\libs\\click_slider\\slider.js",
+      "PackagePath": "staticwebassets\\libs\\click_slider\\slider.js"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\libs\\fancybox\\css\\fancybox.css",
+      "PackagePath": "staticwebassets\\libs\\fancybox\\css\\fancybox.css"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\libs\\fancybox\\js\\fancybox.umd.js",
+      "PackagePath": "staticwebassets\\libs\\fancybox\\js\\fancybox.umd.js"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\libs\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\libs\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\libs\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\libs\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\libs\\ladda\\ladda-themeless.min.css",
+      "PackagePath": "staticwebassets\\libs\\ladda\\ladda-themeless.min.css"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\libs\\ladda\\ladda.jquery.min.js",
+      "PackagePath": "staticwebassets\\libs\\ladda\\ladda.jquery.min.js"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\libs\\ladda\\ladda.min.js",
+      "PackagePath": "staticwebassets\\libs\\ladda\\ladda.min.js"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\libs\\ladda\\spin.min.js",
+      "PackagePath": "staticwebassets\\libs\\ladda\\spin.min.js"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\libs\\moment\\moment.js",
+      "PackagePath": "staticwebassets\\libs\\moment\\moment.js"
+    },
+    {
+      "Id": "F:\\dotnet.core\\Working\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\CEOTDC_WebPortal\\wwwroot\\libs\\moment\\moment.min.js",
+      "PackagePath": "staticwebassets\\libs\\moment\\moment.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.CEOTDC_WebPortal.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.CEOTDC_WebPortal.props",
+      "PackagePath": "build\\CEOTDC_WebPortal.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.CEOTDC_WebPortal.props",
+      "PackagePath": "buildMultiTargeting\\CEOTDC_WebPortal.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.CEOTDC_WebPortal.props",
+      "PackagePath": "buildTransitive\\CEOTDC_WebPortal.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

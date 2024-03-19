@@ -1,0 +1,81 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: EduMall - LMS & e-Learning Platform Template
+    Version: 1.0.0
+
+-----------------------------------------------------------------------------------
+    
+    CSS INDEX
+    ===================
+	
+    01 - Helpers (Variables & Mixins)
+    02 - Basic (Typography, Common Classes)
+        02.01 - Typrography
+        02.02 - Classes CSS
+        02.03 - Button CSS
+        02.04 - Form CSS
+    03 - Layout (Header, Footer, Section, Main Container/Wrapper and Page Header Styles)
+        03.01 - Header
+            03.01.01 - Header
+            03.01.02 - Offcanvas Mobile
+            03.01.03 - Dashboard Header
+            03.01.04 - Dashboard Nav
+            03.01.05 - Dashboard Menu
+        03.02 - Footer
+            03.02.01 - Footer Widget
+        03.03 - Widget
+        03.04 - Edumall Demo Option
+    04 - Modules (Template Design Elements as Modules and Third party Plugins Custom Styles)
+        04.01 - Slider
+        04.02 - Features
+        04.03 - Categories
+        04.04 - Courses
+        04.05 - Call To Action
+        04.06 - Testimonial
+        04.07 - Banner
+        04.08 - Partners
+        04.09 - Category
+        04.10 - Edumall Box
+        04.11 - Counter 
+        04.12 - Event 
+        04.13 - Blog 
+        04.14 - Newsletter
+        04.15 - About
+        04.16 - Academics
+        04.17 - Campus
+        04.18 - Language Courses
+        04.19 - Why Choose
+        04.20 - Countdown & Sign Up
+        04.21 - Download
+        04.22 - FAQS Accordion
+        04.23 - Gallery
+        04.24 - Team
+        04.25 - Page Banner
+        04.26 - Instructors
+        04.27 - Become an Instructors
+        04.28 - Membership Plans
+        04.29 - Tutor Course
+        04.30 - Blog Details
+        04.31 - Comments
+        04.32 - Event Details
+        04.33 - Speakers
+        04.34 - Product
+        04.35 - Shop Single
+        04.36 - My Account
+        04.37 - Cart
+        04.38 - Checkout
+        04.39 - Zoom Meetings
+        04.40 - Contact
+        04.41 - FAQs
+        04.42 - 404 Page
+        04.43 - Login & Register
+        04.44 - Dashboard
+
+-----------------------------------------------------------------------------------*/
+
+@import "./bootstrap/functions";
+@import "./bootstrap/variables";
+@import "./01-helpers/index";
+@import "./02-basic/index";
+@import "./03-layout/index";
+@import "./04-modules/index";

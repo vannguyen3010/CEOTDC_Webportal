@@ -1,0 +1,131 @@
+﻿@{
+    var supplierInfo = ViewBag.SupplierInfo as M_Supplier;
+    var newsCategory = ViewBag.NewsCategory as List<M_NewsCategory>;
+    var memberCategory = ViewBag.MemberCategory as List<M_Major>;
+    var newsList = newsCategory.Where(x => x.typeId == (int)EN_NewsCategoryTypeId.News).OrderBy(x => x.reOrder).ToList();
+    var introduceList = newsCategory.Where(x => x.typeId == (int)EN_NewsCategoryTypeId.Introduce).OrderBy(x => x.reOrder).ToList();
+    var serviceList = newsCategory.Where(x => x.typeId == (int)EN_NewsCategoryTypeId.Service).OrderBy(x => x.reOrder).ToList();
+    var libraryCategory = ViewBag.LibraryCategory as List<M_DocumentSubject>;
+}
+<div class="header-section header-sticky">
+    <div class="header-top">
+        <div class="container">
+            <div class="header-top-bar-wrap">
+                <div class="header-top-bar-wrap__text text-center">
+                    <marquee>KẾT NỐI - CHIA SẺ - ĐỒNG HÀNH CÙNG PHÁT TRIỂN <a href="/gioi-thieu">Tìm hiểu ngay</a></marquee>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header-main-04">
+        <div class="container position-relative">
+
+            <div class="row align-items-center">
+                <div class="col-xl-3 col-6">
+                    <div class="header-logo">
+                        @if (!string.IsNullOrEmpty(@supplierInfo.imageObj?.smallUrl))
+                        {
+                            <a class="header-logo__logo" href="/"><img src="@supplierInfo.imageObj?.smallUrl" width="200" height="64" alt="@supplierInfo.name"></a>
+                        }
+                        else
+                        {
+                            <a class="header-logo__logo" href="/"><img src="/assets/images/error/home_bannertop.png" width="200" height="64" alt="@supplierInfo.name"></a>
+                        }
+                    </div>
+                </div>
+                <div class="col-xl-6 d-none d-xl-block">
+                    <div class="header-navigation">
+                        <nav class="menu-primary">
+                            <ul id="sub-header" class=" main-menu  menu-primary__container menu-primary__container-03 justify-content-center">
+                                <li>
+                                    <a class="btn active li_first" href="/"><span>Trang chủ</span></a>
+                                </li>
+                                <li>
+                                    <a class="btn" href="/gioi-thieu"><span>Giới thiệu</span></a>
+                                    <ul class="sub-menu">
+                                        @if (introduceList != null)
+                                        {
+                                            foreach (var item in introduceList)
+                                            {
+                                                <li><a href="/gioi-thieu?c=@item.id"><span>@item.name</span></a></li>
+                                            }
+                                        }
+                                        <li><a class="btn_a child" href="/so-do-to-chuc"><span>Sơ đồ tổ chức</span></a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="btn" href="/hoat-dong"><span>Hoạt động</span></a>
+                                </li>
+                                <li>
+                                    <a class="btn" href="/hoi-vien"><span>Hội viên</span></a>
+                                    <ul class="sub-menu">
+                                        @if (memberCategory != null)
+                                        {
+                                            foreach (var item in memberCategory)
+                                            {
+                                                <li><a class="btn_a child" href="/hoi-vien?c=@item.id"><span>@item.name</span></a></li>
+                                            }
+                                        }
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="btn" href="/thu-vien"><span>Thư viện</span></a>
+                                    <ul class="sub-menu">
+                                        @if (libraryCategory != null)
+                                        {
+                                            foreach (var item in libraryCategory)
+                                            {
+                                                <li><a href="/thu-vien?c=@item.id"><span>@item.name</span></a></li>
+                                            }
+                                        }
+                                    </ul>
+                                </li>
+                                @* <li>
+                                <a class="btn" href="/tin-tuc"><span>Tin tức</span></a>
+                                <ul class="sub-menu">
+                                @if (newsList != null)
+                                {
+                                foreach (var item in newsList)
+                                {
+                                <li><a href="/tin-tuc?c=@item.id"><span>@item.name</span></a></li>
+                                }
+                                }
+                                </ul>
+                                </li>*@
+                                <li>
+                                    <a class="menu" href="/lien-he"><span>Liên hệ</span></a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-6">
+                    <div class="header-inner">
+                        <div class="header-action">
+                            <a href="#" class="header-action__btn header-action__btn-02 d-none">
+                                <i class="far fa-shopping-cart"></i>
+                                <span class="header-action__number header-action__number-02">3</span>
+                            </a>
+                        </div>
+                        <div class="header-user d-none d-lg-flex">
+                            <div class="header-user__button">
+                                <button class="header-user__login-02 d-none" data-bs-toggle="modal" data-bs-target="#loginModal">Đăng nhập</button>
+                            </div>
+                            <div class="header-user__button">
+                                <button class="header-user__signup-02 btn btn-secondary btn-hover-white" data-bs-toggle="modal" data-bs-target="#registerModal">@*Đăng ký*@ TDC Xin Chào</button>
+                            </div>
+                        </div>
+                        <div class="header-toggle">
+                            <button class="header-toggle__btn header-toggle__btn-02 d-xl-none" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMobileMenu">
+                                <span class="line"></span>
+                                <span class="line"></span>
+                                <span class="line"></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

@@ -1,0 +1,61 @@
+/*--
+/*  04.42 - 404 Page
+/*----------------------------------------*/
+
+// Error Page 
+.error-page{
+    &__logo{
+        & a{
+            & img{
+                padding: 15px 0;
+                width: 148px;
+            }
+        }
+    }
+    &__image{
+        margin-top: 50px;
+    }
+    &__content{
+        margin-top: 40px;
+    }
+    &__title{
+        font-size: 40px;
+
+        @media #{$desktop-device, $tablet-device}{
+            font-size: 34px;
+        }
+        @media #{$large-mobile}{
+            font-size: 28px;
+        }
+    }
+    &__text{
+        font-size: 16px;
+        line-height: 30px;
+        max-width: 770px;
+        margin: 22px auto 0;
+    }
+    &__btn{
+        margin-top: 48px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        & .btn{
+            & i{
+                margin-right: 14px;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+

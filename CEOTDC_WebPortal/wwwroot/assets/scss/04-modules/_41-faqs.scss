@@ -1,0 +1,107 @@
+/*--
+/*  04.41 - FAQs
+/*----------------------------------------*/
+
+
+// FAQs Tab Menu 
+.faqs-tab-menu{
+    & .nav{
+        position: relative;
+        z-index: 1;
+
+        &::after {
+            content: "";
+            height: 1px;
+            left: 50%;
+            width: 6000px;
+            position: absolute;
+            bottom: 0;
+            background: #eee;
+            transform: translate(-50%);
+            z-index: -1;
+        }
+
+        & li{
+            & button{
+                margin: 0 15px;
+                padding: 4px 10px 11px;
+                font-size: 20px;
+                font-weight: 400;
+                background: none;
+                border: 0;
+                border-bottom: 2px solid transparent;
+                position: relative;
+                color: #ccc;
+                min-height: 38px;
+                transition: $transition-base;
+
+                @media #{$large-mobile}{
+                    font-size: 18px;
+                    padding: 4px 10px 5px;
+                    margin: 0 12px;
+                }
+
+                &.active{
+                    color: $headings-color;
+                    border-bottom-color: $primary;
+                }
+            }
+        }
+    }
+}
+
+// FAQs Category
+.faqs-category{
+    &__info{
+    }
+    &__name{
+        & a{
+            display: flex;
+            align-items: center;
+            background: #f1f3f8;
+            border-radius: 5px;
+            padding: 10px 30px;
+            height: 100%;
+            min-height: 70px;
+            font-size: 16px;
+            line-height: 26px;
+            font-weight: 400;
+            margin: 0;
+            color: $headings-color;
+            position: relative;
+
+            &::before{
+                content: "\f105";
+                position: absolute;
+                right: -15px;
+                top: 50%;
+                transform: translateY(-50%) scale(0);
+                color: $white;
+                font-size: 16px;
+                font-family: "Font Awesome 5 Pro";
+                font-weight: 400;
+                transition: $transition-base;
+            }
+        }
+
+        &:hover{
+            & a{
+                background: $primary;
+                color: $white;
+                
+                &::before{
+                    transform: translateY(-50%) scale(1);
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+

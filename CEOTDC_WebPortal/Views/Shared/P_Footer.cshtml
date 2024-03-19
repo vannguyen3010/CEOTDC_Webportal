@@ -1,0 +1,144 @@
+﻿@{
+    var supplierInfo = ViewBag.SupplierInfo as CEOTDC_WebPortal.Models.M_Supplier;
+    var newsCategory = ViewBag.NewsCategory as List<M_NewsCategory>;
+    var newsList = newsCategory.Where(x => x.typeId == (int)EN_NewsCategoryTypeId.News).OrderBy(x => x.reOrder).ToList();
+    var libraryCategory = ViewBag.LibraryCategory as List<M_DocumentSubject>;
+}
+<div class="footer-section footer-bg-1">
+    <div class="footer-widget-area section-padding-01 footer_wrapper">
+        <div class="container" data-aos="fade-up" data-aos-duration="1000">
+            <div class="row gy-6">
+                <div class="col-lg-4  order-lg-1">
+                    <div class="footer-widget ">
+                        @if (!string.IsNullOrEmpty(@supplierInfo.imageObj?.smallUrl))
+                        {
+                            <a href="#" class="footer-widget__logo"><img src="@supplierInfo.imageObj?.smallUrl" alt="@supplierInfo.name" width="150" height="32"></a>
+                        }
+                        else
+                        {
+                            <a href="#" class="footer-widget__logo"><img src="/assets/images/error/home_bannertop.png" alt="@supplierInfo.name" width="150" height="32"></a>
+                        }
+                        <div class="footer-widget__info mb-10">
+                            <p class="">@supplierInfo.description</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 order-lg-3 address_footer">
+                    <div class="footer-widget">
+                        <h4 class="footer-widget__title">Địa chỉ</h4>
+                        <div class="footer-contant">
+                            <address class="pe-xxl-10 mb-md-0">
+
+                                @if (!string.IsNullOrEmpty(supplierInfo.addressObj?.addressText))
+                                {
+                                    <span class="text-white">@supplierInfo.addressObj?.addressText,</span>
+                                }
+                                @if (!string.IsNullOrEmpty(supplierInfo.addressObj?.wardObj?.name))
+                                {
+                                    <span class="text-white">@supplierInfo.addressObj?.wardObj?.name,</span>
+                                }
+                                @if (!string.IsNullOrEmpty(supplierInfo.addressObj?.districtObj?.name))
+                                {
+                                    <span class="text-white">@supplierInfo.addressObj?.districtObj?.name,</span>
+                                }
+                                @if (!string.IsNullOrEmpty(supplierInfo.addressObj?.provinceObj?.name))
+                                {
+                                    <span class="text-white">@supplierInfo.addressObj?.provinceObj?.name</span>
+                                }
+                            </address>
+                        </div>
+                        <div class="footer-widget__social-02 footer_social">
+                            @if (!string.IsNullOrEmpty(supplierInfo.email))
+                            {
+                                <a class="email" rel="noreferrer" href="mailto:@supplierInfo.email" title="@supplierInfo.email" target="_blank"><span class="fs-6">Email: </span> <span class="fs-6">@supplierInfo.email</span></a>
+                            }
+                            @if (!string.IsNullOrEmpty(supplierInfo.telephoneNumber))
+                            {
+                                <a class="telephoneNumber" href="tel:@supplierInfo.telephoneNumber" title="@supplierInfo.telephoneNumber"><span class="fs-6">Di động:</span><span class="fs-6">&nbsp; @(supplierInfo.telephoneNumber ?? "")</span></a>
+                            }
+                            @if (!string.IsNullOrEmpty(supplierInfo.hotlineNumber))
+                            {
+                                <a class="telephoneNumber" href="tel:@(supplierInfo.hotlineNumber ?? "")" title="@(supplierInfo.hotlineNumber ?? "")"><span class="fs-6">Hotline:</span><span class="fs-6">&nbsp; @(supplierInfo.hotlineNumber ?? "")</span></a>
+                            }
+                        </div>
+                        <div class="footer-social mt-0 mb-0">
+                            <ul class="contact-list  d-flex p-0" style="list-style-type:none">
+                                @if (!string.IsNullOrEmpty(supplierInfo.faceBook))
+                                {
+                                    <li class="p-1"><a class="facebook_shop" href="@supplierInfo.faceBook" target="_blank"><i class="ti-facebook"></i></a></li>
+                                }
+                                @if (!string.IsNullOrEmpty(supplierInfo.youtube))
+                                {
+                                    <li class="p-1"><a class="youtube_shop" href="@supplierInfo.youtube" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                                }
+                                @if (!string.IsNullOrEmpty(supplierInfo.zalo))
+                                {
+                                    <li class="p-1">
+                                        <a class="zalo_shop" href="@supplierInfo.zalo" target="_blank">
+                                            <img src="/img_dev/flaticon/zalo.png" class="h-10" style="object-fit: cover; height: 20px;max-width:unset">
+                                        </a>
+                                    </li>
+                                }
+                                @if (!string.IsNullOrEmpty(supplierInfo.instagram))
+                                {
+                                    <li class="p-1"><a class="instagram_shop" href="@supplierInfo.instagram" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                                }
+                                @if (!string.IsNullOrEmpty(supplierInfo.twitter))
+                                {
+                                    <li class="p-1"><a class="twitter_shop" href="@supplierInfo.twitter" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                                }
+                                @if (!string.IsNullOrEmpty(supplierInfo.tiktokUrl))
+                                {
+                                    <li class="p-1"><a class="tiktok_shop" href="@supplierInfo.tiktokUrl" target="_blank"><img src="/img_dev/flaticon/tiktok.png" alt="tiktok" style="height:22px;"></a></li>
+                                }
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-6 order-lg-2">
+                    <div class="row gy-6">
+                        <div class="col-6 col-sm-6">
+                            <div class="footer-widget">
+                                <h4 class="footer-widget__title">Thư viện</h4>
+                                <ul class="footer-widget__link footer-widget__link-02">
+                                    @if (libraryCategory != null)
+                                    {
+                                        foreach (var item in libraryCategory)
+                                        {
+                                            <li><a href="/thu-vien?c=@item.id"><span>@item.name</span></a></li>
+                                        }
+                                    }
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-6 col-sm-6">
+                            <div class="footer-widget">
+                                <h4 class="footer-widget__title">Liên kết</h4>
+                                <ul class="footer-widget__link footer-widget__link-02">
+                                    <li><a href="/">Trang chủ</a></li>
+                                    <li><a href="/gioi-thieu">Giới thiệu</a></li>
+                                    <li><a href="/dich-vu">Dịch vụ</a></li>
+                                    <li><a href="/hoi-vien">Hội viên</a></li>
+                                    <li><a href="/lien-he">Liên hệ</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="sub-footer" style="background-color: #001b34 ">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12 col-md-12 col-sm-12">
+                <div class="text-center">
+                    <p class="text-white">
+                        © <a style="color:yellow" href="https://h2aits.com/" target="_blank">H2A IT Solution</a>. All rights reserved.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

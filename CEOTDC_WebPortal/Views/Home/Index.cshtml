@@ -1,0 +1,211 @@
+﻿@model M_NewsHome
+@{
+    Layout = null;
+    var supplierInfo = ViewBag.SupplierInfo as CEOTDC_WebPortal.Models.M_Supplier;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="@ViewData["Description"]">
+    <meta name="keywords" content="@ViewData["Keywords"]">
+    <meta name="author" content="@supplierInfo.name">
+    <title>@ViewData["Title"] @ViewData["Slogan"]</title>
+    <link rel="shortcut icon" href="@(supplierInfo.imageFavicon ?? "/favicon.ico")">
+    <meta property="og:image" content="/assets/images/img_dev/TDC.png" />
+
+    <!-- Facebook, Zalo, Telegram Meta Tags -->
+    <meta property="og:image" content="@ViewData["ImagePreview"]" />
+    <meta property="og:image:alt" content="@ViewData["Title"]" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="vi" />
+    @*<meta property="og:url" content="@KS_WebPortal.Lib.GlobalVariables.url_domain" />*@
+    <meta property="og:site_name" content="@supplierInfo.name" />
+    <meta property="og:title" content="@ViewData["Title"]" />
+    <meta property="og:description" content="@ViewData["Description"]" />
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="@ViewData["ImagePreview"]" />
+    <meta name="twitter:title" content="@ViewData["Title"]" />
+    <meta name="twitter:description" content="@ViewData["Description"]" />
+
+    <!-- Styles-->
+    <partial name="P_Styles" />
+    <link href="~/css/main_v2.css" rel="stylesheet" asp-append-version="true" />
+    <!-- Responsive-->
+    <link href="~/css/responsive_v2.css" rel="stylesheet" asp-append-version="true" />
+</head>
+<body>
+    <!-- Header -->
+    <div class="main-wrapper home2">
+        <!-- Header -->
+        <div class="header-section header-sticky">
+            <partial name="P_Header" />
+        </div>
+        <partial name="P_Mobile" />
+    </div>
+    <partial name="P_Mobile" />
+    <!-- Slider Section Start -->
+    <partial name="P_BannerTop" />
+    <!--Vision and mission-->
+    <partial name="P_VisionAndMission" />
+    <!-- Banner mid -->
+    <partial name="P_Bannermid" />
+    <!--About us-->
+    <partial name="P_AboutUs" />
+    <!--About us-->
+    <partial name="P_Benefit" />
+    <!--Introduce-->
+    <partial name="P_Introduce" model="Model.newsIntroduceObjs" />
+    @* <!-- Blog Start -->
+    <partial name="P_News" model="Model.newsObjs" />*@
+    <!-- Blog Start -->
+    <partial name="P_Activity" model="Model.newsActivityObjs" />
+    <!-- Banner partner -->
+    <partial name="P_BannerPartner" />
+    <!-- Blog End -->
+    <partial name="P_Partner" />
+    <!-- Footer -->
+    <partial name="P_Footer" />
+    <!-- ScrollToTop -->
+    <partial name="P_ScrollToTop" />
+    <!-- scripts -->
+    <partial name="P_Scripts" />
+    <script>
+        $('.partner').slick({
+            dots: false,
+            speed: 700,
+            infinite: true,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            slidesToShow: 6,
+            slidesToScroll: 1,
+            prevArrow: false,
+            nextArrow: false,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 4,
+                        slidesToScroll: 3,
+                        infinite: true,
+                        prevArrow: false,
+                        nextArrow: false,
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 2,
+                        infinite: true,
+                        prevArrow: false,
+                        prevNext: false,
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        prevArrow: false,
+                        prevNext: false,
+                    }
+                }
+            ]
+        });
+    </script>
+    <script>
+        $('.home_news_container').slick({
+            dots: false,
+            speed: 700,
+            autoplay: true,
+            autoplaySpeed: 4500,
+            slidesToShow: 4,
+            slidesToScroll: 3,
+            prevArrow: false,
+            nextArrow: false,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 3,
+                        infinite: true,
+                        prevArrow: false,
+                        nextArrow: false,
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2,
+                        infinite: true,
+                        prevArrow: false,
+                        prevNext: false,
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        prevArrow: false,
+                        prevNext: false,
+                    }
+                }
+            ]
+        });
+    </script>
+    <script>
+        $('.introduce').slick({
+            dots: false,
+            speed: 700,
+            infinite: true,
+            autoplay: true,
+            autoplaySpeed: 7000,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            prevArrow: false,
+            nextArrow: false,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        prevArrow: false,
+                        nextArrow: false,
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        prevArrow: false,
+                        prevNext: false,
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        prevArrow: false,
+                        prevNext: false,
+                    }
+                }
+            ]
+        });
+    </script>
+</body>
+</html>

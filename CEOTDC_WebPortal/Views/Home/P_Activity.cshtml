@@ -1,0 +1,48 @@
+﻿@model List<M_News>
+
+<div class="scene overflow-hidden blog-section section-padding-01 home_news_wrapper" style="transform: translate3d(0px, 0px, 0px) rotate(0.0001deg); transform-style: preserve-3d; backface-visibility: hidden;" data-aos="fade-up" data-aos-duration="1000">
+    <div class="container" style="transform: translate3d(0px, 0px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: relative; display: block; left: 0px; top: 0px;">
+        <div class="section-title text-center" data-aos="fade-up" data-aos-duration="1000">
+            <h2 class="section-title__title-04">Những hoạt động nổi bật</h2>
+            <p class="mt-1">Tập đoàn TDC luôn lấy sứ mệnh vì cuộc sống chất lượng hơn, đóng góp cho sự phát triển bền vững của đất nước cũng như góp phần làm cho thế giới phồn vinh</p>
+        </div>
+        <div class="row gy-6 home_news_container">
+            @if (Model != null)
+            {
+                foreach (var item in Model)
+                {
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="blog-item rounded" data-aos="fade-up" data-aos-duration="1000"  style="overflow:hidden;">
+                            <div class="blog-item__image" style="overflow:hidden">
+                               
+                                @if (!string.IsNullOrEmpty(@item.imageObj?.mediumUrl))
+                                {
+                                    <img src="@item.imageObj?.mediumUrl" alt="@item.title" width="330" height="179" />
+                                }
+                                else{
+                                <img src="/assets/images/error/avatar.png" alt="@item.title" width="330" height="179" />
+                                }
+                                <div class="blog-item__categories">
+                                    <a href="/hoat-dong/@item.titleSlug-@item.id">@(item.categoryObj?.name ?? "")</a>
+                                </div>
+                            </div>
+                            <div class="blog-item__content activity_custom_content">
+                                @*<div class="blog-item__meta">
+                                    <span class="meta-action"><i class="far fa-calendar"></i>@item.publishedAt?.ToString("dd-MM-yyyy")</span>
+                                </div>*@
+                                <h3 class="blog-item__title"><a title="@(item.title ?? "")" href="/hoat-dong/@item.titleSlug-@item.id">@(item.title ?? "")</a></h3>
+                                <p class="blog-item__title mt-0">@item.description</p>
+                                <a class="blog-item__more btn btn-light btn-hover-white" href="/hoat-dong/@item.titleSlug-@item.id">Xem chi tiết</a>
+                            </div>
+                        </div>
+                    </div>
+                }
+            }
+        </div>
+    </div>
+
+    <div class="newsletter-section__shape-02" data-depth="-0.6" style="transform: translate3d(71.5px, 0.9px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: absolute; display: block; left: 0px; top: 0px;"></div>
+    <div class="newsletter-section__shape-02" data-depth="0.6" style="transform: translate3d(-71.5px, -0.9px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: absolute; display: block; left: 0px; top: 0px;"></div>
+    <div class="newsletter-section__shape-03" data-depth="-0.6" style="transform: translate3d(71.5px, 0.9px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: absolute; display: block; left: 0px; top: 0px;"></div>
+    <div class="newsletter-section__shape-04" data-depth="0.6" style="transform: translate3d(-71.5px, -0.9px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: absolute; display: block; left: 0px; top: 0px;"></div>
+</div>
